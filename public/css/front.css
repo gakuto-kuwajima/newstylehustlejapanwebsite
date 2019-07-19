@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #000;
+  font-size: 1.6rem;
+  /* 16px*/
+  line-height: 2;
+}
+
+h1 {
+  font-size: 36px;
+  /* IE8以下とAndroid4.3以下用フォールバック */
+  font-size: calc(2.4rem + ((1vw - 0.64rem) * 2.1429));
+  /* 24px~36pxで可変*/
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 24px;
+  /* IE8以下とAndroid4.3以下用フォールバック */
+  font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));
+  /* 20px~24pxで可変*/
+  line-height: 1.3;
+}
+
+@media (min-width: 1200px) {
+  /* 1200px以上*/
+
+  h1 {
+    font-size: 4.6rem;
+    /* 36px*/
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    /* 24px*/
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px以下*/
+
+  body {
+    line-height: 2;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    /* 24px*/
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    /* 20px*/
+  }
+
+  .balloon-text-right {
+    font-size: 1.4rem;
+  }
+}
+
+.top-image {
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+}
+
+#top-movie {
+  width: 100%;
+  display: block;
+  opacity: 0.7;
+}
+
+#top-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  /*余計な隙間を除く*/
+  padding: 0;
+  /*余計な隙間を除く*/
+}
+
+.top {
+  margin-bottom: 80px;
+}
+
+.about {
+  margin-bottom: 80px;
+}
+
+.section1 {
+  margin-bottom: 80px;
+}
+
+#eyecatch {
+  text-align: center;
+  width: 100%;
+}
+
+/*--------------------
+ 吹き出しを作る
+--------------------*/
+
+/* 吹き出し本体 */
+
+.balloon1 {
+  position: relative;
+  padding: 17px;
+  border-radius: 10px;
+  color: #000;
+  background-color: #e0edff;
+  margin-left: 150px;
+  /* 左に余白を設ける */
+}
+
+/* 画像 - 絶対配置で左上に配置 */
+
+.balloon1 .icon {
+  position: absolute;
+  left: -150px;
+  top: 0;
+  margin-right: 200px;
+  width: 130px;
+  height: 130px;
+}
+
+.balloon1 .icon img {
+  width: 100%;
+  height: 100%;
+  border: solid 3px #e0edff;
+  border-radius: 50%;
+  margin: 0;
+}
+
+/* 三角アイコン */
+
+.balloon1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid #e0edff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+h2 {
+  padding: 0.25em 0.5em;
+  /*上下 左右の余白*/
+  color: #000;
+  /*文字色*/
+  background: transparent;
+  /*背景透明に*/
+  border-left: solid 5px #c6190b;
+  /*左線*/
+  margin-bottom: 0.5em;
+}
+
+.community_name {
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+.facebook_link {
+  margin-bottom: 50px;
+  display: block;
+}
+
+/* SNSボタン全体 */
+
+.flowbtn11 {
+  font-family: 'Verdana',sans-serif;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  font-size: 28px;
+  color: #fff !important;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+/* Twitter */
+
+.fl_tw1 {
+  background: #55acee;
+}
+
+/* Instagramアイコン位置 */
+
+.insta_btn11 .fa-instagram {
+  position: relative;
+  z-index: 1;
+}
+
+/* Instagram紫グラデ背景色 */
+
+.insta_btn11 {
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow: hidden;
+}
+
+/* Instagramオレンジグラデ背景色 */
+
+.insta_btn11:before {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: -75px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+}
+
+/* Facebook */
+
+.fl_fb1 {
+  background: #3b5998;
+}
+
+/* ウェブサイト */
+
+.fl_web11 {
+  background: #f3981d;
+  margin-top: -10px;
+}
+
+/* アイコンボタンホバー時 */
+
+.flowbtn11:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  text-decoration: none;
+}
+
+/* ボタン内テキスト調整 */
+
+.flowbtn11 span {
+  font-size: 20px;
+  position: relative;
+  left: 8px;
+  bottom: 2px;
+  transition: .6s;
+  display: inline-block;
+}
+
+/* ulタグの内側余白を０にする */
+
+ul.snsbtniti2 {
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+
+/* アイコンボタンの位置調整 */
+
+.snsbtniti2 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* アイコンボタン同士の余白調整 */
+
+.snsbtniti2 li {
+  flex: 0 0 50%;
+  text-align: center !important;
+}
+
+.community_image,
+.video_link {
+  margin-bottom: 15px;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 2em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+  text-decoration: none;
+}
+
+.page-return {
+  text-align: center;
+}
+

@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #000;
+  font-size: 1.6rem;
+  /* 16px*/
+  line-height: 2;
+}
+
+h1 {
+  font-size: 36px;
+  /* IE8以下とAndroid4.3以下用フォールバック */
+  font-size: calc(2.4rem + ((1vw - 0.64rem) * 2.1429));
+  /* 24px~36pxで可変*/
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 24px;
+  /* IE8以下とAndroid4.3以下用フォールバック */
+  font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));
+  /* 20px~24pxで可変*/
+  line-height: 1.3;
+}
+
+@media (min-width: 1200px) {
+  /* 1200px以上*/
+
+  h1 {
+    font-size: 7rem;
+    /* 36px*/
+  }
+
+  h2 {
+    font-size: 3.8rem;
+    /* 24px*/
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px以下*/
+
+  body {
+    line-height: 2;
+  }
+
+  h1 {
+    font-size: 2rem;
+    /* 24px*/
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    /* 20px*/
+  }
+
+  .section-text {
+    padding-top: 0.8rem;
+  }
+}
+
+.top-image {
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+}
+
+#top-movie {
+  width: 100%;
+  display: block;
+  opacity: 0.7;
+}
+
+#top-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  /*余計な隙間を除く*/
+  padding: 0;
+  /*余計な隙間を除く*/
+}
+
+.top-image h1 {
+  position: absolute;
+  /*絶対配置*/
+  color: white;
+  /*文字は白に*/
+  position: absolute;
+  top: 85.8%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  line-height: 1.1;
+}
+
+.top {
+  margin-bottom: 50px;
+}
+
+.section1 {
+  margin-bottom: 80px;
+}
+
+.section2 {
+  margin-bottom: 80px;
+}
+
+.section-h2 {
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+h2:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+
+.section-text {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1-link {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.section1-button {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.3em 1.0em;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+  vertical-align: middle;
+}
+
+.section1-button:hover {
+  background: #00bcd4;
+  color: white;
+  text-decoration: none;
+}
+
+.pref-container {
+  background-image: url(/images/map-japan.png?69ebb5291ff80459fdbbab40c55ea9b8);
+  background-position: center bottom;
+  /* 画像の表示位置を指定 */
+  background-size: cover;
+}
+
+.section3-text {
+  padding-bottom: 15px;
+}
+
+.pref a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h3 {
+  padding: .5em .75em;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #ccc;
+}
+
+.region {
+  margin-bottom: 20px;
+}
+
+.region-name {
+  margin-bottom: 8px;
+}
+
+.tohoku-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #00a364;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #757575;
+  margin-bottom: 7px;
+}
+
+.tohoku-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.kanto-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: center;
+  background-color: #90ba1e;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #757575;
+  margin-bottom: 7px;
+  vertical-align: top;
+}
+
+.kanto-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.kanto-btn-tokyo {
+  display: inline-block;
+  max-width: 180px;
+  text-align: center;
+  background-color: #90ba1e;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #757575;
+  margin-bottom: 7px;
+  line-height: 1;
+}
+
+.kanto-btn-tokyo:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.chubu-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #e9ca0b;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #586365;
+  margin-bottom: 7px;
+}
+
+.chubu-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.kansai-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #e69600;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #1B435D;
+  margin-bottom: 7px;
+}
+
+.kansai-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.chugoku-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ec6109;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #4C4C4C;
+  margin-bottom: 7px;
+}
+
+.chugoku-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.shikoku-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #e96f84;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #757575;
+  margin-bottom: 7px;
+}
+
+.shikoku-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.kyushu-okinawa-btn {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #624b94;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-bottom: 4px solid #383838;
+  margin-bottom: 7px;
+}
+
+.kyushu-okinawa-btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
+}
+
+.pref-btn2 {
+  font-size: 15px;
+  text-align: left;
+}
+

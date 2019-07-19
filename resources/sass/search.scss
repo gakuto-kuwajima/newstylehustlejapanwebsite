@@ -1,0 +1,107 @@
+//文字のレスポンシブ
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #000;
+    font-size:1.6rem;/* 16px*/
+    line-height: 2;
+}
+h1 {
+    font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2.4rem + ((1vw - 0.64rem) * 2.1429));/* 24px~36pxで可変*/
+    line-height: 1.3;
+}
+h2 {
+    font-size: 24px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));/* 20px~24pxで可変*/
+    line-height: 1.3;
+}
+@media (min-width: 1200px) {/* 1200px以上*/
+    h1 {
+        font-size: 2rem;/* 36px*/
+    }
+    h2 {
+        font-size: 2.8rem;/* 24px*/
+    }
+}
+@media screen and (max-width: 640px) {/* 640px以下*/
+    body{
+    line-height: 2;
+    }
+    h1{
+        font-size: 2rem;/* 24px*/
+    }
+    h2 {
+        font-size: 2.4rem;/* 20px*/
+    }
+    .post-title p{
+        font-size: 1.6rem;
+    }
+    .search-text{
+        padding-left: 15px;
+    }
+}
+
+//検索結果のcss
+.posts {
+  .post {
+    .date {
+      font-size: 0.6em;
+      color: #999999;
+    }
+    .post-title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .body {
+      font-size: 0.8em;
+    }
+    .image {
+      img {
+    width: 250px;
+      }
+    }
+  }
+}
+
+hr.style{
+   border-color: #c0c0c0;
+}
+
+hr.post-style{
+   border-color: #c0c0c0;
+   border-style: dotted;
+}
+
+.post-link{
+  text-decoration:none;
+  color:#000;
+}
+
+
+.search-text-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.name{
+  line-height: 1;
+}
+
+.pref{
+  line-height: 0.4;
+  padding-bottom: 5px;
+}
+
+.no-gutters {
+  margin:0;
+  padding:0;
+}
+
+.no-gutters　> .col,
+.no-gutters　> [class*="col-"] {
+  margin:0;
+  padding:0;
+}
