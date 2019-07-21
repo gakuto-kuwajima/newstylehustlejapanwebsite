@@ -1,10 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Admin;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TestUser extends Model
+class CommunityRepUser extends Model
 {
     //
 }

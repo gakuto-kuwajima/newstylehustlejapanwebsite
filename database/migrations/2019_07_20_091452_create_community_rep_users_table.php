@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTestUsersTable extends Migration
+class CreateCommunityRepUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTestUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('test_users', function (Blueprint $table) {
+        Schema::create('community_rep_users', function (Blueprint $table) {
             $table->Increments('id');
             $table->string('name');
             $table->string('email');
@@ -28,6 +28,6 @@ class CreateTestUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('test_users');
+        Schema::dropIfExists('community_rep_users');
     }
 }
