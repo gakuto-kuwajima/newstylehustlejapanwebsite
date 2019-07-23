@@ -1,22 +1,42 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 use App\Community;
 
-class CommunityController extends Controller
+class CommunityrepController extends Controller
 {
     //
-    public function add()
+    public function index(Request $request)
+       {
+           $keywords = $request->keywords;
+           if ($keywords != '') {
+               $keyary  = explode(" ",$keywords);
+               $pages = Community::where(function ($query) use ($keyary) {
+                   foreach ($keyary as $word) {
+                       $query->where('name', 'LIKE', "%{$word}%")
+                             ->orWhere('pref', 'LIKE', "%{$word}%")
+                             ->orWhere('information', 'LIKE', "%{$word}%");
+                   }
+               })
+               ->distinct()->select('id','name','information')->get();
+           } else {
+               $pages = Community::all();
+           }
+           return view('communityrep.index',['pages'=>$pages, 'keywords' =>$keywords]);
+       }
+
+
+    public function communityadd()
     {
-        return view('community.create');
+        return view('communityrep.communitycreate');
     }
 
 
-    public function create(Request $request)
+    public function communitycreate(Request $request)
     {
         $this->validate($request, Community::$rules);
 
@@ -76,41 +96,23 @@ class CommunityController extends Controller
         $community->save();
 
 
-        return redirect('community/create');
+        return redirect('communityrep');
     }
 
 
-    public function index(Request $request)
-       {
-           $keywords = $request->keywords;
-           if ($keywords != '') {
-               $keyary  = explode(" ",$keywords);
-               $pages = Community::where(function ($query) use ($keyary) {
-                   foreach ($keyary as $word) {
-                       $query->where('name', 'LIKE', "%{$word}%")
-                             ->orWhere('pref', 'LIKE', "%{$word}%")
-                             ->orWhere('information', 'LIKE', "%{$word}%");
-                   }
-               })
-               ->distinct()->select('id','name','information')->get();
-           } else {
-               $pages = Community::all();
-           }
-           return view('community.index',['pages'=>$pages, 'keywords' =>$keywords]);
-       }
 
 
-    public function edit(Request $request)
+    public function communityedit(Request $request)
     {
         $community = Community::find($request->id);
         if (empty($community)){
            abort(404);
         }
-        return view('community.edit', ['community_form' => $community]);
+        return view('communityrep.communityedit', ['community_form' => $community]);
     }
 
 
-    public function update(Request $request)
+    public function communityupdate(Request $request)
     {
         $this->validate($request, Community::$rules);
 
@@ -167,16 +169,16 @@ class CommunityController extends Controller
 
         $community->fill($community_form)->save();
 
-        return redirect('community');
+        return redirect('communityrep');
 
     }
 
 
-    public function delete(Request $request){
+    public function communitydelete(Request $request){
        $community = Community::find($request->id);
 
        $community->delete();
-       return redirect('community');
+       return redirect('communityrep');
     }
 
 }

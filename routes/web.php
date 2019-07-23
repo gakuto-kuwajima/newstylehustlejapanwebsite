@@ -16,20 +16,20 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'auth'], function(){
-  Route::get('community/create', 'Admin\CommunityController@add');
-  Route::post('community/create', 'Admin\CommunityController@create');
-  Route::get('community', 'Admin\CommunityController@index');
-  Route::get('community/edit', 'Admin\CommunityController@edit');
-  Route::post('community/edit', 'Admin\CommunityController@update');
-  Route::get('community/delete', 'Admin\CommunityController@delete');
+  Route::get('communityrep', 'CommunityRepController@index');
+  Route::get('communityrep/communitycreate', 'CommunityRepController@communityadd');
+  Route::post('communityrep/communitycreate', 'CommunityRepController@communitycreate');
+  Route::get('communityrep/communityedit', 'CommunityRepController@communityedit');
+  Route::post('communityrep/communityedit', 'CommunityRepController@communityupdate');
+  Route::get('communityrep/communitydelete', 'CommunityRepController@communitydelete');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'CommunityController@toppage');
+Route::get('/', 'ReadingPageController@toppage');
 
-Route::get('community/page/{id}', 'CommunityController@show');
+Route::get('community/page/{id}', 'ReadingPageController@communityshow');
 
 Route::get('search','SearchController@index');

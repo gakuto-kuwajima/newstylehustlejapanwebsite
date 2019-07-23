@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\Admin\CommunityRepUser;
+use App\User;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -15,7 +15,7 @@ class CommunityRepUserController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Admin\CommunityRepUser';
+    protected $title = 'コミュニティの代表者';
 
     /**
      * Make a grid builder.
@@ -24,9 +24,9 @@ class CommunityRepUserController extends AdminController
      */
     protected function grid()
     {
-        $grid = new Grid(new CommunityRepUser);
+        $grid = new Grid(new User);
 
-        $grid->column('id', __('Id'));
+        $grid->column('id', __('id'));
         $grid->column('name', __('Name'));
         $grid->column('email', __('Email'));
         $grid->column('created_at', __('Created at'));
@@ -43,9 +43,9 @@ class CommunityRepUserController extends AdminController
      */
     protected function detail($id)
     {
-        $show = new Show(CommunityRepUser::findOrFail($id));
+        $show = new Show(User::findOrFail($id));
 
-        $show->field('id', __('Id'));
+        $show->field('id', __('id'));
         $show->field('name', __('Name'));
         $show->field('email', __('Email'));
         $show->field('created_at', __('Created at'));
@@ -61,7 +61,7 @@ class CommunityRepUserController extends AdminController
      */
     protected function form()
     {
-        $form = new Form(new CommunityRepUser);
+        $form = new Form(new User);
 
         $form->text('name', __('Name'));
         $form->email('email', __('Email'));

@@ -115,5 +115,17 @@
                 </div>
             </div>
         </div>
+        <div class="section4">
+            <div class="row no-gutters">
+                <div class="text col-md-6 section4-title">
+                    <div class="section-h2 sectin4-h2">
+                        <h2>NEWS</h2>
+                    </div>
+                </div>
+                <div class="image col-md-6">
+                    <img src="{{ asset('img/zabueri_example.jpg')}}" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
 @endsection

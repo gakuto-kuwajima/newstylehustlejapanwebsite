@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 use App\Community;
 
-class CommunityController extends Controller
+class Readingpagecontroller extends Controller
 {
     //
-    public function show(Request $request)
+    public function communityshow(Request $request)
     {
         $page = Community::find($request->id);
         $keywords = '';
-        return view('community.show',['page' =>$page,'keywords'=>$keywords]);
+        return view('community',['page' =>$page,'keywords'=>$keywords]);
     }
 
     public function toppage()

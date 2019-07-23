@@ -39,6 +39,20 @@ h2 {
       padding-top: 0.8rem;
     }
 }
+@media (min-width: 768px) {/* 768px以上*/
+  //section4
+  .section4-title{
+     position: relative;
+  }
+
+  .sectin4-h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+}
+}
 
 
 
@@ -90,18 +104,20 @@ h2 {
 
 //間の空間
 .top{
-  margin-bottom:50px;
+  margin-bottom:40px;
 }
 
 .section1{
-  margin-bottom:80px;
+  margin-bottom:70px;
 }
 
 .section2{
-  margin-bottom:80px;
+  margin-bottom:70px;
 }
 
-
+.section3{
+  margin-bottom:70px;
+}
 
 
 
