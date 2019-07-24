@@ -30,7 +30,7 @@ h2 {
     line-height: 2;
     }
     h1{
-        font-size: 2rem;/* 24px*/
+        font-size: 2.2rem;/* 24px*/
     }
     h2 {
         font-size: 2.8rem;/* 20px*/
@@ -38,36 +38,28 @@ h2 {
     .section-text{
       padding-top: 0.8rem;
     }
+    .top-image {
+      position: relative;
+      margin: 0 calc(50% - 50vw);
+    }
 }
-@media (min-width: 768px) {/* 768px以上*/
-  //section4
-  .section4-title{
-     position: relative;
+@media screen and (min-width: 640px) {/* 640px以上*/
+  .top-image {
+    position: relative;
+    width: 100%;
   }
+}
 
-  .sectin4-h2{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform : translate(-50%,-50%);
-}
-}
 
 
 
 
 //アイキャッチのビデオについて
-.top-image, {
-  position: relative;
-  width: 100%;
-  background-color: #000000;
-  }
+
 
 #top-movie{
   width: 100%;
   display: block;
-  opacity: 0.7;
 }
 
 #top-icon {
@@ -115,7 +107,7 @@ h2 {
   margin-bottom:70px;
 }
 
-.section3{
+.section4{
   margin-bottom:70px;
 }
 

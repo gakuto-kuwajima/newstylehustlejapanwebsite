@@ -30,6 +30,7 @@ class CommunityrepController extends Controller
        }
 
 
+    //COMMUNITY
     public function communityadd()
     {
         return view('communityrep.communitycreate');
@@ -178,6 +179,140 @@ class CommunityrepController extends Controller
        $community = Community::find($request->id);
 
        $community->delete();
+       return redirect('communityrep');
+    }
+
+
+
+    //NEWS
+    public function newsadd()
+    {
+        return view('communityrep.newscreate');
+    }
+
+
+    public function newscreate(Request $request)
+    {
+        $this->validate($request, News::$rules);
+
+        $news =new News;
+        $form = $request->all();
+
+        if(isset($form['news_eyecatch'])){
+          $newseyecatchpath = $request->file('news_eyecatch')->store('public/image');
+          $news->news_eyecatch_path = basename($newseyecatchpath);
+        } else {
+          $news->news_eyecatch_path = null;
+        }
+
+        if(isset($form['news_image1'])){
+          $newsimage1path = $request->file('news_image1')->store('public/image');
+          $news->news_image1_path = basename($newsimage1path);
+        } else {
+          $news->news_image1_path = null;
+        }
+
+        if(isset($form['news_image2'])){
+          $newsimage2path = $request->file('news_image2')->store('public/image');
+          $news->news_image2_path = basename($newsimage2path);
+        } else {
+          $news->news_image2_path = null;
+        }
+
+        if(isset($form['news_image3'])){
+          $newsimage3path = $request->file('news_image3')->store('public/image');
+          $news->news_image3_path = basename($newsimage3path);
+        } else {
+          $news->news_image3_path = null;
+        }
+
+        unset($form['_token']);
+
+        unset($form['news_eyecatch']);
+
+        unset($form['news_image1']);
+
+        unset($form['news_image2']);
+
+        unset($form['news_image3']);
+
+
+        $news->fill($form);
+        $news->save();
+
+
+        return redirect('communityrep');
+    }
+
+
+
+
+    public function newsedit(Request $request)
+    {
+        $news = News::find($request->id);
+        if (empty($news)){
+           abort(404);
+        }
+        return view('communityrep.newsedit', ['news_form' => $news]);
+    }
+
+
+    public function newsupdate(Request $request)
+    {
+        $this->validate($request, News::$rules);
+
+        $news = News::find($request->id);
+
+        $news_form = $request->all();
+        if (isset($news_form['news_eyecatch'])){
+          $newseyecatchpath = $request->file('news_eyecatch')->store('public/image');
+          $news->news_eyecatch_path = basename($newseyecatchpath);
+          unset($news_form['news_eyecatch']);
+        }elseif (0 == strcmp($request->remove, 'true')){
+          $news->news_eyecatch_path = null;
+        }
+
+
+        if (isset($news_form['news_image1'])){
+          $newsimage1path = $request->file('news_image1')->store('public/image');
+          $news->news_image1_path = basename($newsimage1path);
+          unset($news_form['news_image1']);
+        }elseif (0 == strcmp($request->remove, 'true')){
+          $news->news_image1_path = null;
+        }
+
+
+        if (isset($news_form['news_image2'])){
+          $newsimage2path = $request->file('news_image2')->store('public/image');
+          $news->news_image2_path = basename($newsimage2path);
+          unset($news_form['news_image2']);
+        }elseif (0 == strcmp($request->remove, 'true')){
+          $news->news_image2_path = null;
+        }
+
+
+        if (isset($news_form['news_image3'])){
+          $newsimage3path = $request->file('news_image3')->store('public/image');
+          $news->news_image3_path = basename($newsimage3path);
+          unset($news_form['news_image3']);
+        }elseif (0 == strcmp($request->remove, 'true')){
+          $news->news_image3_path = null;
+        }
+
+        unset($news_form['_token']);
+        unset($news_form['remove']);
+
+        $news->fill($news_form)->save();
+
+        return redirect('communityrep');
+
+    }
+
+
+    public function newsdelete(Request $request){
+       $news = News::find($request->id);
+
+       $news->delete();
        return redirect('communityrep');
     }
 

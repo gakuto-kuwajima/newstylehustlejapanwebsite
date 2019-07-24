@@ -35,10 +35,10 @@
             <div class="row no-gutters">
                 <div class="text col-md-6 order-md-2">
                     <div class="section-h2">
-                        <h2>NEW STYLE HUSTLE<br>JAPAN</h2>
+                        <h2>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年にはニュースタイルハッスルの創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。<br>（※動画参照）<br>北から南まで日本全国にコミュニティが増え続けています。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年にはニュースタイルハッスルの創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。<br>（※動画参照）<br>このサイトでは日本のニュースタイルハッスルの情報を紹介します。</p>
                     </div>
                 </div>
                 <div class="image col-md-6 order-1-md-1">
@@ -46,6 +46,15 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
                     </div>
                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="row no-gutters">
+                <div class="text col-md-12 section4-title">
+                    <div class="section-h2 sectin4-h2">
+                        <h2>NEWS</h2>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section3">
@@ -112,18 +121,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="section4">
-            <div class="row no-gutters">
-                <div class="text col-md-6 section4-title">
-                    <div class="section-h2 sectin4-h2">
-                        <h2>NEWS</h2>
-                    </div>
-                </div>
-                <div class="image col-md-6">
-                    <img src="{{ asset('img/zabueri_example.jpg')}}" class="img-fluid">
                 </div>
             </div>
         </div>
