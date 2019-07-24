@@ -133,7 +133,7 @@ class CommunityrepController extends Controller
           $image1path = $request->file('image1')->store('public/image');
           $community->image1_path = basename($image1path);
           unset($community_form['image1']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->remove1, 'true')){
           $community->image1_path = null;
         }
 
@@ -142,7 +142,7 @@ class CommunityrepController extends Controller
           $image2path = $request->file('image2')->store('public/image');
           $community->image2_path = basename($image2path);
           unset($community_form['image2']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->remove2, 'true')){
           $community->image2_path = null;
         }
 
@@ -151,7 +151,7 @@ class CommunityrepController extends Controller
           $image3path = $request->file('image3')->store('public/image');
           $community->image3_path = basename($image3path);
           unset($community_form['image3']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->remove3, 'true')){
           $community->image3_path = null;
         }
 
@@ -160,13 +160,17 @@ class CommunityrepController extends Controller
           $messageimagepath = $request->file('message_image')->store('public/image');
           $community->message_image_path = basename($messageimagepath);
           unset($community_form['message_image']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->remove4, 'true')){
           $community->message_image_path = null;
         }
 
 
         unset($community_form['_token']);
         unset($community_form['remove']);
+        unset($community_form['remove1']);
+        unset($community_form['remove2']);
+        unset($community_form['remove3']);
+        unset($community_form['remove4']);
 
         $community->fill($community_form)->save();
 
