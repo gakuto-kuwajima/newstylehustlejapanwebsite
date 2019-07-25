@@ -14,6 +14,14 @@
                             @endforeach
                         </ul>
                     @endif
+
+                    <div class="form-group row no-gutters">
+                        <label class="col-md-2" for="permalink">URL（※必須）</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="permalink" value="{{ $community_form->permalink }}" placeholder="例）tokyo">
+                            <p>※「newstylehustlejapan.com/community/○○○○○」の○○○○○の部分です。<br>記号は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
+                        </div>
+                    </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="eyecatch">アイキャッチ画像</label>
                         <div class="col-md-10">

@@ -32,6 +32,7 @@ class IndexCommunityController extends AdminController
 
 
         $grid->column('id', __('Id'));
+        $grid->column('permalink', __('Permalink'));
         $grid->column('eyecatch_path', __('Eyecatch path'));
         $grid->column('name', __('Name'));
         $grid->column('pref', __('Pref'));
@@ -68,6 +69,7 @@ class IndexCommunityController extends AdminController
 
 
         $show->field('id', __('Id'));
+        $show->field('permalink', __('Permalink'));
         $show->field('eyecatch_path', __('Eyecatch path'));
         $show->field('name', __('Name'));
         $show->field('pref', __('Pref'));
@@ -101,7 +103,7 @@ class IndexCommunityController extends AdminController
     {
         $form = new Form(new Community);
 
-
+        $form->text('permalink', __('Permalink'));
         $form->text('eyecatch_path', __('Eyecatch path'));
         $form->text('name', __('Name'));
         $form->text('pref', __('Pref'));

@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2>コミュニティ新規作成</h2>
+                <h2>ニュース新規作成</h2>
                 <form action="{{ action('CommunityRepController@newscreate') }}" method="post" enctype="multipart/form-data">
 
                     @if (count($errors) > 0)
@@ -21,6 +21,13 @@
                         </ul>
                     @endif
 
+                    <div class="form-group row no-gutters">
+                        <label class="col-md-2" for="news_permalink">URL（※必須）</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="news_permalink" value="{{ old('news_permalinkpermalink') }}" placeholder="例）miyagiparty-0714">
+                            <p>※「newstylehustlejapan.com/news/○○○○○」の○○○○○の部分です。<br>記号は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
+                        </div>
+                    </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="news_title">タイトル（※必須）</label>
                         <div class="col-md-10">
@@ -30,7 +37,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="news_writer">筆者名（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="writer" value="{{ old('news_writer') }}" placeholder="例）NEW STYLE HUSTLE MIYAGI">
+                            <input type="text" class="form-control" name="news_writer" value="{{ old('news_writer') }}" placeholder="例）NEW STYLE HUSTLE MIYAGI">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -46,7 +53,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="news_website_link">詳細ページののURL</label>
+                        <label class="col-md-2" for="news_website_link">詳細ページのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_website_link" value="{{ old('news_website_link') }}"　placeholder="例）https://www.facebook.com/groups/2262801090609771/">
                         </div>
@@ -89,7 +96,7 @@
                         </div>
                     </div>
                     {{ csrf_field() }}
-                    <input type="submit" class="btn-primary" value="更新">
+                    <input type="submit" class="btn-primary" value="投稿">
                 </form>
             </div>
         </div>

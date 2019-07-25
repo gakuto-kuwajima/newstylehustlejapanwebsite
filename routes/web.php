@@ -35,6 +35,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'ReadingPageController@toppage');
 
-Route::get('community/page/{id}', 'ReadingPageController@communityshow');
+Route::get('community/{permalink}', 'ReadingPageController@communityshow');
 
 Route::get('search','SearchController@index');
