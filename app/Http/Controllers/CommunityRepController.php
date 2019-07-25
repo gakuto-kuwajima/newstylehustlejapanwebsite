@@ -9,28 +9,12 @@ use App\Community;
 
 class CommunityrepController extends Controller
 {
-    //
-    public function index(Request $request)
-       {
-           $keywords = $request->keywords;
-           if ($keywords != '') {
-               $keyary  = explode(" ",$keywords);
-               $pages = Community::where(function ($query) use ($keyary) {
-                   foreach ($keyary as $word) {
-                       $query->where('name', 'LIKE', "%{$word}%")
-                             ->orWhere('pref', 'LIKE', "%{$word}%")
-                             ->orWhere('information', 'LIKE', "%{$word}%");
-                   }
-               })
-               ->distinct()->select('id','name','information')->get();
-           } else {
-               $pages = Community::all();
-           }
-           return view('communityrep.index',['pages'=>$pages, 'keywords' =>$keywords]);
-       }
-
-
     //COMMUNITY
+
+
+
+
+
     public function communityadd()
     {
         return view('communityrep.communitycreate');
@@ -189,6 +173,24 @@ class CommunityrepController extends Controller
 
 
     //NEWS
+    public function newsindex(Request $request)
+       {
+           $newskeywords = $request->newskeywords;
+           if ($newskeywords != '') {
+               $newskeyary  = explode(" ",$newskeywords);
+               $posts = News::where(function ($query) use ($newskeyary) {
+                   foreach ($newskeyary as $word) {
+                       $query->where('news_title', 'LIKE', "%{$word}%")
+                             ->orWhere('news_body', 'LIKE', "%{$word}%");
+                   }
+               })
+               ->distinct()->select('id','news_title','news_body')->get();
+           } else {
+               $posts = News::all();
+           }
+           return view('communityrep.index',['posts'=>$posts, 'newskeywords' =>$newskeywords]);
+       }
+
     public function newsadd()
     {
         return view('communityrep.newscreate');

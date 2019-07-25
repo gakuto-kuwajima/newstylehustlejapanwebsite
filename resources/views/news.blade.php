@@ -31,14 +31,14 @@
                   <p>{!! nl2br(e($post->news_body)) !!}</p>
               </div>
            </div>
+           @if (!is_null($post->news_website_link))
            <div class="form-group row">
               <div class="news_website_link col-md-12 mx-auto">
-                  @if (!is_null($post->news_website_link))
-                      <p>詳細ページのリンク</p>
-                      <p　class="news_website_link">{{ $post->news_website_link }}</p>
-                  @endif
+                  <p>詳細ページのリンク</p>
+                  <p　class="news_website_link">{{ $post->news_website_link }}</p>                  
               </div>
            </div>
+           @endif
            <div class="form-group row">
                 @if (!is_null($post->news_image1_path))
                 <div class="news_image col-md-4">

@@ -16,12 +16,12 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'auth'], function(){
-  Route::get('communityrep', 'CommunityRepController@index');
   Route::get('communityrep/communitycreate', 'CommunityRepController@communityadd');
   Route::post('communityrep/communitycreate', 'CommunityRepController@communitycreate');
   Route::get('communityrep/communityedit', 'CommunityRepController@communityedit');
   Route::post('communityrep/communityedit', 'CommunityRepController@communityupdate');
   Route::get('communityrep/communitydelete', 'CommunityRepController@communitydelete');
+  Route::get('communityrep', 'CommunityRepController@newsindex');
   Route::get('communityrep/newscreate', 'CommunityRepController@newsadd');
   Route::post('communityrep/newscreate', 'CommunityRepController@newscreate');
   Route::get('communityrep/newsedit', 'CommunityRepController@newsedit');
