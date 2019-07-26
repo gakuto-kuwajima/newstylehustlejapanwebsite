@@ -13,5 +13,6 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->resource('auth/communityrep', CommunityRepUserController::class);
     $router->resource('auth/indexcommunity', IndexCommunityController::class);
+    $router->resource('auth/indexnews', IndexNewsController::class);
 
 });

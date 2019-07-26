@@ -11,8 +11,9 @@ class News extends Model
 
     //
     public static $rules = array(
-        'title' => 'required',
-        'body' => 'required',
+        'news_permalink' => 'required',
+        'news_title' => 'required',
+        'news_body' => 'required',
     );
 
     //以下を追記
@@ -20,6 +21,6 @@ class News extends Model
     public function histories()
     {
       return $this->hasmany('App\History');
-      
+
     }
 }

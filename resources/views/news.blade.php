@@ -4,10 +4,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-10 mx-auto">
+        <div class="col-md-8 mx-auto">
            <div class="form-group row">
-              <div class="news_title col-md-12 mx-auto">
-                  <h1 class="text-center">{{ $post->news_title }}</h1>
+              <div class="news-title col-md-12 mx-auto">
+                  <h1 class="text-title">{{ $post->news_title }}</h1>
               </div>
            </div>
            <div class="form-group row">
@@ -15,17 +15,20 @@
                   <p class="created_at">{{ $post->created_at }}</p>
               </div>
            </div>
+           @if (!is_null($post->news_writer))
            <div class="form-group row">
               <div class="news_writer col-md-12 mx-auto">
                   <p class="news_writer">{{ $post->news_writer }}</p>
               </div>
            </div>
+           @endif
            <div class="form-group row">
               <div class="news_eyecatch col-md-12 mx-auto">
                   @if (!is_null($post->news_eyecatch_path))
-                      <img src="{{ asset('storage/image/' . $page->news_eyecatch_path) }}" id='news_eyecatch' class="img-fluid">
+                      <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" id='news_eyecatch' class="img-fluid">
                   @endif
               </div>
+           </div>
            <div class="form-group row">
               <div class="news_body col-md-12 mx-auto">
                   <p>{!! nl2br(e($post->news_body)) !!}</p>
@@ -35,7 +38,7 @@
            <div class="form-group row">
               <div class="news_website_link col-md-12 mx-auto">
                   <p>詳細ページのリンク</p>
-                  <p　class="news_website_link">{{ $post->news_website_link }}</p>                  
+                  <p　class="news_website_link">{{ $post->news_website_link }}</p>
               </div>
            </div>
            @endif

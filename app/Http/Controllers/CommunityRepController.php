@@ -6,14 +6,35 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 use App\Community;
+use App\News;
 
-class CommunityrepController extends Controller
+class CommunityRepController extends Controller
 {
+
+    public function index(Request $request)
+    {
+
+        $pages = Community::all();
+
+        $newskeywords = $request->newskeywords;
+        if ($newskeywords != '') {
+            $newskeyary  = explode(" ",$newskeywords);
+            $posts = News::where(function ($query) use ($newskeyary) {
+                foreach ($newskeyary as $newsword) {
+                    $query->where('news_title', 'LIKE', "%{$newsword}%")
+                          ->orWhere('news_body', 'LIKE', "%{$newsword}%");
+                }
+            })
+            ->distinct()->select('id','news_title','news_body')->get();
+        } else {
+            $posts = News::all();
+        }
+        return view('communityrep.index',['pages'=>$pages,  'posts'=>$posts, 'newskeywords' =>$newskeywords]);
+    }
+
+
+
     //COMMUNITY
-
-
-
-
 
     public function communityadd()
     {
@@ -172,24 +193,9 @@ class CommunityrepController extends Controller
 
 
 
+
+
     //NEWS
-    public function newsindex(Request $request)
-       {
-           $newskeywords = $request->newskeywords;
-           if ($newskeywords != '') {
-               $newskeyary  = explode(" ",$newskeywords);
-               $posts = News::where(function ($query) use ($newskeyary) {
-                   foreach ($newskeyary as $word) {
-                       $query->where('news_title', 'LIKE', "%{$word}%")
-                             ->orWhere('news_body', 'LIKE', "%{$word}%");
-                   }
-               })
-               ->distinct()->select('id','news_title','news_body')->get();
-           } else {
-               $posts = News::all();
-           }
-           return view('communityrep.index',['posts'=>$posts, 'newskeywords' =>$newskeywords]);
-       }
 
     public function newsadd()
     {
@@ -274,7 +280,7 @@ class CommunityrepController extends Controller
           $newseyecatchpath = $request->file('news_eyecatch')->store('public/image');
           $news->news_eyecatch_path = basename($newseyecatchpath);
           unset($news_form['news_eyecatch']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->newsremove1, 'true')){
           $news->news_eyecatch_path = null;
         }
 
@@ -283,7 +289,7 @@ class CommunityrepController extends Controller
           $newsimage1path = $request->file('news_image1')->store('public/image');
           $news->news_image1_path = basename($newsimage1path);
           unset($news_form['news_image1']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->newsremove2, 'true')){
           $news->news_image1_path = null;
         }
 
@@ -292,7 +298,7 @@ class CommunityrepController extends Controller
           $newsimage2path = $request->file('news_image2')->store('public/image');
           $news->news_image2_path = basename($newsimage2path);
           unset($news_form['news_image2']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->newsremove3, 'true')){
           $news->news_image2_path = null;
         }
 
@@ -301,12 +307,15 @@ class CommunityrepController extends Controller
           $newsimage3path = $request->file('news_image3')->store('public/image');
           $news->news_image3_path = basename($newsimage3path);
           unset($news_form['news_image3']);
-        }elseif (0 == strcmp($request->remove, 'true')){
+        }elseif (0 == strcmp($request->newsremove4, 'true')){
           $news->news_image3_path = null;
         }
 
         unset($news_form['_token']);
-        unset($news_form['remove']);
+        unset($news_form['newsremove1']);
+        unset($news_form['newsremove2']);
+        unset($news_form['newsremove3']);
+        unset($news_form['newsremove4']);
 
         $news->fill($news_form)->save();
 

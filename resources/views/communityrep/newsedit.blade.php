@@ -14,6 +14,13 @@
                             @endforeach
                         </ul>
                     @endif
+                    <div class="form-group row no-gutters">
+                        <label class="col-md-2" for="news_permalink">URL（※必須）</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="news_permalink" value="{{ $news_form->news_permalink }}" placeholder="例）miyagiparty-0714">
+                            <p>※「newstylehustlejapan.com/news/○○○○○」の○○○○○の部分です。<br>記号はハイフン（-）以外は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
+                        </div>
+                    </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="news_title">タイトル（※必須）</label>
                         <div class="col-md-10">
@@ -21,7 +28,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="news_writer">筆者名（※必須）</label>
+                        <label class="col-md-2" for="news_writer">筆者名</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_writer" value="{{ $news_form->news_writer }}" placeholder="例）NEW STYLE HUSTLE MIYAGI">
                         </div>
@@ -35,7 +42,7 @@
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="newsremove1" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
@@ -51,18 +58,17 @@
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_website_link" value="{{ $news_form->news_website_link }}">
                         </div>
-                    </div>iv>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="news_image1">画像1</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="news_image1">
                             <div class="form-text text-info">
-                                設定中: {{ $news_form->_form->news_image1_path }}
+                                設定中: {{ $news_form->news_image1_path }}
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="newsremove2" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
@@ -76,7 +82,7 @@
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="newsremove3" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
@@ -90,7 +96,7 @@
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="newsremove4" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
@@ -98,7 +104,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="news_video1_link">動画のリンク1</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="video1_link" value="{{ $news_form->news_video1_link }}">
+                            <input type="text" class="form-control" name="news_video1_link" value="{{ $news_form->news_video1_link }}">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -116,7 +122,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="col-md-10">
-                            <input type="hidden" name="id" value="{{ $community_form->id }}">
+                            <input type="hidden" name="id" value="{{ $news_form->id }}">
                             {{ csrf_field() }}
                             <input type="submit" class="btn btn-primary" value="更新">
                         </div>

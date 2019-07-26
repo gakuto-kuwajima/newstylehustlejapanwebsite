@@ -21,7 +21,7 @@ Route::group(['middleware' => 'auth'], function(){
   Route::get('communityrep/communityedit', 'CommunityRepController@communityedit');
   Route::post('communityrep/communityedit', 'CommunityRepController@communityupdate');
   Route::get('communityrep/communitydelete', 'CommunityRepController@communitydelete');
-  Route::get('communityrep', 'CommunityRepController@newsindex');
+  Route::get('communityrep', 'CommunityRepController@index');
   Route::get('communityrep/newscreate', 'CommunityRepController@newsadd');
   Route::post('communityrep/newscreate', 'CommunityRepController@newscreate');
   Route::get('communityrep/newsedit', 'CommunityRepController@newsedit');
@@ -36,5 +36,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'ReadingPageController@toppage');
 
 Route::get('community/{permalink}', 'ReadingPageController@communityshow');
+
+Route::get('news/{news_permalink}', 'ReadingPageController@newsshow');
 
 Route::get('search','SearchController@index');
