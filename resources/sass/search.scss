@@ -44,6 +44,59 @@ h2 {
 }
 
 //検索結果のcss
+.pages {
+  .page {
+    .date {
+      font-size: 0.6em;
+      color: #999999;
+    }
+    .page-title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .body {
+      font-size: 0.8em;
+    }
+    .image {
+      img {
+    width: 250px;
+      }
+    }
+  }
+}
+
+hr.style{
+   border-color: #c0c0c0;
+}
+
+hr.page-style{
+   border-color: #c0c0c0;
+   border-style: dotted;
+}
+
+.page-link{
+  text-decoration:none;
+  color:#000;
+  border: none;
+}
+
+
+.search-text-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.name{
+  line-height: 1;
+}
+
+.pref{
+  line-height: 0.4;
+  padding-bottom: 5px;
+}
+
+
 .posts {
   .post {
     .date {
@@ -80,20 +133,8 @@ hr.post-style{
 }
 
 
-.search-text-container {
-  display: flex;
-  align-items: center;
 
-}
 
-.name{
-  line-height: 1;
-}
-
-.pref{
-  line-height: 0.4;
-  padding-bottom: 5px;
-}
 
 .no-gutters {
   margin:0;

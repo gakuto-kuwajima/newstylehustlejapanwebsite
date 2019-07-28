@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <hr class="style">
-            <div class="row">
+            <div class="search-community row ">
                 <div class="pages col-md-10 mx-auto mt-3">
                   <h2>"{{ $keywords }}"のコミュニティ検索結果</h2>
                     <hr class="page-style">
@@ -40,8 +40,7 @@
                     @endforeach
                 </div>
             </div>
-            <hr class="style">
-                <div class="row">
+                <div class="search-news row">
                     <div class="posts col-md-10 mx-auto mt-3">
                       <h2>"{{ $keywords }}"のNEWS検索結果</h2>
                         <hr class="post-style">
