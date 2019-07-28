@@ -6,6 +6,7 @@ body{
     color: #000;
     font-size:1.6rem;/* 16px*/
     line-height: 2;
+    margin: 0;
 }
 h1 {
     font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
@@ -55,7 +56,9 @@ h2 {
 
 
 //アイキャッチのビデオについて
-
+.top-image{
+    position: relative;
+}
 
 #top-movie{
   width: 100%;
@@ -69,14 +72,13 @@ h2 {
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  margin:0;/*余計な隙間を除く*/
-  padding:0;/*余計な隙間を除く*/
+  margin:0;
+  padding:0;
   }
 
 .top-image h1{
   position: absolute;/*絶対配置*/
   color: white;/*文字は白に*/
-  position: absolute;
   top: 85.8%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);

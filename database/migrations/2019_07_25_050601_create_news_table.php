@@ -19,7 +19,7 @@ class CreateNewsTable extends Migration
           $table->string('news_title');
           $table->string('news_eyecatch_path')->nullable();
           $table->string('news_writer')->nullable();
-          $table->string('news_body');
+          $table->text('news_body');
           $table->string('news_website_link')->nullable();
           $table->string('news_image1_path')->nullable();
           $table->string('news_image2_path')->nullable();

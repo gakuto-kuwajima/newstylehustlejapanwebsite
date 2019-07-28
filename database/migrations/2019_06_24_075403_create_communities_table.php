@@ -19,7 +19,7 @@ class CreateCommunitiesTable extends Migration
           $table->string('eyecatch_path')->nullable();
           $table->string('name');
           $table->string('pref');
-          $table->string('information')->nullable();
+          $table->text('information')->nullable();
           $table->string('image1_path')->nullable();
           $table->string('image2_path')->nullable();
           $table->string('image3_path')->nullable();
@@ -27,7 +27,7 @@ class CreateCommunitiesTable extends Migration
           $table->string('video2_link')->nullable();
           $table->string('video3_link')->nullable();
           $table->string('message_image_path')->nullable();
-          $table->string('message')->nullable();
+          $table->text('message')->nullable();
           $table->string('contact')->nullable();
           $table->string('facebook_link');
           $table->string('instagram_link')->nullable();

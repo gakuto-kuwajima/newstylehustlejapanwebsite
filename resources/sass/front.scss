@@ -264,3 +264,56 @@ h2 {
 .page-return{
   text-align:center;
 }
+
+
+//news
+
+.news_body{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.news_image{
+  padding-bottom: 20px;
+}
+
+.news_video_link{
+  padding-bottom: 20px;
+}
+
+.news_website_link_title{
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #000;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #c6190b;/*左線*/
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.news_website_link{
+  padding-bottom: 20px;
+}
+
+.news_created_at p{
+  font-size: 14px;
+  color: rgb(118, 118, 118);
+}
+
+.news_writer p{
+  font-size: 14px;
+  color: rgb(118, 118, 118);
+}
+
+.news_created_at{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.news_writer{
+  display: inline-block;
+}
+
+.news_created_at i{
+  padding-right: 3px;
+}

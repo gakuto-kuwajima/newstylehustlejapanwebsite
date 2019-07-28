@@ -9,6 +9,7 @@ body {
   font-size: 1.6rem;
   /* 16px*/
   line-height: 2;
+  margin: 0;
 }
 
 h1 {
@@ -77,6 +78,10 @@ h2 {
   }
 }
 
+.top-image {
+  position: relative;
+}
+
 #top-movie {
   width: 100%;
   display: block;
@@ -86,12 +91,9 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
-  /*余計な隙間を除く*/
   padding: 0;
-  /*余計な隙間を除く*/
 }
 
 .top-image h1 {
@@ -99,10 +101,8 @@ h2 {
   /*絶対配置*/
   color: white;
   /*文字は白に*/
-  position: absolute;
   top: 85.8%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -146,7 +146,6 @@ h2:before {
   width: 60px;
   height: 2px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
@@ -228,8 +227,7 @@ h3 {
 }
 
 .tohoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -250,8 +248,7 @@ h3 {
 }
 
 .kanto-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -272,8 +269,7 @@ h3 {
 }
 
 .kanto-btn-tokyo:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -293,8 +289,7 @@ h3 {
 }
 
 .chubu-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -314,8 +309,7 @@ h3 {
 }
 
 .kansai-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -335,8 +329,7 @@ h3 {
 }
 
 .chugoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -356,8 +349,7 @@ h3 {
 }
 
 .shikoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -377,8 +369,7 @@ h3 {
 }
 
 .kyushu-okinawa-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Community;
+use App\News;
 
 class SearchController extends Controller
 {
@@ -12,9 +13,10 @@ class SearchController extends Controller
     public function index(Request $request)
        {
            $keywords = $request->keywords;
+
            if ($keywords != '') {
                $keyary  = explode(" ",$keywords);
-               $posts = Community::where(function ($query) use ($keyary) {
+               $pages = Community::where(function ($query) use ($keyary) {
                    foreach ($keyary as $word) {
                        $query->where('name', 'LIKE', "%{$word}%")
                              ->orWhere('pref', 'LIKE', "%{$word}%")
@@ -24,8 +26,22 @@ class SearchController extends Controller
                //->distinct()->select('eyecatch_path','name','information')->orderBy('updated_at', 'desc')->get();
                ->distinct()->orderBy('updated_at', 'desc')->get();
            } else {
-               $posts = Community::all()->sortByDesc('updated_at');
+               $pages = Community::all()->sortByDesc('updated_at');
            }
-           return view('search',['posts'=>$posts, 'keywords' =>$keywords]);
+
+           if ($keywords != '') {
+               $newskeyary  = explode(" ",$keywords);
+               $posts = News::where(function ($query) use ($newskeyary) {
+                   foreach ($newskeyary as $newsword) {
+                       $query->where('news_title', 'LIKE', "%{$newsword}%")
+                             ->orWhere('news_body', 'LIKE', "%{$newsword}%");
+                   }
+               })
+               ->distinct()->orderBy('updated_at', 'desc')->get();
+           } else {
+               $posts = News::all()->sortByDesc('updated_at');
+           }
+
+           return view('search',[ 'pages'=>$pages, 'posts'=>$posts, 'keywords' =>$keywords]);
        }
 }
