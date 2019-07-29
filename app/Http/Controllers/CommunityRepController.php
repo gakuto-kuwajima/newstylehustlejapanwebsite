@@ -29,7 +29,10 @@ class CommunityRepController extends Controller
         } else {
             $posts = News::all();
         }
-        return view('communityrep.index',['pages'=>$pages,  'posts'=>$posts, 'newskeywords' =>$newskeywords]);
+
+        $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。別のキーワードで再度お探しください。";
+
+        return view('communityrep.index',['pages'=>$pages,  'posts'=>$posts, 'newskeywords' =>$newskeywords, 'nonewsresult'=>$nonewsresult]);
     }
 
 

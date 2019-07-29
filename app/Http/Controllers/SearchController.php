@@ -29,6 +29,8 @@ class SearchController extends Controller
                $pages = Community::all()->sortByDesc('updated_at');
            }
 
+           $nocommunityresult ='お探しのキーワードでコミュニティが見つかりませんでした。';
+
            if ($keywords != '') {
                $newskeyary  = explode(" ",$keywords);
                $posts = News::where(function ($query) use ($newskeyary) {
@@ -42,6 +44,8 @@ class SearchController extends Controller
                $posts = News::all()->sortByDesc('updated_at');
            }
 
-           return view('search',[ 'pages'=>$pages, 'posts'=>$posts, 'keywords' =>$keywords]);
+           $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。";
+
+           return view('search',[ 'pages'=>$pages, 'posts'=>$posts, 'keywords' =>$keywords, 'nocommunityresult' =>$nocommunityresult, 'nonewsresult'=>$nonewsresult]);
        }
 }

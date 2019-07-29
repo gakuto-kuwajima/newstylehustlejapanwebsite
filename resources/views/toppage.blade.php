@@ -38,7 +38,7 @@
                         <h2>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年にはニュースタイルハッスルの創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。<br>（※動画参照）<br>このサイトでは日本のニュースタイルハッスルの情報を紹介します。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。<br>（※動画参照）<br>このサイトでは日本のニュースタイルハッスルの情報を紹介します。</p>
                     </div>
                 </div>
                 <div class="image col-md-6 order-1-md-1">
@@ -55,14 +55,42 @@
                         <h2>NEWS</h2>
                     </div>
                 </div>
-                <div class="text col-md-12 section4-news-title">
-                @foreach($posts as $post)
-                    <div class="toppage-news col-md-8">
-                        <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
-                            <p>{{ $post->created_at->format('Y.m.d') }}     {{ $post->news_title }}</p>
-                        </a>
-                    </div>
-                @endforeach
+
+                <div class="text col-md-9 mx-auto mt-3 section4-news-title">
+                <hr class="post-style">
+                  @foreach($posts as $post)
+                      <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                      <div class="post">
+                          <div class="row no-gutters">
+                              <div class="col-5 caption">
+                                  <div class="news-image">
+                                      @if ($post->news_eyecatch_path)
+                                          <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
+                                      @endif
+                                  </div>
+                              </div>
+                              <div class="col-7 search-text-container">
+                              <div class="search-text">
+                                  <div class="post-title">
+                                      @if ($post->news_title)
+                                          <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
+                                      @endif
+                                  </div>
+                                  <div class="date">
+                                      <p><i class="far fa-calendar-alt"></i>{{ $post->updated_at->format('Y年m月d日') }}</p>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  <hr class="post-style">
+                  @endforeach
+                  <div class="section4-link">
+                      <a href="#" class="section4-button">
+                          <i class="fa fa-caret-right"></i> NEWS一覧へ
+                      </a>
+                  </div>
                 </div>
             </div>
         </div>

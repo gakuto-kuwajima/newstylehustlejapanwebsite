@@ -84,6 +84,9 @@
                                 </tr>
                             </thead>
                             <tbody>
+                            @if(!count($posts))
+                                {{ $nonewsresult }}
+                            @else
                                 @foreach($posts as $news)
                                     <tr>
                                         <th>{{ str_limit($news->news_title, 100) }}</th>
@@ -101,6 +104,7 @@
                                         </td>
                                     </tr>
                                 @endforeach
+                            @endif
                             </tbody>
                         </table>
                     </div>
