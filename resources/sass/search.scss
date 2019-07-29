@@ -19,21 +19,33 @@ h2 {
 }
 @media (min-width: 1200px) {/* 1200px以上*/
     h1 {
-        font-size: 2rem;/* 36px*/
+        font-size: 2rem;
     }
     h2 {
-        font-size: 2.8rem;/* 24px*/
+        font-size: 2rem;
     }
 }
+
+@media screen and (min-width: 640px) {/* 640px以下*/
+    .image img{
+      height: 150px;
+      width: auto;
+      object-fit: cover;
+    }
+}
+
 @media screen and (max-width: 640px) {/* 640px以下*/
     body{
     line-height: 2;
     }
     h1{
-        font-size: 2rem;/* 24px*/
+        font-size: 2rem;
     }
     h2 {
-        font-size: 2.4rem;/* 20px*/
+        font-size: 1.8rem;
+    }
+    .page-title p{
+        font-size: 1.6rem;
     }
     .post-title p{
         font-size: 1.6rem;
@@ -41,26 +53,24 @@ h2 {
     .search-text{
         padding-left: 15px;
     }
+    .image img{
+      height: 100px;
+      width: auto;
+      object-fit: cover;
+    }
+
 }
 
 //検索結果のcss
-.pages {
-  .page {
+.communities {
+  .community {
     .date {
       font-size: 0.6em;
       color: #999999;
     }
-    .page-title {
+    .community-title {
       font-size: 1.2em;
       font-weight: bold;
-    }
-    .body {
-      font-size: 0.8em;
-    }
-    .image {
-      img {
-    width: 250px;
-      }
     }
   }
 }
@@ -69,12 +79,12 @@ hr.style{
    border-color: #c0c0c0;
 }
 
-hr.page-style{
+hr.community-style{
    border-color: #c0c0c0;
    border-style: dotted;
 }
 
-.page-link{
+.community-link{
   text-decoration:none;
   color:#000;
   border: none;
@@ -98,6 +108,7 @@ hr.page-style{
 
 
 .posts {
+   margin-bottom: 40px;
   .post {
     .date {
       font-size: 0.6em;
@@ -106,14 +117,6 @@ hr.page-style{
     .post-title {
       font-size: 1.2em;
       font-weight: bold;
-    }
-    .body {
-      font-size: 0.8em;
-    }
-    .image {
-      img {
-    width: 250px;
-      }
     }
   }
 }
@@ -132,8 +135,9 @@ hr.post-style{
   color:#000;
 }
 
-
-
+.title{
+  line-height: 1;
+}
 
 
 .no-gutters {
@@ -145,4 +149,28 @@ hr.post-style{
 .no-gutters　> [class*="col-"] {
   margin:0;
   padding:0;
+}
+
+a:hover{
+　text-decoration: none;
+}
+
+.date i{
+  padding-right: 3px;
+}
+
+.object-fit-img {
+  object-fit: contain;
+  font-family: 'object-fit: contain;'
+}
+
+.image{
+  text-align:center;
+}
+
+
+
+.indexnews-title h2{
+  font-size: 26px;
+  font-weight: bold;
 }

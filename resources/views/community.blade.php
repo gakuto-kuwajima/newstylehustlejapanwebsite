@@ -106,9 +106,9 @@
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-md-12 page-return">
-                    <a href="http://127.0.0.1:8000/#pref-title" class="btn-flat-border">戻る</a>
-                </div>
+               <div class="col-md-12 page-return">
+                   <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
+               </div>
             </div>
         </div>
     </div>

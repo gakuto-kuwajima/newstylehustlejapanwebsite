@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 mx-auto">
+        <div class="col-md-9 mx-auto">
            <div class="form-group row">
               <div class="news-title col-md-12 mx-auto">
                   <h1 class="text-title">{{ $post->news_title }}</h1>
@@ -86,7 +86,7 @@
            @endif
            <div class="form-group row">
               <div class="col-md-12 page-return">
-                  <a href="http://127.0.0.1:8000/#pref-title" class="btn-flat-border">NEWS一覧へ</a>
+                  <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
               </div>
            </div>
         </div>

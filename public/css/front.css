@@ -41,6 +41,12 @@ h2 {
   }
 }
 
+@media screen and (min-width: 640px) {
+  .news-title h1 {
+    font-size: 36px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   /* 640px以下*/
 
@@ -61,6 +67,10 @@ h2 {
   .balloon-text-right {
     font-size: 1.4rem;
   }
+
+  .news-title h1 {
+    font-size: 26px;
+  }
 }
 
 .top-image {
@@ -79,6 +89,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   /*余計な隙間を除く*/
@@ -245,6 +256,7 @@ h2 {
 /* アイコンボタンホバー時 */
 
 .flowbtn11:hover span {
+  -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
   text-decoration: none;
 }
@@ -284,26 +296,6 @@ ul.snsbtniti2 {
 .community_image,
 .video_link {
   margin-bottom: 15px;
-}
-
-.btn-flat-border {
-  display: inline-block;
-  padding: 0.3em 2em;
-  text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
-  border-radius: 3px;
-  transition: .4s;
-}
-
-.btn-flat-border:hover {
-  background: #67c5ff;
-  color: white;
-  text-decoration: none;
-}
-
-.page-return {
-  text-align: center;
 }
 
 .news_body {

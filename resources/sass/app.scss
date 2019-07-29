@@ -194,3 +194,26 @@ padding: 0 20px;
 footer address{
     font-style: normal; /*文字の斜体を取り消す*/
 }
+
+
+//戻るボタン
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 2em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+  background:transparent;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+  text-decoration: none;
+}
+
+.page-return{
+  text-align:center;
+}

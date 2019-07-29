@@ -32,12 +32,21 @@ h2 {
 
   h1 {
     font-size: 2rem;
-    /* 36px*/
   }
 
   h2 {
-    font-size: 2.8rem;
-    /* 24px*/
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  /* 640px以下*/
+
+  .image img {
+    height: 150px;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -50,12 +59,14 @@ h2 {
 
   h1 {
     font-size: 2rem;
-    /* 24px*/
   }
 
   h2 {
-    font-size: 2.4rem;
-    /* 20px*/
+    font-size: 1.8rem;
+  }
+
+  .page-title p {
+    font-size: 1.6rem;
   }
 
   .post-title p {
@@ -65,36 +76,35 @@ h2 {
   .search-text {
     padding-left: 15px;
   }
+
+  .image img {
+    height: 100px;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
-.pages .page .date {
+.communities .community .date {
   font-size: 0.6em;
   color: #999999;
 }
 
-.pages .page .page-title {
+.communities .community .community-title {
   font-size: 1.2em;
   font-weight: bold;
-}
-
-.pages .page .body {
-  font-size: 0.8em;
-}
-
-.pages .page .image img {
-  width: 250px;
 }
 
 hr.style {
   border-color: #c0c0c0;
 }
 
-hr.page-style {
+hr.community-style {
   border-color: #c0c0c0;
   border-style: dotted;
 }
 
-.page-link {
+.community-link {
   text-decoration: none;
   color: #000;
   border: none;
@@ -114,6 +124,10 @@ hr.page-style {
   padding-bottom: 5px;
 }
 
+.posts {
+  margin-bottom: 40px;
+}
+
 .posts .post .date {
   font-size: 0.6em;
   color: #999999;
@@ -122,14 +136,6 @@ hr.page-style {
 .posts .post .post-title {
   font-size: 1.2em;
   font-weight: bold;
-}
-
-.posts .post .body {
-  font-size: 0.8em;
-}
-
-.posts .post .image img {
-  width: 250px;
 }
 
 hr.style {
@@ -146,6 +152,10 @@ hr.post-style {
   color: #000;
 }
 
+.title {
+  line-height: 1;
+}
+
 .no-gutters {
   margin: 0;
   padding: 0;
@@ -155,5 +165,28 @@ hr.post-style {
 .no-gutters　 > [class*="col-"] {
   margin: 0;
   padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.date i {
+  padding-right: 3px;
+}
+
+.object-fit-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: 'object-fit: contain;';
+}
+
+.image {
+  text-align: center;
+}
+
+.indexnews-title h2 {
+  font-size: 26px;
+  font-weight: bold;
 }
 

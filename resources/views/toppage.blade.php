@@ -55,6 +55,15 @@
                         <h2>NEWS</h2>
                     </div>
                 </div>
+                <div class="text col-md-12 section4-news-title">
+                @foreach($posts as $post)
+                    <div class="toppage-news col-md-8">
+                        <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                            <p>{{ $post->created_at->format('Y.m.d') }}     {{ $post->news_title }}</p>
+                        </a>
+                    </div>
+                @endforeach
+                </div>
             </div>
         </div>
         <div class="section3">

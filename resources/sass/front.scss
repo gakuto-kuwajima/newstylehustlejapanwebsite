@@ -25,6 +25,13 @@ h2 {
         font-size: 2.8rem;/* 24px*/
     }
 }
+
+@media screen and (min-width: 640px) {
+    .news-title h1{
+        font-size: 36px;
+    }
+}
+
 @media screen and (max-width: 640px) {/* 640px以下*/
     body{
     line-height: 2;
@@ -37,6 +44,9 @@ h2 {
     }
     .balloon-text-right{
         font-size: 1.4rem;
+    }
+    .news-title h1{
+        font-size: 26px;
     }
 }
 
@@ -244,26 +254,7 @@ h2 {
 }
 
 
-//戻るボタン
-.btn-flat-border {
-  display: inline-block;
-  padding: 0.3em 2em;
-  text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
-  border-radius: 3px;
-  transition: .4s;
-}
 
-.btn-flat-border:hover {
-  background: #67c5ff;
-  color: white;
-  text-decoration: none;
-}
-
-.page-return{
-  text-align:center;
-}
 
 
 //news
