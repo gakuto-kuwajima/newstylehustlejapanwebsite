@@ -50,44 +50,46 @@
         </div>
         <div class="section4">
             <div class="row no-gutters">
-                <div class="text col-md-12 section4-title">
+                <div class="col-md-12 section4-title">
                     <div class="section-h2 sectin4-h2">
                         <h2>NEWS</h2>
                     </div>
                 </div>
-
-                <div class="text col-md-9 mx-auto mt-3 section4-news-title">
-                <hr class="post-style">
-                  @foreach($posts as $post)
-                      <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
-                      <div class="post">
-                          <div class="row no-gutters">
-                              <div class="col-5 caption">
-                                  <div class="news-image">
-                                      @if ($post->news_eyecatch_path)
-                                          <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
-                                      @endif
-                                  </div>
-                              </div>
-                              <div class="col-7 search-text-container">
-                              <div class="search-text">
-                                  <div class="post-title">
-                                      @if ($post->news_title)
-                                          <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
-                                      @endif
-                                  </div>
-                                  <div class="date">
-                                      <p><i class="far fa-calendar-alt"></i>{{ $post->updated_at->format('Y年m月d日') }}</p>
-                                  </div>
-                              </div>
+                <div class="posts col-md-9 mx-auto section4-news-title">
+                   @foreach($posts as $post)
+                    <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                    <div class="post post-wrapper">
+                        <div class="ribbon16-content">
+                            <span class="ribbon16">NEW</span>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-5 caption">
+                                <div class="news-image mx-auto">
+                                    @if ($post->news_eyecatch_path)
+                                        <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
+                                    @else
+                                        <img src="{{ asset('img/no_image.png') }}" class="img-fluid object-fit-img">
+                                    @endif
+                                </div>
                             </div>
-                          </div>
-                      </div>
-                    </a>
-                  <hr class="post-style">
+                            <div class="col-7 search-text-container">
+                                <div class="search-text">
+                                    <div class="date">
+                                        <p>{{ $post->updated_at->format('Y年m月d日') }}</p>
+                                    </div>
+                                    <div class="post-title">
+                                        @if ($post->news_title)
+                                            <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
                   @endforeach
                   <div class="section4-link">
-                      <a href="#" class="section4-button">
+                      <a href="http://127.0.0.1:8000/news/" class="section4-button">
                           <i class="fa fa-caret-right"></i> NEWS一覧へ
                       </a>
                   </div>

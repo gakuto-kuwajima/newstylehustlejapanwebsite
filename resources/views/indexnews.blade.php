@@ -16,6 +16,8 @@
                                 <div class="image">
                                     @if ($post->news_eyecatch_path)
                                         <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
+                                    @else
+                                        <img src="{{ asset('img/no_image.png') }}" class="img-fluid object-fit-img">
                                     @endif
                                 </div>
                             </div>
