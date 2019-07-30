@@ -47,6 +47,9 @@ h2 {
       width: auto;
       object-fit: cover;
     }
+    .news-image{
+      width: 150px;
+    }
 }
 @media screen and (min-width: 640px) {/* 640px以上*/
   .top-image {
@@ -56,6 +59,10 @@ h2 {
     height: 100px;
     width: auto;
     object-fit: cover;
+  }
+  .news-image{
+    text-align:center;
+    width: 180px;
   }
   .search-text-container {
 
@@ -268,6 +275,7 @@ h2:before {
     }
     .post-title{
       font-weight: bold;
+      line-height: 1em;
     }
   }
 }
@@ -286,11 +294,6 @@ hr.post-style{
   color:#000;
 }
 
-.title{
-  line-height: 1;
-}
-
-
 a:hover{
 　text-decoration: none;
 }
@@ -306,16 +309,24 @@ a:hover{
 
 .news-image{
   text-align:center;
-  width:80%;
+  padding-left: 10px;
+
 }
 
+
 .search-text-container {
+  padding-left: 10px;
+}
+
+.caption{
+  float:left;
+}
+
+.post{
+  overflow: hidden;
   display: flex;
   align-items: center;
 }
-
-
-
 
 
 //section3

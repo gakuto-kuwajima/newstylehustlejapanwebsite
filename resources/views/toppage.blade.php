@@ -56,14 +56,15 @@
                     </div>
                 </div>
                 <div class="posts col-md-9 mx-auto section4-news-title">
+
                    @foreach($posts as $post)
-                    <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
-                    <div class="post post-wrapper">
-                        <div class="ribbon16-content">
-                            <span class="ribbon16">NEW</span>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-5 caption">
+                   <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                   <div class="post post-wrapper">
+                       <div class="ribbon16-content">
+                           <span class="ribbon16">NEW</span>
+                       </div>
+                        <div class="post">
+                            <div class="caption">
                                 <div class="news-image mx-auto">
                                     @if ($post->news_eyecatch_path)
                                         <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
@@ -72,20 +73,18 @@
                                     @endif
                                 </div>
                             </div>
-                            <div class="col-7 search-text-container">
+                            <div class="search-text-container">
                                 <div class="search-text">
                                     <div class="date">
-                                        <p>{{ $post->updated_at->format('Y年m月d日') }}</p>
+                                        <p>{{ $post->created_at->format('Y年m月d日') }}</p>
                                     </div>
                                     <div class="post-title">
-                                        @if ($post->news_title)
-                                            <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
-                                        @endif
+                                        <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                      </div>
                   </a>
                   @endforeach
                   <div class="section4-link">
