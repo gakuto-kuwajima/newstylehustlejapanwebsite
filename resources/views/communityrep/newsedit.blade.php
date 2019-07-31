@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="news_body">本文</label>
+                        <label class="col-md-2" for="news_body">本文（※必須）</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="news_body" rows="10" placeholder="例）7月14日（日）仙台にてニュースタイルハッスルのパーティーを開催することになりました。詳細は以下のリンクからご確認ください。">{{ $news_form->news_body }}</textarea>
                         </div>

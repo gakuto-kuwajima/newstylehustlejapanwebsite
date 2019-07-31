@@ -242,7 +242,6 @@ a:hover {
   width: 60px;
   height: 2px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;

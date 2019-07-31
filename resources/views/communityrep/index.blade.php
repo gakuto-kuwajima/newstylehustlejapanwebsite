@@ -84,9 +84,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            @if(!count($posts))
-                                {{ $nonewsresult }}
-                            @else
+                            @if(count($posts))
                                 @foreach($posts as $news)
                                     <tr>
                                         <th>{{ str_limit($news->news_title, 100) }}</th>
@@ -104,11 +102,16 @@
                                         </td>
                                     </tr>
                                 @endforeach
-                            @endif
                             </tbody>
                         </table>
+                        @else
+                           {{ $nonewsresult }}
+                        @endif
                     </div>
                 </div>
+            </div>
+            <div class="paginate d-flex justify-content-center">
+                {{ $posts->links() }}
             </div>
         </div>
     </div>
