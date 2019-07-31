@@ -59,7 +59,7 @@
 
                    @foreach($posts as $post)
                    <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
-                   <div class="post post-wrapper">
+                   <div class="post-wrapper">
                        <div class="ribbon16-content">
                            <span class="ribbon16">NEW</span>
                        </div>
@@ -75,11 +75,11 @@
                             </div>
                             <div class="search-text-container">
                                 <div class="search-text">
+                                    <div class="post-title">
+                                        <p class="title mx-auto">{{ $post->news_title }}</p>
+                                    </div>
                                     <div class="date">
                                         <p>{{ $post->created_at->format('Y年m月d日') }}</p>
-                                    </div>
-                                    <div class="post-title">
-                                        <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
                                     </div>
                                 </div>
                             </div>

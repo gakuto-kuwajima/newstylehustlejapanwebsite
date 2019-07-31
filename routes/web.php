@@ -41,4 +41,6 @@ Route::get('news/{news_permalink}', 'ReadingPageController@newsshow');
 
 Route::get('news', 'ReadingPageController@indexnews');
 
+Route::get('community', 'ReadingPageController@indexcommunity');
+
 Route::get('search','SearchController@index');

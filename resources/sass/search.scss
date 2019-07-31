@@ -29,13 +29,18 @@ h2 {
 @media screen and (min-width: 640px) {/* 640以上*/
     .image img{
       height: 150px;
-      width: auto;
-      object-fit: cover;
+      width: 250px;
     }
     .indexnews-title h2{
      font-size: 38px
     }
-
+    .image{
+      width: 250px;
+      padding-left: 20px;
+    }
+    .search-text-container {
+      padding-left: 20px;
+    }
 }
 
 @media screen and (max-width: 640px) {/* 640px以下*/
@@ -54,54 +59,137 @@ h2 {
     .post-title p{
         font-size: 1.6rem;
     }
-    .search-text{
-        padding-left: 15px;
-    }
     .image img{
       height: 100px;
-      width: auto;
-      object-fit: cover;
+      width: 150px;
+    }
+    .image{
+      width: 150px;
+      padding-left: 10px;
     }
     .indexnews-title h2{
      font-size: 28px
     }
-
+    .search-text-container {
+      padding-left: 10px;
+    }
 }
 
-//検索結果のcss
-.communities {
-  .community {
-    .date {
-      font-size: 0.6em;
-      color: #999999;
-    }
-    .community-title {
-      font-size: 1.2em;
-      font-weight: bold;
-    }
-  }
+hr.search-title-style{
+  border:solid 1px #000;
+  margin-bottom:25px;
 }
+
+.image img{
+  object-fit: cover;
+}
+
 
 hr.style{
-   border-color: #c0c0c0;
-}
-
-hr.community-style{
-   border-color: #c0c0c0;
-   border-style: dotted;
-}
-
-.community-link{
-  text-decoration:none;
-  color:#000;
-  border: none;
+   border-color: #fff;
+   margin-bottom: 25px;
 }
 
 
 .search-text-container {
   display: flex;
   align-items: center;
+}
 
+
+
+.posts {
+   margin-bottom: 40px;
+  .post {
+    .date {
+      font-size: 0.7em;
+      color: #999999;
+    }
+    .post-title{
+      font-weight: bold;
+      line-height: 1em;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+
+.post-wrapper {
+  display: block;
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-left: 0;
+  padding: 10px 0;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 0 #efefef;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.post-wrapper:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+
+.post-container{
+  transition: .3s;
+}
+
+.post-container:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+hr.post-style{
+   border-color: #000;
+   border-style: dotted;
+}
+
+.post-link{
+  text-decoration:none;
+  color:#000;
+}
+
+a:hover{
+　text-decoration: none;
+}
+
+.date p{
+  margin-bottom: 0px;
+}
+
+.date i{
+  margin-right: 3px;
+}
+
+.object-fit-img {
+  object-fit: contain;
+  font-family: 'object-fit: contain;'
+}
+
+.image{
+  text-align:center;
+}
+
+
+.search-text-container {
+  padding-right: 10px;
+}
+
+.caption{
+  float:left;
+}
+
+.post{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .name{
@@ -113,67 +201,6 @@ hr.community-style{
   padding-bottom: 5px;
 }
 
-
-.posts {
-   margin-bottom: 40px;
-  .post {
-    .date {
-      font-size: 0.6em;
-      color: #999999;
-    }
-    .post-title {
-      font-size: 1.2em;
-      font-weight: bold;
-    }
-  }
-}
-
-hr.style{
-   border-color: #c0c0c0;
-}
-
-hr.post-style{
-   border-color: #c0c0c0;
-   border-style: dotted;
-}
-
-.post-link{
-  text-decoration:none;
-  color:#000;
-}
-
-.title{
-  line-height: 1;
-}
-
-
-.no-gutters {
-  margin:0;
-  padding:0;
-}
-
-.no-gutters　> .col,
-.no-gutters　> [class*="col-"] {
-  margin:0;
-  padding:0;
-}
-
-a:hover{
-　text-decoration: none;
-}
-
-.date i{
-  padding-right: 3px;
-}
-
-.object-fit-img {
-  object-fit: contain;
-  font-family: 'object-fit: contain;'
-}
-
-.image{
-  text-align:center;
-}
 
 
 

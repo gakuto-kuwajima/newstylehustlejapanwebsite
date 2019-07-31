@@ -27,8 +27,15 @@ class ReadingPagecontroller extends Controller
     public function indexnews()
     {
         $keywords = '';
-        $posts = News::all()->sortByDesc('updated_at');
+        $posts = News::latest()->get();
+        $posts = News::latest()->paginate(10);
         return view('indexnews',['posts' =>$posts, 'keywords'=>$keywords]);
+    }
+
+    public function indexcommunity()
+    {
+        $keywords = '';
+        return view('indexcommunity',['keywords'=>$keywords]);
     }
 
     public function toppage()

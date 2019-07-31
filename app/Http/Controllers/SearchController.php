@@ -24,9 +24,11 @@ class SearchController extends Controller
                    }
                })
                //->distinct()->select('eyecatch_path','name','information')->orderBy('updated_at', 'desc')->get();
-               ->distinct()->orderBy('updated_at', 'desc')->get();
+               ->distinct()->latest()->paginate(3);
+
            } else {
-               $pages = Community::all()->sortByDesc('updated_at');
+               $pages = Community::all()->sortByDesc('created_at');
+               $pages = Community::latest()->paginate(3);
            }
 
            $nocommunityresult ='お探しのキーワードでコミュニティが見つかりませんでした。';
@@ -39,9 +41,11 @@ class SearchController extends Controller
                              ->orWhere('news_body', 'LIKE', "%{$newsword}%");
                    }
                })
-               ->distinct()->orderBy('updated_at', 'desc')->get();
+               ->distinct()->latest()->paginate(3);
+
            } else {
-               $posts = News::all()->sortByDesc('updated_at');
+               $posts = News::all()->sortByDesc('created_at');
+               $posts = News::latest()->paginate(3);
            }
 
            $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。";

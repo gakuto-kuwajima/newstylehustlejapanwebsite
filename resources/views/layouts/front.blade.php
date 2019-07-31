@@ -68,14 +68,14 @@
                 {{-- コンテンツをここに入れるため、@yieldで空けておきます。 --}}
                 @yield('content')
             </main>
-            <div class="container">
-                <div class="row">
-                   <div class="col-md-12 mx-auto">
-                      <hr color="#c0c0c0">
-                   </div>
-                </div>
-            </div>
             <footer>
+                <div class="container">
+                    <div class="row">
+                       <div class="col-md-12 mx-auto">
+                          <hr color="#c0c0c0">
+                       </div>
+                    </div>
+                </div>
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="footer-section1 col-md-4 mx-auto">

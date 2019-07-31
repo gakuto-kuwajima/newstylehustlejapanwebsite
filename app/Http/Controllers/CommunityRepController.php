@@ -25,9 +25,9 @@ class CommunityRepController extends Controller
                           ->orWhere('news_body', 'LIKE', "%{$newsword}%");
                 }
             })
-            ->distinct()->select('id','news_title','news_body')->get();
+            ->distinct()->orderBy('created_at', 'desc')->get();
         } else {
-            $posts = News::all();
+            $posts = News::all()->sortByDesc('created_at');;
         }
 
         $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。別のキーワードで再度お探しください。";
