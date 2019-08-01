@@ -1,4 +1,4 @@
-@extends('layouts.search')
+@extends('layouts.indexnews')
 
 @section('content')
     <div class="container">
@@ -6,9 +6,8 @@
         <div class="search-news row">
             <div class="posts col-md-9 mx-auto mt-3">
                 <div class="indexnews-title">
-                    <h2>NEWS一覧</h2>
+                    <h1>NEWS一覧</h1>
                 </div>
-
                 @foreach($posts as $post)
                 <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
                 <div class="post-wrapper">

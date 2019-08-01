@@ -49452,10 +49452,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/profile.scss":
-/*!*************************************!*\
-  !*** ./resources/sass/profile.scss ***!
-  \*************************************/
+/***/ "./resources/sass/indexcommunity.scss":
+/*!********************************************!*\
+  !*** ./resources/sass/indexcommunity.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/indexnews.scss":
+/*!***************************************!*\
+  !*** ./resources/sass/indexnews.scss ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -49486,19 +49497,20 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/profile.scss ./resources/sass/front.scss ./resources/sass/toppage.scss ./resources/sass/search.scss ***!
-  \**************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/front.scss ./resources/sass/toppage.scss ./resources/sass/search.scss ./resources/sass/indexcommunity.scss ./resources/sass/indexnews.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/app.scss */"./resources/sass/app.scss");
 __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/admin.scss */"./resources/sass/admin.scss");
-__webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/profile.scss */"./resources/sass/profile.scss");
 __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/front.scss */"./resources/sass/front.scss");
 __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/toppage.scss */"./resources/sass/toppage.scss");
-module.exports = __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/search.scss */"./resources/sass/search.scss");
+__webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/search.scss */"./resources/sass/search.scss");
+__webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/indexcommunity.scss */"./resources/sass/indexcommunity.scss");
+module.exports = __webpack_require__(/*! /mnt/c/php/development/nshwebsite/resources/sass/indexnews.scss */"./resources/sass/indexnews.scss");
 
 
 /***/ })

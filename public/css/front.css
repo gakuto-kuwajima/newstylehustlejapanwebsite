@@ -89,6 +89,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   /*余計な隙間を除く*/
@@ -255,6 +256,7 @@ h2 {
 /* アイコンボタンホバー時 */
 
 .flowbtn11:hover span {
+  -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
   text-decoration: none;
 }

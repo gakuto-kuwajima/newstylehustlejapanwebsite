@@ -1,4 +1,4 @@
-@extends('layouts.toppage')
+@extends('layouts.indexcommunity')
 
 @section('content')
     <div class="container">
@@ -6,8 +6,8 @@
         <div class="section3">
             <div class="row no-gutters">
                 <div class="col-md-12">
-                    <div class="section-h2" id="pref-title">
-                        <h2>Japan Communities</h2>
+                    <div class="section-h1" id="pref-title">
+                        <h1>Japan Communities</h1>
                     </div>
               　    <div class="section3-text col-md-9 mx-auto">
                   　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>住んでいる地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
