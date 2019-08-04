@@ -15,6 +15,7 @@ class CreateNewsTable extends Migration
     {
         Schema::create('news', function (Blueprint $table) {
           $table->Increments('id');
+          $table->integer('user_id');
           $table->string('news_permalink');
           $table->string('news_title');
           $table->string('news_eyecatch_path')->nullable();

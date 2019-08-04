@@ -87,12 +87,51 @@ h2 {
 }
 
 
+.eyecatch{
+  margin:20px;
+}
+
+.community_name{
+  margin-bottom: 20px;
+}
+
+.information{
+  
+}
+
+.community_image{
+  margin-bottom: 30px;
+}
+
+.video_link{
+  margin-bottom: 30px;
+}
+
+.message{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.community_contact{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+
+.facebook_link{
+   margin-bottom: 50px;
+   display: block;
+ }
+
 
 
 #eyecatch{
   text-align: center;
   width:100%;
 }
+
+
+
 
 /*--------------------
  吹き出しを作る
@@ -146,27 +185,6 @@ h2 {
   border-left: solid 5px #c6190b;/*左線*/
   margin-bottom: 0.5em;
 }
-
-
-
-
-.community_name{
-  margin-bottom: 20px;
-}
-
-.message{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.contact{
-  margin-bottom: 50px;
-}
-
-.facebook_link{
-   margin-bottom: 50px;
-   display: block;
- }
 
 
 
@@ -248,11 +266,6 @@ h2 {
  flex:0 0 50%;
  text-align:center!important;
  }
-
-.community_image,.video_link{
-  margin-bottom: 15px;
-}
-
 
 
 

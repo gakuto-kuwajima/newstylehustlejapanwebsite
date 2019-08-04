@@ -15,4 +15,5 @@ class Community extends Model
         'pref' => 'required',
         'facebook_link' =>'required',
     );
+
 }

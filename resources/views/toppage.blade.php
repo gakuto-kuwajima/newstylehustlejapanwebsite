@@ -5,7 +5,7 @@
         <div class="top">
             <div class="row no-gutters">
                 <div class="top-image">
-                    <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay loop class="img-fluid"></video>
+                    <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
                     <img src="{{ asset('img/newstylehustlejapan-white.png')}}" class="img-fluid">
                     <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
                 </div>

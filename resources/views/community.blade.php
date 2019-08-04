@@ -77,7 +77,7 @@
             </div>
             @endif
             <div class="form-group row">
-                <div class="contact col-md-12 mx-auto">
+                <div class="community_contact col-md-12 mx-auto">
                     <h2>お問い合わせ</h2>
                     <div class="text col-md-12">
                         <p>{!! nl2br(e($page->contact)) !!}</p>

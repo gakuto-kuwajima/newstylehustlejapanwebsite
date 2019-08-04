@@ -89,7 +89,6 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   /*余計な隙間を除く*/
@@ -107,6 +106,37 @@ h2 {
 
 .section1 {
   margin-bottom: 80px;
+}
+
+.eyecatch {
+  margin: 20px;
+}
+
+.community_name {
+  margin-bottom: 20px;
+}
+
+.community_image {
+  margin-bottom: 30px;
+}
+
+.video_link {
+  margin-bottom: 30px;
+}
+
+.message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.community_contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.facebook_link {
+  margin-bottom: 50px;
+  display: block;
 }
 
 #eyecatch {
@@ -176,24 +206,6 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-.community_name {
-  margin-bottom: 20px;
-}
-
-.message {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.contact {
-  margin-bottom: 50px;
-}
-
-.facebook_link {
-  margin-bottom: 50px;
-  display: block;
-}
-
 /* SNSボタン全体 */
 
 .flowbtn11 {
@@ -256,7 +268,6 @@ h2 {
 /* アイコンボタンホバー時 */
 
 .flowbtn11:hover span {
-  -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
   text-decoration: none;
 }
@@ -291,11 +302,6 @@ ul.snsbtniti2 {
 .snsbtniti2 li {
   flex: 0 0 50%;
   text-align: center !important;
-}
-
-.community_image,
-.video_link {
-  margin-bottom: 15px;
 }
 
 .news_body {

@@ -15,6 +15,7 @@ class CreateCommunitiesTable extends Migration
     {
       Schema::create('communities', function (Blueprint $table) {
           $table->Increments('id');
+          $table->integer('user_id');
           $table->string('permalink');
           $table->string('eyecatch_path')->nullable();
           $table->string('name');

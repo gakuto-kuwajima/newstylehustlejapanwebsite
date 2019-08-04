@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 use App\Community;
 use App\News;
@@ -14,7 +15,7 @@ class CommunityRepController extends Controller
     public function index(Request $request)
     {
 
-        $pages = Community::all();
+        $pages = Community::all()->sortByDesc('created_at');
 
         $newskeywords = $request->newskeywords;
         if ($newskeywords != '') {
@@ -103,6 +104,7 @@ class CommunityRepController extends Controller
 
 
         $community->fill($form);
+        $community->user_id=Auth::id();
         $community->save();
 
 
@@ -254,6 +256,7 @@ class CommunityRepController extends Controller
 
 
         $news->fill($form);
+        $news->user_id=Auth::id();
         $news->save();
 
 

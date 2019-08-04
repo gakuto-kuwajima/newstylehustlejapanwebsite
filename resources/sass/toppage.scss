@@ -87,15 +87,18 @@ h2 {
 }
 
 .top-image img{
+  width:39%;
+  height: auto;
   position: absolute;
-  top: 50%;
+  top: 9%;
   left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-9%);
+  -webkit-transform: translate(-50%,-9%);
+  transform: translate(-50%,-9%);
   margin:0;
   padding:0;
   }
+
 
 .top-image h1{
   position: absolute;/*絶対配置*/

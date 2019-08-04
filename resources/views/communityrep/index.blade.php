@@ -4,7 +4,7 @@
 @section('content')
     <div class="container">
         <div class="row index-title col-md-12">
-            <h2>マイページ</h2>
+            <h2>{{Auth::user()->name}}のマイページ</h2>
         </div>
         <div class="index-community">
             <div class="row index-community-title col-md-12">
@@ -28,21 +28,23 @@
                             </thead>
                             <tbody>
                                 @foreach($pages as $community)
-                                    <tr>
-                                        <th>{{ str_limit($community->name, 100) }}</th>
-                                        <td>{{ str_limit($community->information, 100) }}</td>
-                                        <td>
-                                            <div>
-                                                <a href="http://127.0.0.1:8000/community/{{ $community->permalink }}" target="_blank">表示</a>
-                                            </div>
-                                            <div>
-                                                <a href="{{ action('CommunityRepController@communityedit', ['id'=> $community->id]) }}">編集</a>
-                                            </div>
-                                            <div>
-                                                <a href="{{ action('CommunityRepController@communitydelete', ['id'=> $community->id]) }}">削除</a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    @if($community->user_id==Auth::id())
+                                        <tr>
+                                            <th>{{ str_limit($community->name, 100) }}</th>
+                                            <td>{{ str_limit($community->information, 100) }}</td>
+                                            <td>
+                                                <div>
+                                                    <a href="http://127.0.0.1:8000/community/{{ $community->permalink }}" target="_blank">表示</a>
+                                                </div>
+                                                <div>
+                                                    <a href="{{ action('CommunityRepController@communityedit', ['id'=> $community->id]) }}">編集</a>
+                                                </div>
+                                                <div>
+                                                    <a href="{{ action('CommunityRepController@communitydelete', ['id'=> $community->id]) }}">削除</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                   @endif
                                 @endforeach
                             </tbody>
                         </table>
@@ -84,29 +86,27 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            @if(count($posts))
                                 @foreach($posts as $news)
-                                    <tr>
-                                        <th>{{ str_limit($news->news_title, 100) }}</th>
-                                        <td>{{ str_limit($news->news_body, 100) }}</td>
-                                        <td>
-                                            <div>
-                                                <a href="http://127.0.0.1:8000/news/{{ $news->news_permalink }}" target="_blank">表示</a>
-                                            </div>
-                                            <div>
-                                                <a href="{{ action('CommunityRepController@newsedit', ['id'=> $news->id]) }}">編集</a>
-                                            </div>
-                                            <div>
-                                                <a href="{{ action('CommunityRepController@newsdelete', ['id'=> $news->id]) }}">削除</a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    @if($news->user_id==Auth::id())
+                                        <tr>
+                                            <th>{{ str_limit($news->news_title, 100) }}</th>
+                                            <td>{{ str_limit($news->news_body, 100) }}</td>
+                                            <td>
+                                                <div>
+                                                    <a href="http://127.0.0.1:8000/news/{{ $news->news_permalink }}" target="_blank">表示</a>
+                                                </div>
+                                                <div>
+                                                    <a href="{{ action('CommunityRepController@newsedit', ['id'=> $news->id]) }}">編集</a>
+                                                </div>
+                                                <div>
+                                                    <a href="{{ action('CommunityRepController@newsdelete', ['id'=> $news->id]) }}">削除</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    @endif
                                 @endforeach
                             </tbody>
                         </table>
-                        @else
-                           {{ $nonewsresult }}
-                        @endif
                     </div>
                 </div>
             </div>
