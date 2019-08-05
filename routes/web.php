@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+//Admin関係
+
 Route::group(['middleware' => 'auth'], function(){
   Route::get('communityrep/communitycreate', 'CommunityRepController@communityadd');
   Route::post('communityrep/communitycreate', 'CommunityRepController@communitycreate');
@@ -28,6 +31,8 @@ Route::group(['middleware' => 'auth'], function(){
   Route::post('communityrep/newsedit', 'CommunityRepController@newsupdate');
   Route::get('communityrep/newsdelete', 'CommunityRepController@newsdelete');
 });
+
+
 
 //Auth::routes();
 
@@ -48,6 +53,8 @@ Route::post('/password/reset', 'Auth\ResetPasswordController@reset');
 
 
 
+//view関係
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'ReadingPageController@toppage');
@@ -61,3 +68,10 @@ Route::get('news', 'ReadingPageController@indexnews');
 Route::get('community', 'ReadingPageController@indexcommunity');
 
 Route::get('search','SearchController@index');
+
+
+
+//contact関係
+Route::get('contact','ContactsController@index');
+Route::post('contact/confirm','ContactsController@confirm');
+Route::post('contact/complete','ContactsController@complete');

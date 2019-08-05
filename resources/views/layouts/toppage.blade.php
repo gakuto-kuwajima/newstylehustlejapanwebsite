@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters footer-section">
                         <div class="footer-section1 col-md-4 mx-auto">
                             <div class="footer-share">
                                <div class="share-title mx-auto">
@@ -112,13 +112,14 @@
                             </div>
                         </div>
                         <div class="footer-section3 col-md-4 mx-auto">
-                          <div class="footer-logo">
-                              <a href="{{ url('/') }}">
-                                  <img class="footer-logoimg" src="{{ asset('img/footer-logo.png') }}">
-                              </a>
-                          </div>
-                     </div>
-                     <div class="copyright">
+                            <div class="footer-logo">
+                                <a href="{{ url('/') }}">
+                                    <img src="{{ asset('img/footer-logo.png') }}">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
                         <address>© 2019 NEW STYLE HUSTLE JAPAN</address>
                     </div>
                 </div>

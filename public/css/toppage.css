@@ -42,7 +42,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
   /* 640px以下*/
 
   body {
@@ -55,12 +55,12 @@ h2 {
   }
 
   h2 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     /* 20px*/
   }
 
   .section-text {
-    padding-top: 0.8rem;
+    padding-top: 0.6rem;
   }
 
   .top-image {
@@ -82,9 +82,13 @@ h2 {
   .search-text-container {
     padding-left: 10px;
   }
+
+  .top {
+    margin-bottom: 30px;
+  }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px) {
   /* 640px以上*/
 
   .top-image {
@@ -107,6 +111,30 @@ h2 {
   .search-text-container {
     padding-left: 20px;
   }
+
+  .top {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
 }
 
 .top-image {
@@ -124,6 +152,7 @@ h2 {
   position: absolute;
   top: 9%;
   left: 50%;
+  -webkit-transform: translate(-50%, -9%);
   transform: translate(-50%, -9%);
   margin: 0;
   padding: 0;
@@ -136,6 +165,7 @@ h2 {
   /*文字は白に*/
   top: 85.8%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -143,10 +173,6 @@ h2 {
   font-weight: bold;
   width: 100%;
   line-height: 1.1;
-}
-
-.top {
-  margin-bottom: 40px;
 }
 
 .section1 {
@@ -159,6 +185,10 @@ h2 {
 
 .section4 {
   margin-bottom: 10px;
+}
+
+.section4-news-title {
+  margin-top: 6px;
 }
 
 .section-h2 {
@@ -179,6 +209,7 @@ h2:before {
   width: 60px;
   height: 2px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
@@ -400,7 +431,8 @@ h3 {
 }
 
 .tohoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -421,7 +453,8 @@ h3 {
 }
 
 .kanto-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -442,7 +475,8 @@ h3 {
 }
 
 .kanto-btn-tokyo:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -462,7 +496,8 @@ h3 {
 }
 
 .chubu-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -482,7 +517,8 @@ h3 {
 }
 
 .kansai-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -502,7 +538,8 @@ h3 {
 }
 
 .chugoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -522,7 +559,8 @@ h3 {
 }
 
 .shikoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -542,7 +580,8 @@ h3 {
 }
 
 .kyushu-okinawa-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 

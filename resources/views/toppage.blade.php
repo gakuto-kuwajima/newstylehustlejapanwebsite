@@ -56,7 +56,6 @@
                     </div>
                 </div>
                 <div class="posts col-md-9 mx-auto section4-news-title">
-
                    @foreach($posts as $post)
                    <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
                    <div class="post-wrapper">
@@ -101,7 +100,7 @@
                     <div class="section-h2" id="pref-title">
                         <h2>Japan Communities</h2>
                     </div>
-              　    <div class="section3-text col-md-9 mx-auto">
+              　    <div class="section-text col-md-9 mx-auto">
                   　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>住んでいる地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
               　    </div>
                     <div class="pref col-md-9 mx-auto">
