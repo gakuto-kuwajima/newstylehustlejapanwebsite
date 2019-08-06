@@ -1,5 +1,4 @@
 @extends('layouts.front')
-
 @section('content')
 
 
@@ -57,9 +56,9 @@
                         </div>
                     </div>
                     <div class="form-group row no-gutters">
-                        <label class="col-md-12" for="content">内容(必須)</label>
+                        <label class="col-md-12" for="body">内容(必須)</label>
                         <div class="col-md-12">
-                            <textarea class="form-control" name="content" rows="10" >{{ old('content')}}</textarea>
+                            <textarea class="form-control" name="body" rows="10" >{{ old('body')}}</textarea>
                         </div>
                     </div>
                     {{ csrf_field() }}
