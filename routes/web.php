@@ -73,5 +73,5 @@ Route::get('search','SearchController@index');
 
 //contact関係
 Route::get('contact','ContactsController@index');
-Route::post('contact/confirm','ContactsController@confirm');
-Route::post('contact/complete','ContactsController@complete');
+Route::post('contact','ContactsController@confirm');
+Route::post('contact/confirm','ContactsController@complete');

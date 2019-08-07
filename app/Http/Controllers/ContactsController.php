@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Request\ContactRequest;
+use App\Http\Requests\ContactRequest;
 use App\Http\Controllers\Controller;
 use App\Contact;
 
@@ -11,26 +11,30 @@ class ContactsController extends Controller
     //
     public function index()
     {
-      return view('contacts.index');
+      $keywords = '';
+      return view('contacts.index',['keywords'=>$keywords]);
     }
 
 
     public function confirm(ContactRequest $request)
     {
+      $keywords = '';
+
       $contact = new Contact($request->all());
 
-      return view('contacts.confirm',compact('content'));
+      return view('contacts.confirm',['keywords'=>$keywords],compact('contact'));
     }
 
 
     public function complete(ContactRequest $request)
     {
-      Caontact::create($request->all());
+      $keywords = '';
+
+      Contact::create($request->all());
 
       $request->session()->regenerateToken();
 
-      return view($contacts.complete);
-
+      return view('contacts.complete',['keywords'=>$keywords]);
 
       //送信メール
       \Mail::send(new \App\Mail\Contact([
@@ -39,8 +43,6 @@ class ContactsController extends Controller
           'from' => 'from@example.com',
           'from_name' => 'MySite',
           'subject' => 'お問い合わせありがとうございました。',
-          'type' => $request->type,
-          'gender' => $request->gender,
           'body' => $request->body
       ]));
 
@@ -50,10 +52,8 @@ class ContactsController extends Controller
           'from' => $request->email,
           'from_name' => $request->name,
           'subject' => 'サイトからのお問い合わせ',
-          'type' => $request->type,
-          'gender' => $request->gender,
           'body' => $request->body
-      ], 'from'));            
+      ], 'from'));
 
     }
 

@@ -9,7 +9,7 @@ class ContactRequest extends FormRequest
     /**
      * Determine if the user is authorized to make this request.
      *
-     * @return bool
+     *
      */
     public function authorize()
     {
@@ -19,7 +19,6 @@ class ContactRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array
      */
     public function rules()
     {
@@ -28,7 +27,7 @@ class ContactRequest extends FormRequest
             'name'=>'required',
             'email'=>'required',
             'subject'=>'required',
-            'content'=>'required'
+            'body'=>'required'
         ];
     }
 
@@ -37,7 +36,7 @@ class ContactRequest extends FormRequest
         'name'=>'お名前',
         'email'=>'メールアドレス',
         'subject'=>'件名',
-        'content'=>'内容'
-      ]
+        'body'=>'内容'
+      ];
     }
 }

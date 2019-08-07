@@ -1,12 +1,14 @@
-extends('layouts.front')
+@extends('layouts.front')
+
 @section('content')
 
-<div class="conainer">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel heading">
                     <h1>お問い合わせ</h1>
+                </div>
                 <div class="panel-body">
                     <p>誤りがないことを確認の上送信ボタンをクリックしてください。</p>
 
@@ -29,24 +31,27 @@ extends('layouts.front')
                         </tr>
                     </table>
 
-                    <form action="{{ action('ContactsController@complete) }}" method="post" enctype="multipart/form-data">
+                    <form action="{{ action('ContactsController@complete') }}" method="post" enctype="multipart/form-data">
                         @foreach($contact->getAttributes() as $key => $value)
                             @if(isset($value))
                                 @if(is_array($value))
                                     @foreach($value as $subValue)
-                                        <input name="{{ $key }}[]" type="hidden" value="{{ $subvalue}}">
+                                        <input name="{{ $key }}[]" type="hidden" value="{{ $subValue }}">
                                     @endforeach
                                 @else
-                                    <input name="{{ $key }}" type="hidden" value="{{ $Value }}">
+                                    <input name="{{ $key }}" type="hidden" value="{{ $value }}">
                                 @endif
                             @endif
                         @endforeach
-
-                    {{ csrf_field() }}
-                    <input type="button" class="btn-primary" value="送信">
-                    <input type="button" onclick="history.back()" class="btn-flat-border" value="戻る">
+                        {{ csrf_field() }}
+                        <input type="submit" class="btn-primary" value="送信">
+                    </form>
+                    <div class="return-button">
+                        <input type="button" onclick="history.back()" class="btn-flat-border" value="戻る">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+@endsection
