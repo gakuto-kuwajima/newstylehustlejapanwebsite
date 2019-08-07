@@ -96,7 +96,7 @@ h2 {
 }
 
 .information{
-  
+
 }
 
 .community_image{
@@ -320,4 +320,10 @@ h2 {
 
 .news_created_at i{
   padding-right: 3px;
+}
+
+.news_eyecatch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -110,9 +110,11 @@
                     </div>
                 </div>
             </div>
+            @if($news->user_id==Auth::id())
             <div class="paginate d-flex justify-content-center">
                 {{ $posts->links() }}
             </div>
+            @endif
         </div>
     </div>
 @endsection
