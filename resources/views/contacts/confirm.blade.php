@@ -1,18 +1,18 @@
-@extends('layouts.front')
+@extends('layouts.contact')
 
 @section('content')
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8 mx-auto">
             <div class="panel panel-default">
-                <div class="panel heading">
+                <div class="panel heading section-h1">
                     <h1>お問い合わせ</h1>
                 </div>
                 <div class="panel-body">
                     <p>誤りがないことを確認の上送信ボタンをクリックしてください。</p>
 
-                    <table class="table">
+                    <table class="table table-responsive-md">
                         <tr>
                             <th>お名前</th>
                             <td>{{ $contact->name }}</td>
@@ -27,9 +27,10 @@
                         </tr>
                         <tr>
                             <th>内容</th>
-                            <td>{{ $contact->body }}</td>
+                            <td>{!! nl2br(e($contact->body)) !!}</td>
                         </tr>
                     </table>
+
 
                     <form action="{{ action('ContactsController@complete') }}" method="post" enctype="multipart/form-data">
                         @foreach($contact->getAttributes() as $key => $value)
