@@ -63,6 +63,8 @@ Route::get('community/{permalink}', 'ReadingPageController@communityshow');
 
 Route::get('news/{news_permalink}', 'ReadingPageController@newsshow');
 
+Route::get('about-newstylehustle','ReadingPageController@about');
+
 Route::get('news', 'ReadingPageController@indexnews');
 
 Route::get('community', 'ReadingPageController@indexcommunity');

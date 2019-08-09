@@ -43,8 +43,8 @@ h2 {
       margin: 0 calc(50% - 50vw);
     }
     .news-image img{
-      height: 100px;
-      width: 150px;
+      height: 80px;
+      width: 130px;
       object-fit: cover;
     }
     .news-image{
@@ -57,14 +57,17 @@ h2 {
     .top{
       margin-bottom:30px;
     }
+    .section4-news-title{
+      margin-top:6px;
+    }
 }
 @media screen and (min-width: 600px) {/* 640px以上*/
   .top-image {
     width: 100%;
   }
   .news-image img{
-    height: 100px;
-    width: 150px;
+    height: 80px;
+    width: 130px;
     object-fit: cover;
   }
   .news-image{
@@ -161,9 +164,7 @@ h2 {
   margin-bottom:10px;
 }
 
-.section4-news-title{
-  margin-top:6px;
-}
+
 
 //h2見出し　共通
 .section-h2{

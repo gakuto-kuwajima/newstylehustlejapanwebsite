@@ -79,24 +79,6 @@ h2 {
   background-color: #000000;
 }
 
-#top-movie {
-  width: 100%;
-  display: block;
-  opacity: 0.7;
-}
-
-#top-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin: 0;
-  /*余計な隙間を除く*/
-  padding: 0;
-  /*余計な隙間を除く*/
-}
-
 .top {
   margin-bottom: 80px;
 }
@@ -361,6 +343,12 @@ ul.snsbtniti2 {
 }
 
 .news_eyecatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyecatch {
   display: flex;
   justify-content: center;
   align-items: center;

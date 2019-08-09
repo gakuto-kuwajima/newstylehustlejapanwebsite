@@ -38,6 +38,12 @@ class ReadingPagecontroller extends Controller
         return view('indexcommunity',['keywords'=>$keywords]);
     }
 
+    public function about()
+    {
+        $keywords = '';
+        return view('aboutnewstylehustle',['keywords'=>$keywords]);
+    }
+
     public function toppage()
     {
         $keywords = '';
