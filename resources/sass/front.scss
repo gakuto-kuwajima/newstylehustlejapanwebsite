@@ -30,6 +30,9 @@ h2 {
     .news-title h1{
         font-size: 36px;
     }
+    .balloon1{
+      padding: 17px;
+    }
 }
 
 @media screen and (max-width: 640px) {/* 640px以下*/
@@ -44,6 +47,9 @@ h2 {
     }
     .balloon-text-right{
         font-size: 1.4rem;
+    }
+    .balloon1{
+      padding: 12px;
     }
     .news-title h1{
         font-size: 26px;
@@ -123,7 +129,6 @@ h2 {
 /* 吹き出し本体 */
 .balloon1{
   position: relative;
-  padding: 17px;
   border-radius: 10px;
   color: #000;
   background-color: #e0edff;

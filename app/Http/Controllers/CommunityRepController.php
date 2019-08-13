@@ -29,7 +29,7 @@ class CommunityRepController extends Controller
             ->distinct()->latest()->paginate(5);
         } else {
             $posts = News::all()->sortByDesc('created_at');
-            $posts = News::latest()->paginate(5);
+            $posts = News::latest()->paginate(3);
         }
 
         $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。別のキーワードで再度お探しください。";

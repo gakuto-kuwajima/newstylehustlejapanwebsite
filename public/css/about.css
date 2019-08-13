@@ -36,7 +36,7 @@ h2 {
 
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4.6rem;
   }
 
   h2 {
@@ -45,6 +45,10 @@ h2 {
 
   h3 {
     font-size: 2rem;
+  }
+
+  .japancommunities-title p {
+    font-size: 3.8rem;
   }
 }
 
@@ -56,11 +60,15 @@ h2 {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
 
   h2 {
-    font-size: 2.6rem;
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
   }
 
   .section-text {
@@ -73,6 +81,10 @@ h2 {
 
   .top {
     margin-bottom: 30px;
+  }
+
+  .japancommunities-title p {
+    font-size: 2.6rem;
   }
 }
 
@@ -88,26 +100,64 @@ h2 {
 }
 
 .title {
-  margin: 0.5em 0;
+  margin: 1.2em 0;
   padding-left: 0;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.eyecatch {
+  margin-bottom: 40px;
 }
 
 .section1,
 .section2,
 .section3,
 .section4,
-.section5,
-.section6 {
-  margin-bottom: 70px;
+.section5 {
+  margin-bottom: 80px;
 }
 
-.section3-h3 {
-  padding-bottom: 20px;
+.section-h3 {
+  padding-bottom: 40px;
+}
+
+.section-h3-end {
+  padding-bottom: 0px;
 }
 
 .video {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.video-end {
+  margin-top: 20px;
+}
+
+.section-image {
+  margin-top: 20px;
+}
+
+.section-text2 {
+  margin-top: 3rem;
+}
+
+.section3-h3 {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #000;
+  /*文字色*/
+  padding: 0.2em 0;
+  /*上下の余白*/
+  border-top: solid 3px #c6190b;
+  /*上線*/
+  border-bottom: solid 3px #c6190b;
+  /*下線*/
 }
 
 h2 {
@@ -126,13 +176,39 @@ h3 {
   /*線の種類（実線） 太さ 色*/
   border-bottom: solid 3px #c6190b;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .image-text p {
   font-size: 1.4rem;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.japancommunities-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.japancommunities-title p {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.japancommunities-title p:before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
 }
 
 .pref-container {
@@ -151,10 +227,16 @@ h3 {
   color: #fff;
 }
 
-.pref h3 {
+.pref {
+  margin-top: 30px;
+}
+
+.region-name p {
   padding: .5em .75em;
   background-color: #f6f6f6;
   border-bottom: 1px solid #ccc;
+  font-weight: normal;
+  font-size: 1.6rem;
 }
 
 .region {

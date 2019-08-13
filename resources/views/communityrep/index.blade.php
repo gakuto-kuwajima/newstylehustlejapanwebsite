@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            @if($news->user_id==Auth::id())
+            @if(isset($news) && $news->user_id==Auth::id())
             <div class="paginate d-flex justify-content-center">
                 {{ $posts->links() }}
             </div>
