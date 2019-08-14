@@ -40,15 +40,15 @@ class ContactsController extends Controller
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
           'to_name' => $request->name,
-          'from' => 'from@example.com',
-          'from_name' => 'MySite',
+          'from' => 'mydance365@gmail.com',
+          'from_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
           'subject' => 'お問い合わせありがとうございました。',
           'body' => $request->body
       ]));
 
       \Mail::send(new \App\Mail\Contact([
-          'to' => 'from@example.com',
-          'to_name' => 'MySite',
+          'to' => 'mydance365@gmail.com',
+          'to_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
           'from' => $request->email,
           'from_name' => $request->name,
           'subject' => 'サイトからのお問い合わせ',

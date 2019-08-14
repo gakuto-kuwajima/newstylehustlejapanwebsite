@@ -258,7 +258,6 @@ h2 {
 /* アイコンボタンホバー時 */
 
 .flowbtn11:hover span {
-  -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
   text-decoration: none;
 }

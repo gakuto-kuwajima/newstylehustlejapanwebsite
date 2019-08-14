@@ -67,9 +67,13 @@ Route::get('about-newstylehustle','ReadingPageController@about');
 
 Route::get('news', 'ReadingPageController@indexnews');
 
+Route::get('lesson', 'ReadingPageController@lessonshow');
+
 Route::get('community', 'ReadingPageController@indexcommunity');
 
 Route::get('search','SearchController@index');
+
+
 
 
 
