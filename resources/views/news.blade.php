@@ -4,11 +4,9 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 mx-auto">
-           <div class="form-group row">
-              <div class="news-title col-md-12 mx-auto">
-                  <h1 class="text-title">{{ $post->news_title }}</h1>
-              </div>
+        <div class="col-md-10 mx-auto">
+           <div class="news-title">
+               <h1>{{ $post->news_title }}</h1>
            </div>
            <div class="form-group row">
               <div class="news_created_at">

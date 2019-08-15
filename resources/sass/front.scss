@@ -33,17 +33,75 @@ h2 {
     .balloon1{
       padding: 17px;
     }
+    .news-title{
+      margin:1.2em 0;
+    }
+    .community h2{
+       font-size: 2.8rem;
+    }
+    .community_image{
+      margin-bottom: 50px;
+    }
+
+    .video_link{
+      margin-bottom: 50px;
+    }
+
+    .message{
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    .community_contact{
+      margin-top:20px;
+      margin-bottom:50px;
+    }
+
+
+    .facebook_link{
+       margin-bottom: 50px;
+       display: block;
+     }
+
+}
+
+@media screen and ( min-width:960px) {
+  .community_name h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 640px)  and (max-width:960px) {
+  .community_name h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {/* 640px以下*/
     body{
-    line-height: 2;
+    line-height: 1.9;
     }
     h1{
         font-size: 2.8rem;/* 24px*/
     }
     h2 {
         font-size: 2.4rem;/* 20px*/
+    }
+    .community_name h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .community h2{
+       font-size: 2.2rem;
     }
     .balloon-text-right{
         font-size: 1.4rem;
@@ -52,8 +110,34 @@ h2 {
       padding: 12px;
     }
     .news-title h1{
-        font-size: 26px;
+        font-size: 24px;
     }
+    .news-title{
+      margin:0.8em 0;
+    }
+    .community_image{
+      margin-bottom: 30px;
+    }
+
+    .video_link{
+      margin-bottom: 30px;
+    }
+
+    .message{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .community_contact{
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+
+
+    .facebook_link{
+       margin-bottom: 50px;
+       display: block;
+     }
 }
 
 
@@ -77,41 +161,6 @@ h2 {
 }
 
 
-.eyecatch{
-  margin:20px;
-}
-
-.community_name{
-  margin-bottom: 20px;
-}
-
-.information{
-
-}
-
-.community_image{
-  margin-bottom: 30px;
-}
-
-.video_link{
-  margin-bottom: 30px;
-}
-
-.message{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.community_contact{
-  margin-top:20px;
-  margin-bottom:20px;
-}
-
-
-.facebook_link{
-   margin-bottom: 50px;
-   display: block;
- }
 
 
 
@@ -262,7 +311,7 @@ h2 {
 //news
 
 .news_body{
-  padding-top: 25px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 

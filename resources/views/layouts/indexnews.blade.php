@@ -108,7 +108,7 @@
                                     <p>NEW STYLE HUSTLE JAPAN WEBSITEとは</p>
                                 </div>
                                 <div class="description-sentence">
-                                    <p>NEW STYLE HUSTLE JAPAN WEBSITEでは,日本におけるニュースタイルハッスルの活動やコミュニティを紹介しています。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                                    <p>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
                                 </div>
                             </div>
                         </div>

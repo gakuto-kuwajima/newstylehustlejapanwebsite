@@ -43,12 +43,6 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="pref">都道府県（※必須）</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" name="pref" value="{{ $community_form->pref }}" placeholder="例）東京">
-                        </div>
-                    </div>
-                    <div class="form-group row">
                         <label class="col-md-2" for="information">コミュニティ情報</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="information" rows="10" placeholder="例）主に○○で活動しています。練習会は隔週○○日○○時からおこなっています。未経験の方も大歓迎です。">{{ $community_form->information }}</textarea>

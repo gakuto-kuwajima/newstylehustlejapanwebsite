@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 mx-auto">
+        <div class="community col-md-12 mx-auto">
             <div class="form-group row">
                 <div class="eyecatch col-md-12 mx-auto">
                     @if (!is_null($page->eyecatch_path))
@@ -14,7 +14,7 @@
             </div>
             <div class="form-group row">
                 <div class="community_name col-md-12 mx-auto">
-                    <h1　class="text-center">{{ $page->name }}<br>({{ $page->pref }})</h1>
+                    <h1 class="text-center">{{ $page->name }}</h1>
                 </div>
             </div>
             <div class="form-group row">
@@ -79,7 +79,7 @@
             <div class="form-group row">
                 <div class="community_contact col-md-12 mx-auto">
                     <h2>お問い合わせ</h2>
-                    <div class="text col-md-12">
+                    <div class="text">
                         <p>{!! nl2br(e($page->contact)) !!}</p>
                     </div>
                 </div>

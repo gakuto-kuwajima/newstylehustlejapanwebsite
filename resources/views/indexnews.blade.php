@@ -2,9 +2,8 @@
 
 @section('content')
     <div class="container">
-    <hr class="style">
         <div class="search-news row">
-            <div class="posts col-md-9 mx-auto mt-3">
+            <div class="posts col-md-10 mx-auto">
                 <div class="indexnews-title">
                     <h1>NEWS一覧</h1>
                 </div>

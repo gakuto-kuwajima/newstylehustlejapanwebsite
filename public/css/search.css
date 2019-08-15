@@ -65,7 +65,7 @@ h2 {
   /* 640px以下*/
 
   body {
-    line-height: 2;
+    line-height: 1.9;
   }
 
   h1 {
@@ -241,6 +241,7 @@ a:hover {
   width: 60px;
   height: 2px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;

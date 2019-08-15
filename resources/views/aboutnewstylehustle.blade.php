@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <div class="title">
-                   <h1 class="text-title">NEW STYLE HUSTLEとは</h1>
+                   <h1>NEW STYLE HUSTLEとは</h1>
                 </div>
                 <div class="eyecatch">
                     <img src="{{ asset('img/about-newstylehustle-eyecatch.jpg')}}" class="img-fluid">
@@ -180,8 +180,8 @@
                             </div>
                             <div class="section-h3">
                               　<h3>全国のコミュ二ティ</h3>
-                                <p>またもちろん東京以外でも各地方で練習会やパーティーが開催され始めています。<br>あなたもこの機会に踊ってみませんか？？<br>ぜひ以下から各地方のコミュニティの活動をのぞいてみてください。</p>
-                                <div class="pref col-md-11 mx-auto">
+                                <p>もちろん東京以外でも各地方で練習会やパーティーが開催され始めています。<br>あなたもこの機会に踊ってみませんか？？<br>ぜひ以下から各地方のコミュニティの活動をのぞいてみてください。</p>
+                                <div class="pref">
                                     <div class="pref-container">
                                         <div class="hokkaido region">
                                             <div class="region-name">

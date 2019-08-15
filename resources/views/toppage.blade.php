@@ -13,7 +13,7 @@
         </div>
         <div class="section1">
             <div class="row no-gutters">
-                <div class="text col-md-6">
+                <div class="text col-lg-6">
                     <div class="section-h2">
                         <h2>ABOUT<br>NEW STYLE HUSTLE</h2>
                     </div>
@@ -26,22 +26,22 @@
                         </a>
                     </div>
                 </div>
-                <div class="image col-md-6">
+                <div class="image col-lg-6">
                     <img src="{{ asset('img/zabueri_example.jpg')}}" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="section2">
             <div class="row no-gutters">
-                <div class="text col-md-6 order-md-2">
+                <div class="text col-lg-6 order-lg-2">
                     <div class="section-h2">
                         <h2>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。<br>（※動画参照）<br>このサイトでは日本のニュースタイルハッスルの情報を紹介します。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの活動や情報を紹介します。</p>
                     </div>
                 </div>
-                <div class="image col-md-6 order-1-md-1">
+                <div class="image col-lg-6 order-1-lg-1">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
                     </div>
@@ -50,12 +50,12 @@
         </div>
         <div class="section4">
             <div class="row no-gutters">
-                <div class="col-md-12 section4-title">
+                <div class="col-lg-12 section4-title">
                     <div class="section-h2 sectin4-h2">
                         <h2>NEWS</h2>
                     </div>
                 </div>
-                <div class="posts col-md-9 mx-auto section4-news-title">
+                <div class="posts col-lg-9 mx-auto section4-news-title">
                    @foreach($posts as $post)
                    <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
                    <div class="post-wrapper">
@@ -96,14 +96,14 @@
         </div>
         <div class="section3">
             <div class="row no-gutters">
-                <div class="col-md-12">
+                <div class="col-lg-9 mx-auto">
                     <div class="section-h2" id="pref-title">
                         <h2>Japan Communities</h2>
                     </div>
-              　    <div class="section-text col-md-9 mx-auto">
-                  　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>住んでいる地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
+              　    <div class="section-text mx-auto">
+                  　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>あなたが住んでいる地域、またはこれから訪れる地域のコミュニティをぜひのぞいてみてください。</p>
               　    </div>
-                    <div class="pref col-md-9 mx-auto">
+                    <div class="pref mx-auto">
                         <div class="pref-container">
                             <div class="hokkaido region">
                                 <h3 class="region-name">北海道地方</h3>
