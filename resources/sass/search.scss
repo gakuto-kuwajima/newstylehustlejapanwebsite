@@ -5,7 +5,7 @@ html{
 body{
     color: #000;
     font-size:1.6rem;/* 16px*/
-    line-height: 2;
+    line-height: 1.9;
 }
 h1 {
     font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
@@ -52,6 +52,9 @@ h2 {
     }
     h2 {
         font-size: 1.8rem;
+    }
+    p{
+      font-size:95%;
     }
     .page-title p{
         font-size: 1.6rem;

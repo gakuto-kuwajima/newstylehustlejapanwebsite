@@ -5,7 +5,7 @@ html{
 body{
     color: #000;
     font-size:1.6rem;/* 16px*/
-    line-height: 2;
+    line-height: 1.9;
     margin: 0;
 }
 h1 {
@@ -36,6 +36,9 @@ h2 {
       border-bottom: solid 2px black;
       font-size: 2.8rem;
       margin-bottom:22px;
+    }
+    p{
+      font-size:95%;
     }
     .section-h1{
       margin:0.8em 0;

@@ -18,7 +18,7 @@
                         <h2>ABOUT<br>NEW STYLE HUSTLE</h2>
                     </div>
                     <div class="section-text">
-                        <p>世界中で踊られている最新のペアダンス、それがニュースタイルハッスル。<br>1970年代に流行したディスコダンス「ハッスル」を元に、2009年ごろにニューヨークで誕生しました。<br>自由な発想で、自分たちの好きな音楽をパートナーと表現します。</p>
+                        <p>世界中で踊られている最新のペアダンス、それがニュースタイルハッスル。<br>1970年代に流行したディスコダンス「ハッスル」を元に、2009年ごろにニューヨークで誕生しました。<br><br>自由な発想で、自分たちの好きな音楽をパートナーと表現します。</p>
                     </div>
                     <div class="section1-link">
                         <a href="#" class="section1-button">
@@ -38,7 +38,7 @@
                         <h2>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの活動や情報を紹介します。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの活動や情報を紹介します。</p>
                     </div>
                 </div>
                 <div class="image col-lg-6 order-1-lg-1">
@@ -101,7 +101,7 @@
                         <h2>Japan Communities</h2>
                     </div>
               　    <div class="section-text mx-auto">
-                  　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>あなたが住んでいる地域、またはこれから訪れる地域のコミュニティをぜひのぞいてみてください。</p>
+                  　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>あなたが住んでいる地域、またはこれから訪れる地域のコミュニティをのぞいてみてください。</p>
               　    </div>
                     <div class="pref mx-auto">
                         <div class="pref-container">

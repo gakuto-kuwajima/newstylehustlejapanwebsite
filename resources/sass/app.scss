@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (max-width:600px){
+    .container {
+      padding:0 5%;
+    }
+}
+
 .container {
   max-width: 1170px;
   width: 100%;

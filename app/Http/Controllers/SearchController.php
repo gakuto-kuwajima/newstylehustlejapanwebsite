@@ -19,7 +19,6 @@ class SearchController extends Controller
                $pages = Community::where(function ($query) use ($keyary) {
                    foreach ($keyary as $word) {
                        $query->where('name', 'LIKE', "%{$word}%")
-                             ->orWhere('pref', 'LIKE', "%{$word}%")
                              ->orWhere('information', 'LIKE', "%{$word}%");
                    }
                })

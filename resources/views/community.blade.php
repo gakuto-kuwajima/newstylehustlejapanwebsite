@@ -5,25 +5,25 @@
 <div class="container">
     <div class="row">
         <div class="community col-md-12 mx-auto">
-            <div class="form-group row">
+            <div class="row">
                 <div class="eyecatch col-md-12 mx-auto">
                     @if (!is_null($page->eyecatch_path))
                         <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">
                     @endif
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="row">
                 <div class="community_name col-md-12 mx-auto">
                     <h1 class="text-center">{{ $page->name }}</h1>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="row">
                 <div class="information col-md-12 mx-auto">
                     <h2>コミュニティ情報</h2>
                     <p>{!! nl2br(e($page->information)) !!}</p>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="row">
                 @if (!is_null($page->image1_path))
                 <div class="community_image col-md-4">
                     <img src="{{ asset('storage/image/' . $page->image1_path) }}" class="img-fluid">
@@ -62,7 +62,7 @@
                 @endif
             </div>
             @if (!is_null($page->message))
-            <div class="form-group row">
+            <div class="row">
                 <div class="message col-md-12 mx-auto">
                     <h2>代表者メッセージ</h2>
                     <div class="balloon1">
@@ -76,7 +76,7 @@
                 </div>
             </div>
             @endif
-            <div class="form-group row">
+            <div class="row">
                 <div class="community_contact col-md-12 mx-auto">
                     <h2>お問い合わせ</h2>
                     <div class="text">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="row">
                 <div class="facebook_link col-md-12 mx-auto">
                   <h2>各種SNSやウェブサイト</h2>
                   <p>各種SNSやウェブサイトで最新の情報を更新しています。</p>
@@ -105,7 +105,7 @@
                       @endif
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="row">
                <div class="col-md-12 page-return">
                    <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
                </div>

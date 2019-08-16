@@ -8,7 +8,7 @@ body {
   color: #000;
   font-size: 1.6rem;
   /* 16px*/
-  line-height: 2;
+  line-height: 1.9;
 }
 
 h1 {
@@ -59,25 +59,25 @@ h2 {
   }
 
   .community_image {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .video_link {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .message {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .community_contact {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
   }
 
   .facebook_link {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     display: block;
   }
 }
@@ -117,6 +117,10 @@ h2 {
     /* 20px*/
   }
 
+  p {
+    font-size: 95%;
+  }
+
   .community_name h1 {
     font-weight: bold;
     font-size: 3rem;
@@ -145,21 +149,21 @@ h2 {
   }
 
   .community_image {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .video_link {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .message {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .community_contact {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   .facebook_link {

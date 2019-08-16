@@ -74,8 +74,6 @@
                                     <div class="search-text">
                                       <div class="post-title">
                                           <p class="name mx-auto">{{ str_limit($page->name, 100) }}</p>
-
-                                          <p class="pref mx-auto">({{ str_limit($page->pref, 100) }})</p>
                                       </div>
                                       <div class="date">
                                           <p><i class="far fa-calendar-alt"></i>{{ $page->created_at->format('Y年m月d日') }}</p>

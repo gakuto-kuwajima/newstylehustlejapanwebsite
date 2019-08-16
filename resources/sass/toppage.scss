@@ -5,7 +5,7 @@ html{
 body{
     color: #000;
     font-size:1.6rem;/* 16px*/
-    line-height: 2;
+    line-height: 1.9;
     margin: 0;
 }
 h1 {
@@ -28,13 +28,16 @@ h2 {
 }
 @media screen and (max-width: 600px) {/* 640px以下*/
     body{
-    line-height: 2;
+    line-height: 1.9;
     }
     h1{
         font-size: 2.2rem;/* 24px*/
     }
     h2 {
         font-size: 2.6rem;/* 20px*/
+    }
+    p{
+      font-size:95%;
     }
     .section-text{
       padding-top: 0.6rem;
@@ -60,6 +63,9 @@ h2 {
     .section4-news-title{
       margin-top:6px;
     }
+    .section-text{
+      width:95%;
+    }
 }
 @media screen and (min-width: 600px) {/* 640px以上*/
   .top-image {
@@ -82,6 +88,12 @@ h2 {
   .top{
     margin-bottom:40px;
   }
+  .section-text{
+    width:90%;
+  }
+  .pref {
+    width:90%;
+  }
 }
 
 @media screen and (min-width:600px) and ( max-width:960px) {
@@ -103,6 +115,24 @@ h2 {
       font-size: 3rem;
   }
 }
+
+@media screen and (max-width:992px) {
+  .section1-link{
+      margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .section2 p{
+    margin-bottom:0;
+  }
+}
+
+.section-text{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 //アイキャッチのビデオについて
@@ -147,11 +177,7 @@ h2 {
 
 
 
-
-
 //間の空間
-
-
 .section1{
   margin-bottom:70px;
 }
@@ -191,19 +217,10 @@ h2:before {
 }
 
 
-
-
 //section1
-.section-text{
-  width:90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .section1-link{
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .section1-button{
@@ -388,9 +405,6 @@ a:hover{
   color: #fff;
 }
 
-.pref {
-  width:90%;
-}
 
 h3 {
   padding: .5em .75em;
