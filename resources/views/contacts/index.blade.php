@@ -4,13 +4,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 mx-auto">
-           <hr color="#c0c0c0">
-        </div>
-        <div class="col-md-8 mx-auto contact-form">
+        <div class="col-md-10 mx-auto contact-form">
             <div class="panel panel-default">
                 <div class="section-h1">
                     <h1>お問い合わせ</h1>
+                </div>
+                <div class="contact-conditions">
+                    <p>各コミュニティに対してのお問い合わせは各コミュニティへお願いします。<br>それ以外のお問い合わせに限り以下のフォームからお問い合わせください。</p>
                 </div>
                 <form action="{{ action('ContactsController@confirm') }}" method="post" enctype="multipart/form-data">
                 <div class="panel-body">

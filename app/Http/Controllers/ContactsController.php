@@ -34,8 +34,6 @@ class ContactsController extends Controller
 
       $request->session()->regenerateToken();
 
-      return view('contacts.complete',['keywords'=>$keywords]);
-
       //送信メール
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
@@ -54,6 +52,8 @@ class ContactsController extends Controller
           'subject' => 'サイトからのお問い合わせ',
           'body' => $request->body
       ], 'from'));
+
+      return view('contacts.complete',['keywords'=>$keywords]);
 
     }
 
