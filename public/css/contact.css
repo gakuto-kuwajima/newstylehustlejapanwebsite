@@ -132,3 +132,23 @@ table {
   /* セルの線を重ねる */
 }
 
+.button-css {
+  display: inline-block;
+  padding: 0.3em 2em;
+  text-decoration: none;
+  color: #fff;
+  border: solid 2px #007bff;
+  border-radius: 3px;
+  transition: .4s;
+  background: transparent;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: #007bff;
+}
+
+.button {
+  margin-top: 15px;
+}
+

@@ -25,6 +25,14 @@ class ContactsController extends Controller
       return view('contacts.confirm',['keywords'=>$keywords],compact('contact'));
     }
 
+    public function correct(ContactRequest $request)
+    {
+      $keywords = '';
+
+      $contact = new Contact($request->all());
+
+      return view('contacts.correction',['keywords'=>$keywords],compact('contact'));
+    }
 
     public function complete(ContactRequest $request)
     {

@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 mx-auto">
+        <div class="col-md-10 mx-auto">
             <div class="panel panel-default">
                 <div class="panel heading section-h1">
                     <h1>お問い合わせ</h1>
@@ -31,6 +31,14 @@
                         </tr>
                     </table>
 
+                    <form action="{{ action('ContactsController@correct') }}" method="post" enctype="multipart/form-data">
+                        <input class="form-control" name="name" type="hidden" value="{{ $contact->name }}" >
+                        <input class="form-control" name="email" type="hidden" value="{{ $contact->email }}" >
+                        <input class="form-control" name="subject" type="hidden" value="{{ $contact->subject }}" >
+                        <input class="form-control" name="body" type="hidden" value="{{ $contact->body }}" >
+                        {{ csrf_field() }}
+                        <input type="submit" class="btn-flat-border" value="修正">
+                    </form>
 
                     <form action="{{ action('ContactsController@complete') }}" method="post" enctype="multipart/form-data">
                         @foreach($contact->getAttributes() as $key => $value)
@@ -45,11 +53,8 @@
                             @endif
                         @endforeach
                         {{ csrf_field() }}
-                        <input type="submit" class="btn-primary" value="送信">
+                        <input type="submit" class="btn-primary  button-css" value="送信">
                     </form>
-                    <div class="return-button">
-                        <input type="button" onclick="history.back()" class="btn-flat-border" value="戻る">
-                    </div>
                 </div>
             </div>
         </div>
