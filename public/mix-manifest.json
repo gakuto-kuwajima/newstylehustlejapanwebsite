@@ -5,8 +5,9 @@
     "/css/front.css": "/css/front.css",
     "/css/toppage.css": "/css/toppage.css",
     "/css/about.css": "/css/about.css",
+    "/css/contact.css": "/css/contact.css",
+    "/css/lesson.css": "/css/lesson.css",
     "/css/search.css": "/css/search.css",
     "/css/indexcommunity.css": "/css/indexcommunity.css",
-    "/css/indexnews.css": "/css/indexnews.css",
-    "/css/contact.css": "/css/contact.css"
+    "/css/indexnews.css": "/css/indexnews.css"
 }
