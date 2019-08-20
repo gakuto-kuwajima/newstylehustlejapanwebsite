@@ -189,7 +189,6 @@ h2 {
   position: absolute;
   top: 9%;
   left: 50%;
-  -webkit-transform: translate(-50%, -9%);
   transform: translate(-50%, -9%);
   margin: 0;
   padding: 0;
@@ -202,7 +201,6 @@ h2 {
   /*文字は白に*/
   top: 85.8%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -242,7 +240,6 @@ h2:before {
   width: 60px;
   height: 2px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
@@ -459,8 +456,7 @@ h3 {
 }
 
 .tohoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -481,8 +477,7 @@ h3 {
 }
 
 .kanto-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -503,8 +498,7 @@ h3 {
 }
 
 .kanto-btn-tokyo:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -524,8 +518,7 @@ h3 {
 }
 
 .chubu-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -545,8 +538,7 @@ h3 {
 }
 
 .kansai-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -566,8 +558,7 @@ h3 {
 }
 
 .chugoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -587,8 +578,7 @@ h3 {
 }
 
 .shikoku-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -608,8 +598,7 @@ h3 {
 }
 
 .kyushu-okinawa-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  transform: translateY(4px);
   border-bottom: none;
 }
 
