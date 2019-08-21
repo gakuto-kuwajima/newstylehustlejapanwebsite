@@ -1,15 +1,12 @@
 @extends('layouts.about')
 
 @section('content')
+    <div class="title_box">
+        <h1 class="title">NEW STYLE HUSTLEとは</h1>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <div class="title">
-                   <h1>NEW STYLE HUSTLEとは</h1>
-                </div>
-                <div class="eyecatch">
-                    <img src="{{ asset('img/about-newstylehustle-eyecatch.jpg')}}" class="img-fluid">
-                </div>
                 <div class="section1">
                     <div class="row">
                         <div class="text col-md-12">
@@ -33,7 +30,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NdMqhdWXats?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text text-top">

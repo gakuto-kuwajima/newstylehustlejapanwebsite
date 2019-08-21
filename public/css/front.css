@@ -258,100 +258,140 @@ h2 {
 
 /* SNSボタン全体 */
 
-.flowbtn11 {
-  font-family: 'Verdana',sans-serif;
+i {
+  margin-right: 5px;
+}
+
+.sns_btn_wrapper {
+  margin-top: 15px;
+  display: block;
+  text-align: -webkit-center;
+}
+
+.sns_btn_wrapper span {
+  position: relative;
+}
+
+.sns_btn_fb {
+  color: #fff;
+  background-color: #3b5998;
+  /*背景色の変更*/
+  font-weight: bold;
   border-radius: 4px;
+  cursor: pointer;
+  line-height: normal;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 14px 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  width: 240px;
+  height: 53px;
+  transition: .2s ease-out;
+}
+
+.sns_btn_fb:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+.sns_btn_insta {
+  color: #FFF;
+  /*文字・アイコン色*/
+  font-weight: bold;
+  border-radius: 4px;
+  /*角丸に*/
   position: relative;
   display: inline-block;
-  width: 220px;
-  font-size: 28px;
-  color: #fff !important;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-
-/* Twitter */
-
-.fl_tw1 {
-  background: #55acee;
-}
-
-/* Instagramアイコン位置 */
-
-.insta_btn11 .fa-instagram {
-  position: relative;
-  z-index: 1;
-}
-
-/* Instagram紫グラデ背景色 */
-
-.insta_btn11 {
+  height: 53px;
+  /*高さ*/
+  width: 240px;
+  /*幅*/
+  text-align: center;
+  /*中身を中央寄せ*/
+  font-size: 20px;
+  /*文字のサイズ*/
+  line-height: 53px;
+  /*高さと合わせる*/
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  /*グラデーション①*/
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  /*はみ出た部分を隠す*/
+  text-decoration: none;
+  /*下線は消す*/
+  transition: .2s ease-out;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.sns_btn_insta:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
 /* Instagramオレンジグラデ背景色 */
 
-.insta_btn11:before {
+.sns_btn_insta:before {
   content: '';
   position: absolute;
-  top: 17px;
-  left: -75px;
+  top: 0;
+  left: 0;
   width: 100%;
+  /*全体を覆う*/
   height: 100%;
-  background: radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+  /*全体を覆う*/
+  background: linear-gradient(15deg, #ffdb2c, #f9764c 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
 }
 
-/* Facebook */
-
-.fl_fb1 {
-  background: #3b5998;
-}
-
-/* ウェブサイト */
-
-.fl_web11 {
-  background: #f3981d;
-  margin-top: -10px;
-}
-
-/* アイコンボタンホバー時 */
-
-.flowbtn11:hover span {
-  transform: rotateX(360deg);
+.sns_btn_web {
+  color: #fff;
+  background-color: #f3981d;
+  /*背景色の変更*/
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: normal;
   text-decoration: none;
-}
-
-/* ボタン内テキスト調整 */
-
-.flowbtn11 span {
+  border: 2px solid transparent;
+  padding: 14px 20px;
   font-size: 20px;
-  position: relative;
-  left: 8px;
-  bottom: 2px;
-  transition: .6s;
-  display: inline-block;
-}
-
-/* ulタグの内側余白を０にする */
-
-ul.snsbtniti2 {
-  padding: 0 !important;
-  list-style-type: none !important;
-}
-
-/* アイコンボタンの位置調整 */
-
-.snsbtniti2 {
   display: flex;
-  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  width: 240px;
+  height: 53px;
+  transition: .2s ease-out;
+  margin-top: 5px;
 }
 
-/* アイコンボタン同士の余白調整 */
-
-.snsbtniti2 li {
-  flex: 0 0 50%;
-  text-align: center !important;
+.sns_btn_web:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
 .news_body {

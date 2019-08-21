@@ -46,14 +46,14 @@ class ContactsController extends Controller
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
           'to_name' => $request->name,
-          'from' => 'mydance365@gmail.com',
+          'from' => 'mail@newstylehustlejapan.com',
           'from_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
           'subject' => 'お問い合わせありがとうございました。',
           'body' => $request->body
       ]));
 
       \Mail::send(new \App\Mail\Contact([
-          'to' => 'mydance365@gmail.com',
+          'to' => 'mail@newstylehustlejapan.com',
           'to_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
           'from' => $request->email,
           'from_name' => $request->name,

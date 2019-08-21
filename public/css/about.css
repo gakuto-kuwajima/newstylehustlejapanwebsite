@@ -34,12 +34,6 @@ h2 {
 }
 
 @media screen and (min-width: 600px) {
-  h1 {
-    border-bottom: solid 3px black;
-    font-size: 4rem;
-    margin-bottom: 27.192px;
-  }
-
   h2 {
     font-size: 2.8rem;
   }
@@ -51,19 +45,47 @@ h2 {
   .japancommunities-title p {
     font-size: 3.8rem;
   }
+
+  .title_box {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  .title_box {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+
+  .title_box {
+    height: 35vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  /* 640px以下*/
+  /* 600px以下*/
 
   body {
     line-height: 1.9;
   }
 
   h1 {
-    border-bottom: solid 2px black;
-    font-size: 2.7rem;
-    margin-bottom: 22px;
+    font-size: 2.8rem;
   }
 
   h2 {
@@ -82,16 +104,16 @@ h2 {
     padding-left: 10px;
   }
 
-  .top {
-    margin-bottom: 30px;
-  }
-
   .japancommunities-title p {
     font-size: 2.6rem;
   }
 
   p {
     font-size: 95%;
+  }
+
+  .title_box {
+    margin-bottom: 30px;
   }
 }
 
@@ -101,25 +123,40 @@ h2 {
   h1 {
     font-size: 2.4rem;
   }
+
+  h2 {
+    font-size: 1.9rem;
+  }
 }
 
-.eyecatch {
+.title_box {
+  background-image: url(/images/zabueri_example.jpg?731a9269844bbb26107b47ff38f1b673);
+  background-position: center 8%;
+  background-size: cover;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: 1.2em;
+  position: relative;
+  overflow: hidden;
 }
 
-.eyecatch img {
-  width: 100%;
+.title_box:before {
+  /* 透過した黒を重ねる */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* どの範囲に重ねるかを指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
 }
 
 .title {
-  margin: 1.2em 0;
-}
-
-.eyecatch {
-  margin-bottom: 40px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
 }
 
 .section1,
@@ -210,6 +247,7 @@ h3 {
   width: 60px;
   height: 2px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
@@ -267,7 +305,8 @@ h3 {
 }
 
 .tohoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -288,7 +327,8 @@ h3 {
 }
 
 .kanto-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -309,7 +349,8 @@ h3 {
 }
 
 .kanto-btn-tokyo:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -329,7 +370,8 @@ h3 {
 }
 
 .chubu-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -349,7 +391,8 @@ h3 {
 }
 
 .kansai-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -369,7 +412,8 @@ h3 {
 }
 
 .chugoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -389,7 +433,8 @@ h3 {
 }
 
 .shikoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -409,7 +454,8 @@ h3 {
 }
 
 .kyushu-okinawa-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 

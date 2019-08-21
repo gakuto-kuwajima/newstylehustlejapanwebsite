@@ -89,19 +89,19 @@
                   <h2>各種SNSやウェブサイト</h2>
                   <p>各種SNSやウェブサイトで最新の情報を更新しています。</p>
                       @if (!is_null($page->facebook_link))
-                      <ul class="snsbtniti2">
-                          <li class ="col-md-12 mx-auto"><a href="{{ $page->facebook_link }}" class="flowbtn11 fl_fb1"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-                      </ul>
+                      <div class="sns_btn_wrapper">
+                          <a href="{{ $page->facebook_link }}" class="sns_btn_fb"><i class="fab fa-facebook-f"></i>Facebook</a>
+                      </div>
                       @endif
                       @if (!is_null($page->instagram_link))
-                      <ul class="snsbtniti2">
-                          <li class ="col-md-12 mx-auto"><a href="{{ $page->instagram_link }}" class="flowbtn11 insta_btn11"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-                      </ul>
+                      <div class="sns_btn_wrapper">
+                          <a href="{{ $page->instagram_link }}" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>Instagram</span></a>
+                      </div>
                       @endif
                       @if (!is_null($page->website_link))
-                      <ul class="snsbtniti2">
-                          <li class ="col-md-12 mx-auto"><a href="{{ $page->website_link }}" class="flowbtn11 fl_web11"><i class="fas fa-laptop"></i><span>Website</span></a></li>
-                      </ul>
+                      <div class="sns_btn_wrapper">
+                          <a href="{{ $page->website_link }}" class="sns_btn_web"><i class="fas fa-laptop"></i><span>Website</span></a>
+                      </div>
                       @endif
                 </div>
             </div>
