@@ -1,13 +1,12 @@
 @extends('layouts.lesson')
 
 @section('content')
-
+<div class="title_box">
+   <h1 class="title text-center">LESSON INFORMATION</h1>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <div class="title">
-               <h1>レッスン情報</h1>
-            </div>
             <div class="information">
                 <p>※記載してる内容は東京の情報のみです。<br>各地域の情報はこちらからご確認ください。</p>
             </div>

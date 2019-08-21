@@ -31,30 +31,33 @@
                         </tr>
                     </table>
 
-                    <form action="{{ action('ContactsController@correct') }}" method="post" enctype="multipart/form-data">
-                        <input class="form-control" name="name" type="hidden" value="{{ $contact->name }}" >
-                        <input class="form-control" name="email" type="hidden" value="{{ $contact->email }}" >
-                        <input class="form-control" name="subject" type="hidden" value="{{ $contact->subject }}" >
-                        <input class="form-control" name="body" type="hidden" value="{{ $contact->body }}" >
-                        {{ csrf_field() }}
-                        <input type="submit" class="btn-flat-border" value="修正">
-                    </form>
-
-                    <form action="{{ action('ContactsController@complete') }}" method="post" enctype="multipart/form-data">
-                        @foreach($contact->getAttributes() as $key => $value)
-                            @if(isset($value))
-                                @if(is_array($value))
-                                    @foreach($value as $subValue)
-                                        <input name="{{ $key }}[]" type="hidden" value="{{ $subValue }}">
-                                    @endforeach
-                                @else
-                                    <input name="{{ $key }}" type="hidden" value="{{ $value }}">
+                    <div class="correction-btn text-center">
+                        <form action="{{ action('ContactsController@correct') }}" method="post" enctype="multipart/form-data">
+                            <input class="form-control" name="name" type="hidden" value="{{ $contact->name }}" >
+                            <input class="form-control" name="email" type="hidden" value="{{ $contact->email }}" >
+                            <input class="form-control" name="subject" type="hidden" value="{{ $contact->subject }}" >
+                            <input class="form-control" name="body" type="hidden" value="{{ $contact->body }}" >
+                            {{ csrf_field() }}
+                            <input type="submit" class="btn-flat-border" value="修正">
+                        </form>
+                    </div>
+                    <div class="send-btn text-center">
+                        <form action="{{ action('ContactsController@complete') }}" method="post" enctype="multipart/form-data">
+                            @foreach($contact->getAttributes() as $key => $value)
+                                @if(isset($value))
+                                    @if(is_array($value))
+                                        @foreach($value as $subValue)
+                                            <input name="{{ $key }}[]" type="hidden" value="{{ $subValue }}">
+                                        @endforeach
+                                    @else
+                                        <input name="{{ $key }}" type="hidden" value="{{ $value }}">
+                                    @endif
                                 @endif
-                            @endif
-                        @endforeach
-                        {{ csrf_field() }}
-                        <input type="submit" class="btn-primary  button-css" value="送信">
-                    </form>
+                            @endforeach
+                            {{ csrf_field() }}
+                            <input type="submit" class="btn-primary  button-css" value="送信">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

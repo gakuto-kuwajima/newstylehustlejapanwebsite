@@ -128,6 +128,10 @@ table {
   /* セルの線を重ねる */
 }
 
+.table {
+  margin-bottom: 15px;
+}
+
 .button-css {
   display: inline-block;
   padding: 0.3em 2em;
@@ -146,5 +150,9 @@ table {
 
 .button {
   margin-top: 15px;
+}
+
+.correction-btn {
+  margin-bottom: 15px;
 }
 

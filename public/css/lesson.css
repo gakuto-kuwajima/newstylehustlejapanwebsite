@@ -31,37 +31,45 @@ p {
   margin-bottom: 0;
 }
 
-@media (min-width: 1200px) {
-  /* 1200px以上*/
-
-  h1 {
-    font-size: 4.6rem;
-    /* 36px*/
-  }
-
-  h2 {
-    font-size: 2.8rem;
-    /* 24px*/
-  }
-}
-
 @media screen and (min-width: 600px) {
-  h1 {
-    border-bottom: solid 3px black;
-    font-size: 3.8rem;
-    margin-bottom: 27.192px;
-  }
-
-  .title {
-    margin: 1.2em 0;
-  }
-
   h2 {
     font-size: 2.8rem;
   }
 
   h3 {
     font-size: 2rem;
+  }
+
+  .title_box {
+    background-image: url(/images/lesson-image4.jpg?d92b24e564ae90e2a6c5002ec5f3644b);
+    background-position: center 28%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  .title_box {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+
+  .title_box {
+    height: 35vh;
   }
 }
 
@@ -73,9 +81,7 @@ p {
   }
 
   h1 {
-    border-bottom: solid 2px black;
-    font-size: 2.6rem;
-    margin-bottom: 22px;
+    font-size: 2.8rem;
   }
 
   h2 {
@@ -86,8 +92,26 @@ p {
     font-size: 1.8rem;
   }
 
+  .section-text {
+    padding-top: 0.6rem;
+  }
+
+  .search-text-container {
+    padding-left: 10px;
+  }
+
+  .japancommunities-title p {
+    font-size: 2.6rem;
+  }
+
   p {
     font-size: 95%;
+  }
+
+  .title_box {
+    background-image: url(/images/lesson-image.jpg?ac7aafd75edc6f4f71667125f5669a5d);
+    background-position: center 8%;
+    margin-bottom: 30px;
   }
 }
 
@@ -97,6 +121,34 @@ p {
   h1 {
     font-size: 2.4rem;
   }
+}
+
+.title_box {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.title_box:before {
+  /* 透過した黒を重ねる */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* どの範囲に重ねるかを指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
 }
 
 .h2-title-lesson h2 {
@@ -243,8 +295,7 @@ iframe {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
+  transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -276,8 +327,7 @@ iframe {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
+  transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -310,8 +360,7 @@ iframe {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
+  transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 

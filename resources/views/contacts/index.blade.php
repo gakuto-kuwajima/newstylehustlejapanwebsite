@@ -39,7 +39,7 @@
                         <div class="form-group row">
                             <label class="col-md-12" for="email">メールアドレス（必須）</label>
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="email" autocomplete="off" value="{{ old('email') }}" >
+                                <input type="text" class="form-control" name="email" value="{{ old('email') }}" >
                                 @if ($errors->has('email'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>

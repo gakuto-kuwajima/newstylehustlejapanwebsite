@@ -113,7 +113,7 @@
                         <div class="tohoku region">
                     　      <h3 class="region-name">東北地方</h3>
                       　    <div class="tohoku-list">
-                        　　    <a href="http://127.0.0.1:8000/community/page/1" class="tohoku-btn">宮城</a>
+                        　　    <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'miyagi'])}}" class="tohoku-btn">宮城</a>
                             </div>
                         </div>
                         <div class="kanto region">
