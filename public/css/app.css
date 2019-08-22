@@ -10673,6 +10673,11 @@ a.text-dark:focus {
   width: 100%;
 }
 
+.container-head {
+  max-width: 1500px;
+  width: 100%;
+}
+
 .navbar-nav a {
   padding-left: 15px;
   padding-right: 15px;

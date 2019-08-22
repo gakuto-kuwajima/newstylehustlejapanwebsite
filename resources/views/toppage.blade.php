@@ -1,16 +1,16 @@
 @extends('layouts.toppage')
 
 @section('content')
-    <div class="container">
-        <div class="top">
-            <div class="row no-gutters">
-                <div class="top-image">
-                    <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
-                    <img src="{{ asset('img/newstylehustlejapan-white.png')}}" class="img-fluid">
-                    <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
-                </div>
+　　<div class="container-head mx-auto">　　
+        <div class="top mx-auto">
+            <div class="top-image mx-auto">
+                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
+                <img src="{{ asset('img/newstylehustlejapan-white.png')}}" class="img-fluid">
+                <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="section1">
             <div class="row no-gutters">
                 <div class="text col-lg-6">
