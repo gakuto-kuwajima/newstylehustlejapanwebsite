@@ -29,41 +29,51 @@
     </head>
     <body>
         <div id="app">
-            {{-- 画面上部に表示するナビゲーションバーです。 --}}
-            <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
-                <div class="container">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('img/newstylehustlejapan-logo.png') }}">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+          {{-- 画面上部に表示するナビゲーションバーです。 --}}
+          <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+              <div class="container">
+                  <a class="navbar-brand" href="{{ url('/') }}">
+                      <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- Left Side Of Navbar -->
-                        <ul class="navbar-nav mr-auto">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <!-- Left Side Of Navbar -->
+                      <ul class="navbar-nav mr-auto">
 
-                        </ul>
+                      </ul>
 
-                        <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ml-auto">
+                      <!-- Right Side Of Navbar -->
+                      <ul class="navbar-nav ml-auto">
 
-                        <!-- Authentication Links -->
-                             <li><a href="#">ニュースタイルハッスルとは</a></li>
-                             <li><a href="#">全国のコミュニティ</a></li>
-                             <li><a href="#">お問い合わせ</a></li>
-                            {{-- 以上までを追記 --}}
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0" action="{{ action('SearchController@index') }}" method="get">
-                            <input type="search" class="form-control search-form mr-sm-2" placeholder="検索..." aria-label="検索..." name="keywords" value="{{ $keywords }}">
-                            <button type="submit" class="btn btn-outline-success my-2 my-sm-0">検索</button>
-                            {{ csrf_field() }}
-                        </form>
-                    </div>
-                </div>
-            </nav>
-            {{-- ここまでナビゲーションバー --}}
-
+                      <!-- Authentication Links -->
+                           <li><a href="#">HOME</a></li>
+                           <li class="dropdown">
+                             <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               WHAT'S NEW STYLE HUSTLE
+                             </a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item" href="#">ABOUT NEW STYLE HUSTLE</a>
+                               <a class="dropdown-item" href="#">VIDEO</a>
+                             </div>
+                           </li>
+                           <li><a href="#">NEWS</a></li>
+                           <li><a href="#">COMMUNITY</a></li>
+                           <li><a href="#">LESSON</a></li>
+                           <li><a href="#">CONTACT</a></li>
+                          {{-- 以上までを追記 --}}
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0" action="{{ action('SearchController@index') }}" method="get">
+                          <input type="search" class="form-control search-form mr-sm-2" placeholder="search..." aria-label="search..." name="keywords" value="{{ $keywords }}">
+                          <button type="submit" class="btn btn-outline-success my-2 my-sm-0">search</button>
+                          {{ csrf_field() }}
+                      </form>
+                  </div>
+              </div>
+          </nav>
+          {{-- ここまでナビゲーションバー --}}
             <main class="py-4">
                 {{-- コンテンツをここに入れるため、@yieldで空けておきます。 --}}
                 @yield('content')

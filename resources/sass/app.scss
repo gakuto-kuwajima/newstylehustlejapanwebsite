@@ -55,6 +55,24 @@
   }
 }
 
+@media screen and (max-width:992px){
+  .navbar-nav {
+    margin-top:5px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .form-search {
+    width:50%;
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown a {
+    text-align: center;
+  }
+}
+
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -75,9 +93,6 @@
   font-weight: bold;
 }
 
-.navbar-nav{
-  padding-right: 15px;
-}
 
 .search-form{
   font-size: 0.8em;
@@ -87,6 +102,9 @@
   font-size: 0.8em;
 }
 
+.search-btn {
+  margin-top: 0.5rem ;
+}
 
 
 //footer

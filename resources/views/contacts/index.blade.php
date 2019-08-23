@@ -1,6 +1,6 @@
 @extends('layouts.contact')
-@section('content')
 
+@section('content')
 
 <div class="container">
     <div class="row">
@@ -28,7 +28,7 @@
                         <div class="form-group row">
                             <label class="col-md-12" for="name">お名前（必須）</label>
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="name" value="{{ old('name') }}" >
+                                <input type="text" class="form-control form-contact" name="name" value="{{ old('name') }}" >
                                 @if ($errors->has('name'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('name') }}</strong>
@@ -39,7 +39,7 @@
                         <div class="form-group row">
                             <label class="col-md-12" for="email">メールアドレス（必須）</label>
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="email" value="{{ old('email') }}" >
+                                <input type="text" class="form-control form-contact" name="email" value="{{ old('email') }}" >
                                 @if ($errors->has('email'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>
@@ -50,7 +50,7 @@
                         <div class="form-group row">
                             <label class="col-md-12" for="subject">件名（必須）</label>
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" value="{{ old('subject') }}" >
+                                <input type="text" class="form-control form-contact" name="subject" value="{{ old('subject') }}" >
                                 @if ($errors->has('subject'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('subject') }}</strong>
@@ -61,7 +61,7 @@
                         <div class="form-group row">
                             <label class="col-md-12" for="body">内容（必須）</label>
                             <div class="col-md-12">
-                                <textarea class="form-control" name="body" rows="7" >{{ old('body') }}</textarea>
+                                <textarea class="form-control form-contact" name="body" rows="7" >{{ old('body') }}</textarea>
                                 @if ($errors->has('body'))
                                 <span class="help-block">
                                         <strong>{{ $errors->first('body') }}</strong>

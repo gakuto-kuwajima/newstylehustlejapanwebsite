@@ -65,11 +65,13 @@
                              <li><a href="#">CONTACT</a></li>
                             {{-- 以上までを追記 --}}
                         </ul>
+                        <div class="form-search mx-auto">
                         <form class="form-inline my-2 my-lg-0" action="{{ action('SearchController@index') }}" method="get">
                             <input type="search" class="form-control search-form mr-sm-2" placeholder="search..." aria-label="search..." name="keywords" value="{{ $keywords }}">
-                            <button type="submit" class="btn btn-outline-success my-2 my-sm-0">search</button>
+                            <button type="submit" class="btn btn-outline-success my-2 my-sm-0 search-btn">search</button>
                             {{ csrf_field() }}
                         </form>
+                        </div>
                     </div>
                 </div>
             </nav>

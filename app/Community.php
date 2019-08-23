@@ -12,6 +12,7 @@ class Community extends Model
     public static $rules = array(
         'permalink' => 'required',
         'name' => 'required',
+        'pref' => 'required',
         'facebook_link' =>'required',
     );
 
