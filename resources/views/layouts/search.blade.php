@@ -78,44 +78,48 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row no-gutters footer-section">
-                        <div class="footer-section1 col-md-4 mx-auto">
-                            <div class="footer-share">
-                               <div class="share-title mx-auto">
-                                  <p>SHARE</p>
-                               </div>
-                            </div>
-                            <div class="share-button">
-                                <ul class="snsbtniti">
-                      　        <!--twitter-->
-                                    <li><a href="TwitterのプロフィールURL" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
-                                <!--facebook-->
-                                    <li><a href="FacebookページのURL" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="footer-menu mx-auto">
-                                <ul>
-                                    <li><a href="#">トップページ</a></li>
-                                    <li><a href="#">ニュースタイルハッスルとは</a></li>
-                                    <li><a href="#">全国のコミュニティ</a></li>
-                                    <li><a href="#">お問い合わせ</a></li>
-                                </ul>
-                            </div>
+                    <div class="footer-up">
+                        <div class="footer-share">
+                           <div class="share-title mx-auto">
+                              <p>SHARE</p>
+                           </div>
                         </div>
-                        <div class="footer-section2 col-md-4 mx-auto">
-                            <div class="description">
-                                <div class="description-title">
-                                    <p>NEW STYLE HUSTLE JAPAN WEBSITEとは</p>
-                                </div>
-                                <div class="description-sentence">
-                                    <p>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                        <div class="share-button">
+                            <ul class="snsbtniti">
+                  　        <!--twitter-->
+                                <li><a href="TwitterのプロフィールURL" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
+                            <!--facebook-->
+                                <li><a href="FacebookページのURL" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-down">
+                        <div class="row no-gutters footer-section">
+                            <div class="footer-section1 col-md-4 mx-auto">
+                                <div class="footer-menu mx-auto">
+                                    <ul>
+                                      <li><a href="#">HOME</a></li>
+                                      <li><a href="#">WHAT'S NEW STYLE HUSTLE</a></li>
+                                      <li><a href="#">NEWS</a></li>
+                                      <li><a href="#">COMMUNITY</a></li>
+                                      <li><a href="#">LESSON</a></li>
+                                      <li><a href="#">CONTACT</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="footer-section3 col-md-4 mx-auto">
-                            <div class="footer-logo">
+                            <div class="footer-section2 col-md-4 mx-auto">
+                                <div class="description">
+                                    <div class="description-title">
+                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEとは</p>
+                                    </div>
+                                    <div class="description-sentence">
+                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-section3 col-md-4 mx-auto">
                                 <a href="{{ url('/') }}">
-                                    <img src="{{ asset('img/footer-logo.png') }}">
+                                    <img src="{{ asset('img/newstylehustlewebsite-footerlogo.png') }}" class="footer-logo">
                                 </a>
                             </div>
                         </div>

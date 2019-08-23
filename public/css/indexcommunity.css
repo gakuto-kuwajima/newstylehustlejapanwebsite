@@ -142,7 +142,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.2em;
   position: relative;
   overflow: hidden;
 }
@@ -213,7 +212,8 @@ h2 {
 }
 
 .tohoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -234,13 +234,15 @@ h2 {
 }
 
 .kanto-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
 .kanto-btn-tokyo {
   display: inline-block;
   max-width: 180px;
+  max-height: 62px;
   text-align: center;
   background-color: #90ba1e;
   font-size: 20px;
@@ -255,7 +257,8 @@ h2 {
 }
 
 .kanto-btn-tokyo:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -275,7 +278,8 @@ h2 {
 }
 
 .chubu-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -295,7 +299,8 @@ h2 {
 }
 
 .kansai-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -315,7 +320,8 @@ h2 {
 }
 
 .chugoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -335,7 +341,8 @@ h2 {
 }
 
 .shikoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -355,7 +362,8 @@ h2 {
 }
 
 .kyushu-okinawa-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
