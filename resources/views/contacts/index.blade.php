@@ -29,44 +29,24 @@
                             <label class="col-md-12" for="name">お名前（必須）</label>
                             <div class="col-md-12">
                                 <input type="text" class="form-control form-contact" name="name" value="{{ old('name') }}" >
-                                @if ($errors->has('name'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-12" for="email">メールアドレス（必須）</label>
                             <div class="col-md-12">
                                 <input type="text" class="form-control form-contact" name="email" value="{{ old('email') }}" >
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-12" for="subject">件名（必須）</label>
                             <div class="col-md-12">
                                 <input type="text" class="form-control form-contact" name="subject" value="{{ old('subject') }}" >
-                                @if ($errors->has('subject'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('subject') }}</strong>
-                                    </span>
-                                @endif
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-12" for="body">内容（必須）</label>
                             <div class="col-md-12">
                                 <textarea class="form-control form-contact" name="body" rows="7" >{{ old('body') }}</textarea>
-                                @if ($errors->has('body'))
-                                <span class="help-block">
-                                        <strong>{{ $errors->first('body') }}</strong>
-                                    </span>
-                                @endif
                             </div>
                         </div>
                         {{ csrf_field() }}
@@ -78,5 +58,10 @@
             </div>
         </div>
     </div>
+</div>
+<div class="row">
+   <div class="col-md-12 page-return">
+       <button type="button" onclick="location.href='{{ action('ReadingPageController@toppage') }}' " class="btn-flat-border">HOMEへ</button>
+   </div>
 </div>
 @endsection

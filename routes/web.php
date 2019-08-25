@@ -69,6 +69,8 @@ Route::get('news', 'ReadingPageController@indexnews');
 
 Route::get('lesson', 'ReadingPageController@lessonshow');
 
+Route::get('video','ReadingPageController@videopageshow');
+
 Route::get('community', 'ReadingPageController@indexcommunity');
 
 Route::get('search','SearchController@index');
@@ -79,6 +81,6 @@ Route::get('search','SearchController@index');
 
 //contact関係
 Route::get('contact','ContactsController@index');
-Route::post('contact/conmirm','ContactsController@confirm');
+Route::post('contact/confirm','ContactsController@confirm');
 Route::post('contact/correct','ContactsController@correct');
 Route::post('contact/complete','ContactsController@complete');

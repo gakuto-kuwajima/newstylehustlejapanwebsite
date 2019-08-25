@@ -50,6 +50,12 @@ class ReadingPagecontroller extends Controller
         return view('lesson',['keywords'=>$keywords]);
     }
 
+    public function videopageshow()
+    {
+        $keywords = '';
+        return view('video',['keywords'=>$keywords]);
+    }
+
     public function toppage()
     {
         $keywords = '';

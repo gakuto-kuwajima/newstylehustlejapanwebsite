@@ -40,10 +40,9 @@
         <div class="paginate d-flex justify-content-center">
             {{ $posts->links() }}
         </div>
-        <div class="form-group row">
+        <div class="row">
            <div class="col-md-12 page-return">
-               <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
+               <button type="button" onclick="location.href='{{ action('ReadingPageController@toppage') }}' " class="btn-flat-border">HOMEへ</button>
            </div>
         </div>
-      </div>
   @endsection

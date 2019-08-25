@@ -15,6 +15,7 @@
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/ofi.min.js') }}"></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -33,7 +34,7 @@
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}">
+                        <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" alt="NEW STYLE HUSTLE JAPAN WEBSITEのロゴ">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -49,20 +50,20 @@
                         <ul class="navbar-nav ml-auto">
 
                         <!-- Authentication Links -->
-                             <li><a href="#">HOME</a></li>
+                             <li><a href="{{ action('ReadingPageController@toppage')}}">HOME</a></li>
                              <li class="dropdown">
                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  WHAT'S NEW STYLE HUSTLE
                                </a>
                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="#">ABOUT NEW STYLE HUSTLE</a>
-                                 <a class="dropdown-item" href="#">VIDEO</a>
+                                 <a class="dropdown-item" href="{{ action('ReadingPageController@about')}}">ABOUT NEW STYLE HUSTLE</a>
+                                 <a class="dropdown-item" href="{{ action('ReadingPageController@videopageshow')}}">FEATURED VIDEO</a>
                                </div>
                              </li>
-                             <li><a href="#">NEWS</a></li>
-                             <li><a href="#">COMMUNITY</a></li>
-                             <li><a href="#">LESSON</a></li>
-                             <li><a href="#">CONTACT</a></li>
+                             <li><a href="{{ action('ReadingPageController@indexnews')}}">NEWS</a></li>
+                             <li><a href="{{ action('ReadingPageController@indexcommunity')}}">COMMUNITY</a></li>
+                             <li><a href="{{ action('ReadingPageController@lessonshow')}}">LESSON</a></li>
+                             <li><a href="{{ action('ContactsController@index')}}">CONTACT</a></li>
                             {{-- 以上までを追記 --}}
                         </ul>
                         <div class="form-search mx-auto">
@@ -110,12 +111,13 @@
                             <div class="footer-section1 col-md-4 mx-auto">
                                 <div class="footer-menu mx-auto">
                                     <ul>
-                                      <li><a href="#">HOME</a></li>
-                                      <li><a href="#">WHAT'S NEW STYLE HUSTLE</a></li>
-                                      <li><a href="#">NEWS</a></li>
-                                      <li><a href="#">COMMUNITY</a></li>
-                                      <li><a href="#">LESSON</a></li>
-                                      <li><a href="#">CONTACT</a></li>
+                                      <li><a href="{{ action('ReadingPageController@toppage')}}">HOME</a></li>
+                                      <li><a href="{{ action('ReadingPageController@about')}}">ABOUT NEW STYLE HUSTLE</a></li>
+                                      <li><a href="{{ action('ReadingPageController@videopageshow')}}">FEATURED VIDEO</a></li>
+                                      <li><a href="{{ action('ReadingPageController@indexnews')}}">NEWS</a></li>
+                                      <li><a href="{{ action('ReadingPageController@indexcommunity')}}">COMMUNITY</a></li>
+                                      <li><a href="{{ action('ReadingPageController@lessonshow')}}">LESSON</a></li>
+                                      <li><a href="{{ action('ContactsController@index')}}">CONTACT</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -131,7 +133,7 @@
                             </div>
                             <div class="footer-section3 col-md-4 mx-auto">
                                 <a href="{{ url('/') }}">
-                                    <img src="{{ asset('img/newstylehustlewebsite-footerlogo.png') }}" class="footer-logo">
+                                    <img src="{{ asset('img/newstylehustlewebsite-footerlogo.png') }}" class="footer-logo" alt="NEW STYLE HUSTLE JAPAN WEBSITEのフッター用のロゴ">
                                 </a>
                             </div>
                         </div>

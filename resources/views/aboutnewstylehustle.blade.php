@@ -30,7 +30,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text text-top">
@@ -50,14 +50,14 @@
                             </div>
                             <div class="video-bottom">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yxYoCOpnYZw?rel=0" allowfullscreen></iframe>
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/yxYoCOpnYZw?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text">
                                 <p>その後ジェフと、パートナーのロビン（Robyn Baltzer）が普及活動を行います。</p>
                             </div>
                             <div class="section-image">
-                                <img src="{{ asset('img/jeff-robyn_example.jpg')}}" class="img-fluid">
+                                <img src="{{ asset('img/newstylehustle_jeff_robyn.jpg')}}" class="img-fluid" alt="ニュースタイルハッスル創始者のJeffとパートナーのRobynの写真">
                             </div>
                             <div class="image-text">
                                 <p>※右がジェフ(Jeff Selby)、左がパートナーのロビン(Robyn Baltzer)</p>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DRfApB8x19E?rel=0" allowfullscreen></iframe>
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/DRfApB8x19E?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section3-h3">
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QJrjK_kFesc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QJrjK_kFesc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="video-end embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewstylehustle%2Fvideos%2F1807520412896273%2F&show_text=0&width=560" width="560" height="295" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewstylehustle%2Fvideos%2F1807520412896273%2F&show_text=0&width=560" width="560" height="295" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@
                                 <p>などの経歴があり、彼らの尽力によって芸能界にも広がりをみせています。</p>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -263,5 +263,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+       <div class="col-md-12 page-return">
+           <button type="button" onclick="location.href='{{ action('ReadingPageController@toppage') }}' " class="btn-flat-border">HOMEへ</button>
+       </div>
     </div>
 @endsection

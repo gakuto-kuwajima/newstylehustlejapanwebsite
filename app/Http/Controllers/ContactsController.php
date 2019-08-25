@@ -20,6 +20,8 @@ class ContactsController extends Controller
     {
       $keywords = '';
 
+      $this->validate($request, Contact::$rules);
+
       $contact = new Contact($request->all());
 
       return view('contacts.confirm',['keywords'=>$keywords],compact('contact'));
@@ -46,18 +48,20 @@ class ContactsController extends Controller
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
           'to_name' => $request->name,
-          'from' => 'mail@newstylehustlejapan.com',
-          'from_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
-          'subject' => 'お問い合わせありがとうございました。',
+          'from' => 'info@newstylehustlejapan.com',
+          'from_name' => 'NEW STYLE HUSTLE JAPAN',
+          'subject' => '【NEW STYLE HUSTLE JAPAN】お問い合わせありがとうございます',
+          'mail_subject' => $request->subject,
           'body' => $request->body
       ]));
 
       \Mail::send(new \App\Mail\Contact([
-          'to' => 'mail@newstylehustlejapan.com',
+          'to' => 'info@newstylehustlejapan.com',
           'to_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
           'from' => $request->email,
           'from_name' => $request->name,
-          'subject' => 'サイトからのお問い合わせ',
+          'subject' => "$request->name 様からNEW STYLE HUSTLE JAPAN WEBSITEへのお問い合わせ",
+          'mail_subject' => $request->subject,
           'body' => $request->body
       ], 'from'));
 
