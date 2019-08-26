@@ -39,4 +39,6 @@ class ContactRequest extends FormRequest
         'body'=>'内容'
       ];
     }
+
+    protected $redirectAction = 'ContactsController@index';
 }
