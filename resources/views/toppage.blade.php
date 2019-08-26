@@ -21,7 +21,7 @@
                         <p>世界中で踊られている最新のペアダンス、それがニュースタイルハッスル。<br>1970年代に流行したディスコダンス「ハッスル」を元に、2009年ごろにニューヨークで誕生しました。<br><br>自由な発想で、自分たちの好きな音楽をパートナーと表現します。</p>
                     </div>
                     <div class="section1-link">
-                        <a href="{{ action('ReadingPageController@about')}}" class="section1-button">
+                        <a href="/about-newstylehustle" class="section1-button">
                             <i class="fa fa-caret-right"></i> もっと詳しく
                         </a>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="posts col-lg-9 mx-auto section4-news-title">
                    @foreach($posts as $post)
-                   <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                   <a href="/news/{{ $post->news_permalink }}" class="post-link">
                    <div class="post-wrapper">
                        <div class="ribbon16-content">
                            <span class="ribbon16">NEW</span>
@@ -78,7 +78,7 @@
                                         <p class="title mx-auto">{{ $post->news_title }}</p>
                                     </div>
                                     <div class="date">
-                                        <p>{{ $post->created_at->format('Y年m月d日') }}</p>
+                                        <p><i class="far fa-calendar-check"></i>{{ $post->created_at->format('Y年m月d日') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
                     </a>
                     @endforeach
                     <div class="section4-link">
-                        <a href="{{ action('ReadingPageController@indexnews')}}" class="section4-button">
+                        <a href="/news" class="section4-button">
                             <i class="fa fa-caret-right"></i> NEWS一覧へ
                         </a>
                     </div>

@@ -19,7 +19,7 @@
                             {{ $nonewsresult }}
                         @else
                             @foreach($posts as $post)
-                            <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                            <a href="/news/{{ $post->news_permalink }}" class="post-link">
                             <div class="post-container">
                                  <div class="post">
                                      <div class="caption">
@@ -64,7 +64,7 @@
                             {{ $nocommunityresult }}
                         @else
                             @foreach($pages as $page)
-                                <a href="http://127.0.0.1:8000/community/{{ $page->permalink }}" class="post-link">
+                                <a href="/community/{{ $page->permalink }}" class="post-link">
                                 <div class="post-container">
                                      <div class="post">
                                          <div class="caption">

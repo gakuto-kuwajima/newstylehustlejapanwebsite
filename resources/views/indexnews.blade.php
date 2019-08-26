@@ -9,7 +9,7 @@
             <div class="posts col-md-10 mx-auto">
 
                 @foreach($posts as $post)
-                <a href="http://127.0.0.1:8000/news/{{ $post->news_permalink }}" class="post-link">
+                <a href="/news/{{ $post->news_permalink }}" class="post-link">
                 <div class="post-wrapper">
                      <div class="post">
                          <div class="caption">
@@ -24,10 +24,13 @@
                          <div class="search-text-container">
                              <div class="search-text">
                                  <div class="post-title">
-                                     <p class="title mx-auto">{{ str_limit($post->news_title, 100) }}</p>
+                                     <p>{{ str_limit($post->news_title, 100) }}</p>
                                  </div>
                                  <div class="date">
-                                     <p>{{ $post->created_at->format('Y年m月d日') }}</p>
+                                     <p><i class="far fa-calendar-check"></i>{{ $post->created_at->format('Y年m月d日') }}</p>
+                                 </div>
+                                 <div class="post-body">
+                                    <p class="none">{{ str_limit($post->news_body, 150) }}</p>
                                  </div>
                              </div>
                          </div>

@@ -19,7 +19,7 @@ h2 {
 }
 
 
-@media screen and (min-width: 600px) {/* 640以上*/
+@media screen and (min-width: 600px) {/* 600以上*/
     h2 {
         font-size: 2.8rem;
     }
@@ -43,6 +43,9 @@ h2 {
     .indexnews-title {
       margin: 1.2em 0;
     }
+    .post-wrapper {
+      margin-bottom:20px;
+    }
 }
 
 @media screen and (min-width:960px) {
@@ -51,6 +54,18 @@ h2 {
     }
     .title_box {
       height: 60vh;
+    }
+    .post-title p{
+      margin-bottom:0;
+      font-weight: bold;
+    }
+    .post-body p {
+      font-size:13px;
+      line-height:1.5;
+      margin-bottom:0;
+    }
+    .date {
+      padding:7px 0;
     }
 }
 
@@ -66,6 +81,24 @@ h2 {
     }
     .title_box {
       height: 35vh;
+    }
+    .date {
+      padding-top:5px;
+    }
+    .none {
+      display: none;
+    }
+    .post-title p{
+      font-size: 14px;
+      margin-bottom:0;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+    .news_title {
+      margin-bottom:0;
+    }
+    .post-wrapper {
+      margin-bottom:15px;
     }
 }
 
@@ -98,9 +131,6 @@ h2 {
       margin-bottom: 30px;
     }
     .page-title p{
-        font-size: 1.6rem;
-    }
-    .post-title p{
         font-size: 1.6rem;
     }
     .image img{
@@ -178,18 +208,12 @@ hr.style{
 }
 
 
-
 .posts {
    margin-bottom: 40px;
   .post {
     .date {
       font-size: 0.7em;
       color: #999999;
-    }
-    .post-title{
-      font-weight: bold;
-      line-height: 1em;
-      margin-bottom: 12px;
     }
   }
 }
@@ -199,7 +223,6 @@ hr.style{
   display: block;
   position: relative;
   margin-top: 8px;
-  margin-bottom: 15px;
   margin-left: 0;
   margin-left: 0;
   padding: 10px 0;
@@ -280,4 +303,8 @@ a:hover{
 .pref{
   line-height: 0.4;
   padding-bottom: 5px;
+}
+
+.date {
+  font-weight:bold;
 }

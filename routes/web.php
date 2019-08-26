@@ -69,7 +69,7 @@ Route::get('news', 'ReadingPageController@indexnews');
 
 Route::get('lesson', 'ReadingPageController@lessonshow');
 
-Route::get('video','ReadingPageController@videopageshow');
+Route::get('featured-video','ReadingPageController@videopageshow');
 
 Route::get('community', 'ReadingPageController@indexcommunity');
 

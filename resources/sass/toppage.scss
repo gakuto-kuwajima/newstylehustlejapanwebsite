@@ -94,7 +94,7 @@ h2 {
     padding-left: 20px;
   }
   .search-text-container {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .top{
@@ -132,11 +132,17 @@ h2 {
   .section1-link{
       margin-bottom: 25px;
   }
+  .title {
+    font-size:13px;
+  }
 }
 
 @media screen and (min-width:992px) {
   .section2 p{
     margin-bottom:0;
+  }
+  .title {
+    font-size:1.4rem;
   }
 }
 
@@ -335,7 +341,7 @@ h2:before {
   display: inline-block;
   position: absolute;
   right: 0;
-  top: 62px;
+  bottom: 8px;
   box-sizing: border-box;
   padding: 0 12px;
   margin: 0;
@@ -370,6 +376,9 @@ h2:before {
   border-radius: 0 5px 5px 0;
 }
 
+.title {
+  line-height: 1.5
+}
 
 .posts {
   .post {
@@ -641,4 +650,8 @@ h3 {
 
 hr.style{
    border-color: #fff;
+}
+
+.date {
+  font-weight: bold;
 }

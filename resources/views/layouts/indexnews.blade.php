@@ -52,18 +52,18 @@
                         <!-- Authentication Links -->
                              <li><a href="{{ action('ReadingPageController@toppage')}}">HOME</a></li>
                              <li class="dropdown">
-                               <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <a class="dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  WHAT'S NEW STYLE HUSTLE
                                </a>
                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="{{ action('ReadingPageController@about')}}">ABOUT NEW STYLE HUSTLE</a>
-                                 <a class="dropdown-item" href="{{ action('ReadingPageController@videopageshow')}}">FEATURED VIDEO</a>
+                                 <a class="dropdown-item" href="/about-newstylehustle">ABOUT NEW STYLE HUSTLE</a>
+                                 <a class="dropdown-item" href="/featured-video">FEATURED VIDEO</a>
                                </div>
                              </li>
-                             <li><a href="{{ action('ReadingPageController@indexnews')}}">NEWS</a></li>
-                             <li><a href="{{ action('ReadingPageController@indexcommunity')}}">COMMUNITY</a></li>
-                             <li><a href="{{ action('ReadingPageController@lessonshow')}}">LESSON</a></li>
-                             <li><a href="{{ action('ContactsController@index')}}">CONTACT</a></li>
+                             <li><a href="/news">NEWS</a></li>
+                             <li><a href="/community">COMMUNITY</a></li>
+                             <li><a href="/lesson">LESSON</a></li>
+                             <li><a href="/contact">CONTACT</a></li>
                             {{-- 以上までを追記 --}}
                         </ul>
                         <div class="form-search mx-auto">
@@ -111,13 +111,13 @@
                             <div class="footer-section1 col-md-4 mx-auto">
                                 <div class="footer-menu mx-auto">
                                     <ul>
-                                      <li><a href="{{ action('ReadingPageController@toppage')}}">HOME</a></li>
-                                      <li><a href="{{ action('ReadingPageController@about')}}">ABOUT NEW STYLE HUSTLE</a></li>
-                                      <li><a href="{{ action('ReadingPageController@videopageshow')}}">FEATURED VIDEO</a></li>
-                                      <li><a href="{{ action('ReadingPageController@indexnews')}}">NEWS</a></li>
-                                      <li><a href="{{ action('ReadingPageController@indexcommunity')}}">COMMUNITY</a></li>
-                                      <li><a href="{{ action('ReadingPageController@lessonshow')}}">LESSON</a></li>
-                                      <li><a href="{{ action('ContactsController@index')}}">CONTACT</a></li>
+                                      <li><a href="/">HOME</a></li>
+                                      <li><a href="/about-newstylehustle">ABOUT NEW STYLE HUSTLE</a></li>
+                                      <li><a href="/featured-video">FEATURED VIDEO</a></li>
+                                      <li><a href="/news">NEWS</a></li>
+                                      <li><a href="/community">COMMUNITY</a></li>
+                                      <li><a href="/lesson">LESSON</a></li>
+                                      <li><a href="/contact">CONTACT</a></li>
                                     </ul>
                                 </div>
                             </div>

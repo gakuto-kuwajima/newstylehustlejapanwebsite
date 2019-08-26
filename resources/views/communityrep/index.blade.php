@@ -34,7 +34,7 @@
                                             <td>{{ str_limit($community->information, 100) }}</td>
                                             <td>
                                                 <div>
-                                                    <a href="http://127.0.0.1:8000/community/{{ $community->permalink }}" target="_blank">表示</a>
+                                                    <a href="/community/{{ $community->permalink }}" target="_blank">表示</a>
                                                 </div>
                                                 <div>
                                                     <a href="{{ action('CommunityRepController@communityedit', ['id'=> $community->id]) }}">編集</a>
@@ -93,7 +93,7 @@
                                             <td>{{ str_limit($news->news_body, 100) }}</td>
                                             <td>
                                                 <div>
-                                                    <a href="http://127.0.0.1:8000/news/{{ $news->news_permalink }}" target="_blank">表示</a>
+                                                    <a href="/news/{{ $news->news_permalink }}" target="_blank">表示</a>
                                                 </div>
                                                 <div>
                                                     <a href="{{ action('CommunityRepController@newsedit', ['id'=> $news->id]) }}">編集</a>
