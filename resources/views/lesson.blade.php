@@ -1,5 +1,8 @@
 @extends('layouts.lesson')
 
+@section('title', 'レッスン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
+
 @section('content')
 <div class="title_box">
    <h1 class="title text-center">LESSON INFORMATION</h1>

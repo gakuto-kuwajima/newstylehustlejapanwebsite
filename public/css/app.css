@@ -10653,7 +10653,7 @@ a.text-dark:focus {
 @media screen and (min-width: 600px) {
   .navbar {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }
 
@@ -10676,7 +10676,7 @@ a.text-dark:focus {
   .navbar {
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .navbar-nav {

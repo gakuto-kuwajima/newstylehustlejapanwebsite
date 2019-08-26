@@ -1,5 +1,7 @@
 @extends('layouts.about')
 
+@section('title', 'ニュースタイルハッスルとは | NEW STYLE HUSTLE JAPAN WEBSITE')
+
 @section('content')
     <div class="title_box">
         <h1 class="title">NEW STYLE HUSTLEとは</h1>

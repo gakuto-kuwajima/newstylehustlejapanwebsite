@@ -1,5 +1,8 @@
 @extends('layouts.indexnews')
 
+@section('title', 'ニュース | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', 'ニュースタイルハッスルに関するニュース一覧です。')
+
 @section('content')
     <div class="title_box">
         <h1 class="title">NEWS</h1>

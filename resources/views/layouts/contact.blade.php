@@ -10,6 +10,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
+        <meta name="description" content="@yield('metadescription')" />
         <title>@yield('title')</title>
 
         <!-- Scripts -->

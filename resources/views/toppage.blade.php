@@ -1,10 +1,13 @@
 @extends('layouts.toppage')
 
+@section('title', 'ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', 'NEW STYLE HUSTLE JAPAN WEBSITE（ニュースタイルハッスルジャパンウェブサイト）では日本のニュースタイルハッスルの情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
+
 @section('content')
 　　<div class="container-head mx-auto">　　
         <div class="top mx-auto">
             <div class="top-image mx-auto">
-                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
+                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
                 <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" class="img-fluid" alt="NEW STYLE HUSTLE JAPANのロゴ">
                 <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
             </div>

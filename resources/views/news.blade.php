@@ -1,5 +1,8 @@
 @extends('layouts.front')
 
+@section('title', '{{ $post->news_title }} | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', '{{ $post->news_body }}')
+
 @section('content')
 
 <div class="container">

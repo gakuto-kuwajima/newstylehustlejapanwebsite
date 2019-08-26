@@ -1,5 +1,8 @@
 @extends('layouts.indexcommunity')
 
+@section('title', 'コミュニティ | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', '日本のニュースタイルハッスルのコミュニティ一覧です。')
+
 @section('content')
     <div class="title_box">
         <h1 class="title">Japan Communities</h1>

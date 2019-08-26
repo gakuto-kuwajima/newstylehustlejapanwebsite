@@ -1,5 +1,8 @@
 @extends('layouts.front')
 
+@section('title', '{ $page->name }} | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', '{{ $page->information)) }}')
+
 @section('content')
 
 <div class="container">

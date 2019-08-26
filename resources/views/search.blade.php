@@ -1,5 +1,7 @@
 @extends('layouts.search')
 
+@section('title', '{{ $keywords }} | NEW STYLE HUSTLE JAPAN WEBSITE')
+
 @section('content')
 
     <div class="container">

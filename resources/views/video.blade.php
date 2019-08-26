@@ -1,8 +1,10 @@
 @extends('layouts.video')
 
+@section('title', 'FEATURED VIDEO | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('metadescription', 'ニュースタイルハッスルの動画特集です。日本はもちろん、世界中のニュースタイルハッスルの動画を紹介します。')
 @section('content')
     <div class="title_box">
-        <h1 class="title">VIDEO</h1>
+        <h1 class="title">FEATURED VIDEO</h1>
     </div>
     <div class="container">
         <div class="row">
@@ -11,7 +13,7 @@
                     <div class="row">
                         <div class="text col-md-12">
                             <div class="section-text">
-                                <p>このページではニュースタイルハッスルの動画を紹介します。<br>動画はたくさんあるのですが、ここでは特に有名なものやニュースタイルハッスルが盛んな地域の動画の一部を紹介します。</p>
+                                <p>このページではニュースタイルハッスルの動画を紹介します。<br>ここでは特に有名なものやニュースタイルハッスルが盛んな地域の動画の一部を紹介します。</p>
                             </div>
                         </div>
                     </div>
