@@ -1,7 +1,11 @@
 @extends('layouts.video')
 
-@section('title', 'FEATURED VIDEO | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'FEATURED VIDEO')
 @section('metadescription', 'ニュースタイルハッスルの動画特集です。日本はもちろん、世界中のニュースタイルハッスルの動画を紹介します。')
+@section('ogtitle', 'FEATURED VIDEO')
+@section(' ogurl ', 'https://newstylehustlejapan.com/featured-video')
+@section(' ogimage ', '')
+
 @section('content')
     <div class="title_box">
         <h1 class="title">FEATURED VIDEO</h1>

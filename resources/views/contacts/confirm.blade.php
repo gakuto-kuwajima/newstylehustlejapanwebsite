@@ -1,5 +1,7 @@
 @extends('layouts.contact')
 
+@section('title', 'お問い合わせの確認 | NEW STYLE HUSTLE JAPAN WEBSITE')
+
 @section('content')
 
 <div class="container">

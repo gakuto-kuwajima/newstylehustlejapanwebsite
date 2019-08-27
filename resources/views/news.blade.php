@@ -1,7 +1,11 @@
 @extends('layouts.front')
 
-@section('title', '{{ $post->news_title }} | NEW STYLE HUSTLE JAPAN WEBSITE')
-@section('metadescription', '{{ $post->news_body }}')
+@section('title')
+{{ $post->news_title }}@endsection
+
+@section('metadescription')
+{{ $post->news_body }}
+@endsection
 
 @section('content')
 
@@ -13,7 +17,7 @@
            </div>
            <div class="form-group row">
               <div class="news_created_at">
-                  <p><i class="far fa-calendar-alt"></i>{{ $post->created_at->format('Y年m月d日') }}</p>
+                  <p><i class="far fa-calendar-check"></i>{{ $post->created_at->format('Y年m月d日') }}</p>
               </div>
               @if (!is_null($post->news_writer))
               <div class="news_writer">

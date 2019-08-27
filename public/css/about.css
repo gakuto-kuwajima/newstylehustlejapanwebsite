@@ -162,7 +162,8 @@ h2 {
 .section2,
 .section3,
 .section4,
-.section5 {
+.section5,
+.section6 {
   margin-bottom: 80px;
 }
 
@@ -246,6 +247,7 @@ h3 {
   width: 60px;
   height: 2px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
@@ -303,7 +305,8 @@ h3 {
 }
 
 .tohoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -324,7 +327,8 @@ h3 {
 }
 
 .kanto-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -346,7 +350,8 @@ h3 {
 }
 
 .kanto-btn-tokyo:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -366,7 +371,8 @@ h3 {
 }
 
 .chubu-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -386,7 +392,8 @@ h3 {
 }
 
 .kansai-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -406,7 +413,8 @@ h3 {
 }
 
 .chugoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -426,7 +434,8 @@ h3 {
 }
 
 .shikoku-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
@@ -446,12 +455,39 @@ h3 {
 }
 
 .kyushu-okinawa-btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
   border-bottom: none;
 }
 
 .pref-btn2 {
   font-size: 15px;
   text-align: left;
+}
+
+.box1 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+}
+
+.box1 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  color: #95ccff;
+  font-weight: bold;
+}
+
+.box1 p {
+  margin: 0;
+  padding: 0;
 }
 

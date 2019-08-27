@@ -11,12 +11,24 @@
 
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
         <meta name="description" content="@yield('metadescription')" />
-        <title>@yield('title')</title>
+
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+        <meta property="og:title" content="@yield('ogtitle')" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="@yield('metadescription')" />
+        <meta property="og:url" content="@yield('ogurl')" />
+        <meta property="og:image" content="@yield('ogimage')" />
+        <meta property="og:site_name" content="ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE" />
+        <meta property="og:locale" content="ja_JP" />
+        <meta property="fb:app_id" content=" 714173509023789 " />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@nsh_japan">
+
+        <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
         <script src="{{ asset('js/app.js') }}" defer></script>
-        <script src="{{ asset('js/ofi.min.js') }}"></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -146,4 +158,5 @@
             </footer>
         </div>
     </body>
+    <script src="{{ asset('js/ofi.min.js') }}"></script>
 </html>

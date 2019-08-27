@@ -1,7 +1,11 @@
 @extends('layouts.indexnews')
 
-@section('title', 'ニュース | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'ニュース')
 @section('metadescription', 'ニュースタイルハッスルに関するニュース一覧です。')
+
+@section('ogtitle', 'NEWS')
+@section(' ogurl ', 'https://newstylehustlejapan.com/news')
+@section(' ogimage ', '')
 
 @section('content')
     <div class="title_box">

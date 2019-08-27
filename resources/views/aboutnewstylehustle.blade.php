@@ -1,6 +1,11 @@
 @extends('layouts.about')
 
-@section('title', 'ニュースタイルハッスルとは | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'ニュースタイルハッスルとは')
+@section('metadescription', 'ニュースタイルハッスルとはハッスル（ダンス）をベースとして、パートナーと音楽を感じながら自由にクリエイトできるダンスです。ジェフがハッスルにストリートダンスのフレーバーを組み込んでニュースタイルハッスルが誕生し、世界中で踊られることによって更なる進化を続けています。')
+
+@section('ogtitle', 'ニュースタイルハッスルとは')
+@section(' ogurl ', 'https://newstylehustlejapan.com/about-newstylehustle')
+@section(' ogimage ', '')
 
 @section('content')
     <div class="title_box">
@@ -85,6 +90,27 @@
                     <div class="row">
                         <div class="text col-md-12">
                             <div class="section-h2">
+                                <h2>ニュースタイルハッスルとは</h2>
+                            </div>
+                            <div class="section-text">
+                                <p>ニュースタイルハッスルとは、ハッスル（ダンス）をベースとして、パートナーと音楽を感じながら自由にクリエイトできるダンスです。</p>
+                                <p>ジェフがハッスルにストリートダンスのフレーバーを組み込んでニュースタイルハッスルが誕生し、世界中で踊られることによって更なる進化を続けています。</p>
+                            </div>
+                            <div class="video-bottom">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="section-text">
+                                <p>以下では、その特徴をもう少し説明します。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section5">
+                    <div class="row">
+                        <div class="text col-md-12">
+                            <div class="section-h2">
                                 <h2>ニュースタイルハッスルの特徴</h2>
                             </div>
                             <div class="section-h3">
@@ -120,10 +146,16 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="box1">
+                                <span class="box-title">もっと詳しく知りたい方は</span>
+                                <p>2017年にNEW STYLE HUSTLE TYOがジェフとロビンにインタビューした記事にはニュースタイルハッスルがどういうダンスか更に詳しく書かれています。<br>ぜひそちらを参照してください。</p>
+                                <p><a href="https://goo.gl/8Lon5S">Jeff Selby（ジェフ）インタビュー</a></p>
+                                <p><a href="https://goo.gl/mt5qJn">Robyn Baltzer（ロビン）インタビュー</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="section5">
+                <div class="section6">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-h2">
@@ -154,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section6">
+                <div class="section7">
                     <div class="row">
                         <div class="text col-md-12">
                             <div class="section-h2">

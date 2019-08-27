@@ -1,13 +1,16 @@
 @extends('layouts.toppage')
 
-@section('title', 'ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'ニュースタイルハッスル ジャパン')
 @section('metadescription', 'NEW STYLE HUSTLE JAPAN WEBSITE（ニュースタイルハッスルジャパンウェブサイト）では日本のニュースタイルハッスルの情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
+@section('ogtitle', 'ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section(' ogurl ', 'https://newstylehustlejapan.com/')
+@section(' ogimage ', '')
 
 @section('content')
 　　<div class="container-head mx-auto">　　
         <div class="top mx-auto">
             <div class="top-image mx-auto">
-                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
+                <video id="video" src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
                 <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" class="img-fluid" alt="NEW STYLE HUSTLE JAPANのロゴ">
                 <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
             </div>
@@ -105,7 +108,7 @@
                     </div>
                 </div>
           　    <div class="section-text col-lg-9 mx-auto">
-              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>あなたが住んでいる地域、またはこれから訪れる地域のコミュニティをのぞいてみてください。</p>
+              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、またはこれから訪れる地域のコミュニティをのぞいてみてください。</p>
           　    </div>
                 <div class="pref col-lg-9 mx-auto">
                     <div class="pref-container">

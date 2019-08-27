@@ -1,6 +1,7 @@
 @extends('layouts.front')
 
-@section('title', '{ $page->name }} | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title')
+{ $page->name }}@endsection
 @section('metadescription', '{{ $page->information)) }}')
 
 @section('content')

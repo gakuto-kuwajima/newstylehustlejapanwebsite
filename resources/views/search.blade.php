@@ -1,6 +1,7 @@
 @extends('layouts.search')
 
-@section('title', '{{ $keywords }} | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title')
+{{ $keywords }}@endsection
 
 @section('content')
 

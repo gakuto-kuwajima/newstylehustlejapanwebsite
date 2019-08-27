@@ -1,7 +1,11 @@
 @extends('layouts.indexcommunity')
 
-@section('title', 'コミュニティ | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', '全国のニュースタイルハッスルのコミュニティ')
 @section('metadescription', '日本のニュースタイルハッスルのコミュニティ一覧です。')
+
+@section('ogtitle', '全国のニュースタイルハッスルのコミュニティ')
+@section(' ogurl ', 'https://newstylehustlejapan.com/community')
+@section(' ogimage ', '')
 
 @section('content')
     <div class="title_box">
@@ -11,7 +15,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
           　    <div class="section3-text mx-auto">
-              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>住んでいる地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
+              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
           　    </div>
                 <div class="pref mx-auto">
                     <div class="pref-container">

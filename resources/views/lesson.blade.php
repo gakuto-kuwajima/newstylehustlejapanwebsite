@@ -1,7 +1,11 @@
 @extends('layouts.lesson')
 
-@section('title', 'レッスン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'レッスン')
 @section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
+
+@section('ogtitle', 'LESSON')
+@section(' ogurl ', 'https://newstylehustlejapan.com/lesson')
+@section(' ogimage ', '')
 
 @section('content')
 <div class="title_box">
