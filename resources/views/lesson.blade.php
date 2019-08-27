@@ -4,8 +4,9 @@
 @section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
 
 @section('ogtitle', 'LESSON')
-@section(' ogurl ', 'https://newstylehustlejapan.com/lesson')
-@section(' ogimage ', '')
+@section('ogurl'){{ url('/lesson') }}@endsection
+@section('ogimage'){{ asset('img/lesson-information-eyecatch.png')}}@endsection
+
 
 @section('content')
 <div class="title_box">
@@ -14,8 +15,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <div class="information">
-                <p>※記載してる内容は東京の情報のみです。<br>各地域の情報はこちらからご確認ください。</p>
+            <div class="information text-center">
+                <p>※記載してる内容は東京の情報のみです。<br>各地域の情報は<a href="/community">こちら</a>からご確認ください。</p>
             </div>
             <div class="row calendar">
               <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=dW9qNzVhc2wycjRzajUzbXIwcTRqM2NjamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238E24AA&amp;showTitle=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

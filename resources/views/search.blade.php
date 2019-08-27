@@ -1,7 +1,6 @@
 @extends('layouts.search')
 
-@section('title')
-{{ $keywords }}@endsection
+@section('title'){{ $keywords }}@endsection
 
 @section('content')
 

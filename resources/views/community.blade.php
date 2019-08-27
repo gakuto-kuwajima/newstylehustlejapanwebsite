@@ -1,8 +1,11 @@
 @extends('layouts.front')
 
-@section('title')
-{ $page->name }}@endsection
-@section('metadescription', '{{ $page->information)) }}')
+@section('title'){{ $page->name }}@endsection
+@section('metadescription'){{ $page->information }}@endsection
+
+@section('ogtitle'){{ $page->name }}@endsection
+@section('ogurl'){{ url('/community/' . $page->permalink) }}@endsection
+@section('ogimage'){{ asset('storage/image/' . $page->eyecatch_path) }}@endsection
 
 @section('content')
 

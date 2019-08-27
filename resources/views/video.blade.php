@@ -3,8 +3,9 @@
 @section('title', 'FEATURED VIDEO')
 @section('metadescription', 'ニュースタイルハッスルの動画特集です。日本はもちろん、世界中のニュースタイルハッスルの動画を紹介します。')
 @section('ogtitle', 'FEATURED VIDEO')
-@section(' ogurl ', 'https://newstylehustlejapan.com/featured-video')
-@section(' ogimage ', '')
+@section('ogurl'){{ url('/featured-video') }}@endsection
+@section('ogimage'){{ asset('img/featured-video-eyecatch.png')}}@endsection
+
 
 @section('content')
     <div class="title_box">

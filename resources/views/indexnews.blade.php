@@ -4,8 +4,8 @@
 @section('metadescription', 'ニュースタイルハッスルに関するニュース一覧です。')
 
 @section('ogtitle', 'NEWS')
-@section(' ogurl ', 'https://newstylehustlejapan.com/news')
-@section(' ogimage ', '')
+@section('ogurl'){{ url('/news') }}@endsection
+@section('ogimage'){{ asset('img/news-eyecatch.png')}}@endsection
 
 @section('content')
     <div class="title_box">

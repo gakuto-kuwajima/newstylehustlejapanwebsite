@@ -24,6 +24,16 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@nsh_japan">
 
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon16.png')}}" sizes="16x16" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon32.png')}}" sizes="32x32" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon48.png')}}" sizes="48x48" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon64.png')}}" sizes="62x62" type="image/png" />
+
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('img/smartphone-icon.png')}}" />
+
+        <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
+        <meta name="msapplication-TileColor" content="#4CE096"/>
+
         <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
 
         <!-- Scripts -->
@@ -158,23 +168,5 @@
             </footer>
         </div>
     </body>
-    <script>
-    function lazyLoadVideo () {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://mameko.jp/lazymov.mp4', true);
-        xhr.responseType = 'blob';
-        xhr.onload = function (e) {
-          if (this.status === 200) {
-            // ロード完了
-            var blob = this.response;
-            var src = (window.webkitURL || window.URL).createObjectURL(blob);
-            $('#video').append('<source type="video/mp4" src="' + src + '">');
-          }
-        };
-        xhr.send();
-      }
-      // 実行
-      lazyLoadVideo();
-    </script>
     <script src="{{ asset('js/ofi.min.js') }}"></script>
 </html>

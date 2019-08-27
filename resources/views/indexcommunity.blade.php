@@ -4,8 +4,9 @@
 @section('metadescription', '日本のニュースタイルハッスルのコミュニティ一覧です。')
 
 @section('ogtitle', '全国のニュースタイルハッスルのコミュニティ')
-@section(' ogurl ', 'https://newstylehustlejapan.com/community')
-@section(' ogimage ', '')
+@section('ogurl'){{ url('/community') }}@endsection
+@section('ogimage'){{ asset('img/japan-communities-eyecatch.png')}}@endsection
+
 
 @section('content')
     <div class="title_box">

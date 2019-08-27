@@ -10,7 +10,17 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
-        <title>@yield('title')</title>
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon16.png')}}" sizes="16x16" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon32.png')}}" sizes="32x32" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon48.png')}}" sizes="48x48" type="image/png" />
+        <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon64.png')}}" sizes="62x62" type="image/png" />
+
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('img/smartphone-icon.png')}}" />
+
+        <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
+        <meta name="msapplication-TileColor" content="#4CE096"/>
+
+        <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
         <meta name="robots" content="noindex,nofollow">
 
         <!-- Scripts -->

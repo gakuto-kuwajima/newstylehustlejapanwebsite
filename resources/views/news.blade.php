@@ -1,11 +1,13 @@
 @extends('layouts.front')
 
-@section('title')
-{{ $post->news_title }}@endsection
+@section('title'){{ $post->news_title }}@endsection
 
-@section('metadescription')
-{{ $post->news_body }}
-@endsection
+@section('metadescription'){{ $post->news_body }}@endsection
+
+@section('ogtitle'){{ $post->news_title }}@endsection
+@section('ogurl'){{ url('/news/' . $post->news_permalink) }}@endsection
+@section('ogimage'){{ asset('storage/image/' . $post->news_eyecatch_path) }}@endsection
+
 
 @section('content')
 

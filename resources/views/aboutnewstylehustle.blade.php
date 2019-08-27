@@ -4,8 +4,9 @@
 @section('metadescription', 'ニュースタイルハッスルとはハッスル（ダンス）をベースとして、パートナーと音楽を感じながら自由にクリエイトできるダンスです。ジェフがハッスルにストリートダンスのフレーバーを組み込んでニュースタイルハッスルが誕生し、世界中で踊られることによって更なる進化を続けています。')
 
 @section('ogtitle', 'ニュースタイルハッスルとは')
-@section(' ogurl ', 'https://newstylehustlejapan.com/about-newstylehustle')
-@section(' ogimage ', '')
+@section('ogurl'){{ url('/about-newstylehustle') }}@endsection
+@section('ogimage'){{ asset('img/about-newstylehustle-eyecatch.png')}}@endsection
+
 
 @section('content')
     <div class="title_box">
@@ -217,7 +218,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="section-h3">
+                            <div class="section">
                               　<h3>全国のコミュ二ティ</h3>
                                 <p>もちろん東京以外でも各地方で練習会やパーティーが開催され始めています。<br>あなたもこの機会に踊ってみませんか？？<br>ぜひ以下から各地方のコミュニティの活動をのぞいてみてください。</p>
                                 <div class="pref">
@@ -291,6 +292,11 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="box1">
+                                <span class="box-title">注目！</span>
+                                <p>ニュースタイルハッスルの動画を集めた特集ページもあります。</p>
+                                <p><a href="/featured-video">FEATURED VIDEO</a></p>
                             </div>
                         </div>
                     </div>
