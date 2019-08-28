@@ -37,8 +37,8 @@ Route::group(['middleware' => 'auth'], function(){
 //Auth::routes();
 
 //以降設定変更
-Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
-Route::post('login', 'Auth\LoginController@login');
+Route::get('communityrep_login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('communityrep_login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');

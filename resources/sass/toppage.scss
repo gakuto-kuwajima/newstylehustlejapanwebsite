@@ -54,9 +54,6 @@ h2 {
     .section-text{
       padding-top: 0.6rem;
     }
-    .top-image {
-      margin: 0 calc(50% - 50vw);
-    }
     .news-image img{
       height: 80px;
       width: 130px;
@@ -80,9 +77,6 @@ h2 {
     }
 }
 @media screen and (min-width: 600px) {/* 640px以上*/
-  .top-image {
-    width: 100%;
-  }
   .news-image img{
     height: 80px;
     width: 130px;
@@ -105,6 +99,9 @@ h2 {
   }
   .pref {
     width:90%;
+  }
+  .top{
+    width: 100%;
   }
 }
 

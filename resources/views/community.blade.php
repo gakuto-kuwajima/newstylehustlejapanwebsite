@@ -12,18 +12,19 @@
 <div class="container">
     <div class="row">
         <div class="community col-md-12 mx-auto">
+            @if (!is_null($page->eyecatch_path))
             <div class="row">
                 <div class="eyecatch col-md-12 mx-auto">
-                    @if (!is_null($page->eyecatch_path))
-                        <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">
-                    @endif
+                    <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">                  
                 </div>
             </div>
+            @endif
             <div class="row">
                 <div class="community_name col-md-12 mx-auto">
                     <h1 class="text-center">{{ $page->name }}</h1>
                 </div>
             </div>
+            @if (!is_null($page->information))
             <div class="row">
                 <div class="information col-md-12 mx-auto">
                     <h2>コミュニティ情報</h2>
@@ -68,6 +69,7 @@
                 </div>
                 @endif
             </div>
+            @endif
             @if (!is_null($page->message))
             <div class="row">
                 <div class="message col-md-12 mx-auto">
@@ -83,6 +85,7 @@
                 </div>
             </div>
             @endif
+            @if (!is_null($page->contact))
             <div class="row">
                 <div class="community_contact col-md-12 mx-auto">
                     <h2>お問い合わせ</h2>
@@ -91,6 +94,7 @@
                     </div>
                 </div>
             </div>
+            @endif
             <div class="row">
                 <div class="facebook_link col-md-12 mx-auto">
                   <h2>各種SNSやウェブサイト</h2>

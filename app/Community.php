@@ -13,7 +13,13 @@ class Community extends Model
         'permalink' => 'required',
         'name' => 'required',
         'pref' => 'required',
-        'facebook_link' =>'required',
+        'eyecatch' => 'image',
+        'image1' => 'image',
+        'image2' => 'image',
+        'image3' => 'image',
+        'message_image' => 'image',
+        'facebook_link' =>'required|url',
+        'instagram_link' => 'url|nullable',
+        'website_link' => 'url|nullable',
     );
-
 }

@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="index-community-table col-md-12 mx-auto">
                     <div class="row">
-                        <table class="table table-dark">
+                        <table class="table table-active">
                             <thead>
                                 <tr>
                                     <th width="25%">コミュニティ名</th>
@@ -40,7 +40,28 @@
                                                     <a href="{{ action('CommunityRepController@communityedit', ['id'=> $community->id]) }}">編集</a>
                                                 </div>
                                                 <div>
-                                                    <a href="{{ action('CommunityRepController@communitydelete', ['id'=> $community->id]) }}">削除</a>
+                                                    <a href=""data-toggle="modal" data-target="#myModal">削除</a>
+                                                    <!-- モーダルの設定 -->
+                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                      <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                          <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">消去の確認</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                          </div>
+                                                          <div class="modal-body">
+                                                            <p>本当に消去しますか？</p>
+                                                            <p>（一度消去すると復旧することはできません）</p>
+                                                          </div>
+                                                          <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                                                            <a class="btn btn-primary" href="{{ action('CommunityRepController@communitydelete', ['id'=> $community->id]) }}" role="button">消去する</a>
+                                                          </div><!-- /.modal-footer -->
+                                                        </div><!-- /.modal-content -->
+                                                      </div><!-- /.modal-dialog -->
+                                                    </div><!-- /.modal -->
                                                 </div>
                                             </td>
                                         </tr>
@@ -77,7 +98,7 @@
             <div class="row">
                 <div class="index-news-tabls col-md-12 mx-auto">
                     <div class="row">
-                        <table class="table table-dark">
+                        <table class="table table-active">
                             <thead>
                                 <tr>
                                     <th width="25%">タイトル</th>
@@ -99,7 +120,28 @@
                                                     <a href="{{ action('CommunityRepController@newsedit', ['id'=> $news->id]) }}">編集</a>
                                                 </div>
                                                 <div>
-                                                    <a href="{{ action('CommunityRepController@newsdelete', ['id'=> $news->id]) }}">削除</a>
+                                                    <a href="" data-toggle="modal" data-target="#myModal">削除</a>
+                                                    <!-- モーダルの設定 -->
+                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                      <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                          <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">消去の確認</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                          </div>
+                                                          <div class="modal-body">
+                                                            <p>本当に消去しますか？</p>
+                                                            <p>（一度消去すると復旧することはできません）</p>
+                                                          </div>
+                                                          <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                                                            <a class="btn btn-primary" href="{{ action('CommunityRepController@newsdelete', ['id'=> $news->id]) }}" role="button">消去する</a>
+                                                          </div><!-- /.modal-footer -->
+                                                        </div><!-- /.modal-content -->
+                                                      </div><!-- /.modal-dialog -->
+                                                    </div><!-- /.modal -->
                                                 </div>
                                             </td>
                                         </tr>

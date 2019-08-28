@@ -1,29 +1,42 @@
 body {
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {/* 768px以下*/
+  .search-box{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {/* 768px以下*/
+  .dropdown-menu{
+    min-width: 6rem;
+    text-align: center;
+  }
+
 }
 
 .navbar-laravel {
-  background-color: #000;
+  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .navbar-brand {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .table-dark {
-  color: #fff;
+  color: #000;
 }
 
 .list-group-item {
-  border-color: #fff;
+  border-color: #000;
   background-color: #000;
 }
 
@@ -59,19 +72,15 @@ body {
   margin-bottom: 20px;
 }
 
-.search-box{
-  margin-bottom: 10px;
-}
-
 .index-community{
   margin-bottom: 60px;
 }
 
 h3 {
   padding: 0.25em 0.5em;/*上下 左右の余白*/
-  color: #fff;/*文字色*/
+  color: #000;/*文字色*/
   background: transparent;/*背景透明に*/
-  border-left: solid 5px #fff;/*左線*/
+  border-left: solid 5px #c6190b;/*左線*/
 }
 
 .create-new{
@@ -85,4 +94,43 @@ h3 {
 .admin-navbar-logo a{
   font-size: 20px;
   font-weight: bold;
+}
+
+.title {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #000;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #c6190b;/*左線*/
+  margin-bottom:40px;
+}
+
+.form-group {
+  margin-bottom:30px;
+}
+
+.label-title {
+  font-weight: bold;
+  font-size:15px;
+}
+ i {
+   margin-right:2px;
+ }
+
+.navbar-toggler-icon {
+   width: 1.2em;
+   height: 1.2em;
+}
+
+.navbar-toggler {
+   padding: 0.25rem 0.5rem;
+}
+
+.attention {
+  margin-bottom:0;
+}
+
+.admin-btn {
+  width:100px;
+  height:45px;
+  font-size:16px;
 }

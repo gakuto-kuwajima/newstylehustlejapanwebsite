@@ -192,7 +192,7 @@
 </div>
 <div class="row">
    <div class="col-md-12 page-return">
-       <button type="button" onclick="location.href='{{ action('ReadingPageController@toppage') }}' " class="btn-flat-border">HOMEへ</button>
+       <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
    </div>
 </div>
 @endsection
