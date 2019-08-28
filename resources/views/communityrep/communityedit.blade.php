@@ -159,6 +159,12 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label class="col-md-2 label-title" for="twitter_link"><i class="fas fa-arrow-circle-right"></i>TwitterアカウントのURL</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="twitter_link" value="{{ $community_form->twitter_link }}">
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label class="col-md-2 label-title" for="website_link"><i class="fas fa-arrow-circle-right"></i>外部サイトのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="website_link" value="{{ $community_form->website_link }}">

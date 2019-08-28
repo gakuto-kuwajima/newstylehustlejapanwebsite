@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="form-group row ">
-                        <label class="col-md-2 url label-title" for="facebook_link"><i class="fas fa-arrow-circle-right"></i>FacebookページのURL（※必須）</label>
+                        <label class="col-md-2 url label-title" for="facebook_link"><i class="fas fa-arrow-circle-right"></i>FacebookページのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="facebook_link" value="{{ old('facebook_link') }}">
                         </div>
@@ -118,6 +118,12 @@
                         <label class="col-md-2 label-title" for="instagram_link"><i class="fas fa-arrow-circle-right"></i>InstagramアカウントのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="instagram_link" value="{{ old('instagram_link') }}">
+                        </div>
+                    </div>
+                    <div class="form-group row ">
+                        <label class="col-md-2 label-title" for="twitter_link"><i class="fas fa-arrow-circle-right"></i>TwitterアカウントのURL</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="twitter_link" value="{{ old('twitter_link') }}">
                         </div>
                     </div>
                     <div class="form-group row ">

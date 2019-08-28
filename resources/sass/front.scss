@@ -348,6 +348,36 @@ h2 {
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
  }
 
+ .sns_btn_twitter{
+   color: #fff;
+   background-color: #55acee;/*背景色の変更*/
+   font-weight: bold;
+   border-radius: 4px;
+   cursor: pointer;
+   line-height: normal;
+   text-decoration: none;
+   border: 2px solid transparent;
+   padding: 14px 20px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+   -webkit-tap-highlight-color: transparent;
+   width:240px;
+   height:53px;
+   transition: .2s ease-out;
+ }
+
+ .sns_btn_twitter:hover{
+   cursor: pointer;
+   color: #fff;
+   text-decoration: none;
+   transform: translateY(-4px);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+ }
 
 //news
 

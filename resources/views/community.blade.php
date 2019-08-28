@@ -15,7 +15,7 @@
             @if (!is_null($page->eyecatch_path))
             <div class="row">
                 <div class="eyecatch col-md-12 mx-auto">
-                    <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">                  
+                    <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">
                 </div>
             </div>
             @endif
@@ -107,6 +107,11 @@
                       @if (!is_null($page->instagram_link))
                       <div class="sns_btn_wrapper">
                           <a href="{{ $page->instagram_link }}" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>Instagram</span></a>
+                      </div>
+                      @endif
+                      @if (!is_null($page->twitter_link))
+                      <div class="sns_btn_wrapper">
+                          <a href="{{ $page->twitter_link }}" class="sns_btn_twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a>
                       </div>
                       @endif
                       @if (!is_null($page->website_link))

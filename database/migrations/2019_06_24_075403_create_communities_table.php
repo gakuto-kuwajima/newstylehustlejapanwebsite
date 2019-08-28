@@ -30,8 +30,9 @@ class CreateCommunitiesTable extends Migration
           $table->string('message_image_path')->nullable();
           $table->text('message')->nullable();
           $table->string('contact')->nullable();
-          $table->string('facebook_link');
+          $table->string('facebook_link')->nullable();
           $table->string('instagram_link')->nullable();
+          $table->string('twitter_link')->nullable();
           $table->string('website_link')->nullable();
           $table->timestamps();
       });

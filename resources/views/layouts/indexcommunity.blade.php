@@ -122,10 +122,10 @@
                         </div>
                         <div class="share-button">
                             <ul class="snsbtniti">
-                  　        <!--twitter-->
-                                <li><a href="TwitterのプロフィールURL" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
-                            <!--facebook-->
-                                <li><a href="FacebookページのURL" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
+                  　            <!--twitter-->
+                                <li><a href="https://twitter.com/share?url={{ url('/community') }}&text=全国のコミュニティ - NEW STYLE HUSTLE JAPAN WEBSITE" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
+                                <!--facebook-->
+                                <li><a href="https://www.facebook.com/share.php?u={{ url('/community') }}" rel="nofollow" target="_blank" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
                             </ul>
                         </div>
                     </div>

@@ -18,8 +18,9 @@ class Community extends Model
         'image2' => 'image',
         'image3' => 'image',
         'message_image' => 'image',
-        'facebook_link' =>'required|url',
+        'facebook_link' => 'url|nullable',
         'instagram_link' => 'url|nullable',
+        'twitter_link' => 'url|nullable',
         'website_link' => 'url|nullable',
     );
 }
