@@ -658,6 +658,32 @@ hr.style {
   font-weight: bold;
 }
 
+/* 非表示 */
+
+.is-hide {
+  display: none;
+}
+
+/* ローディング画面をフェードアウト */
+
+.fadeout-bg {
+  transition-property: opacity;
+  transition-delay: .9s;
+  transition-duration: .8s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ローダーをフェードアウト */
+
+.fadeout-loader {
+  transition-property: opacity;
+  transition-delay: .9s;
+  transition-duration: .3s;
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* ローディング画面 */
 
 #loader-bg {
