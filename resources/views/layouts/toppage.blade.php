@@ -53,11 +53,12 @@
     </head>
     <body>
         <div id="loader-bg" class="is-hide">
-          <div id="loader" class="is-hide">
-              <p>
-                  <img src="{{ asset('img/newstylehustlejapan-loading.png')}}">
-              </p>
-          </div>
+            <div id="loader" class="is-hide">
+                <p>
+                    <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
+                    NOW LOADING...
+                </p>
+            </div>
         </div>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
