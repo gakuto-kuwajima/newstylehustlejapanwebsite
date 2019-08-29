@@ -38,8 +38,8 @@
                                       フィンランド、ベトナム、台湾、そして日本と様々な国や地域の人たちがニュースタイルハッスルを踊っていることが分かります。</p>
                                 </div>
                                 <div class="video">
-                                    <div class="video-end embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewstylehustle%2Fvideos%2F1807520412896273%2F&show_text=0&width=560" width="560" height="295" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                         <p>NEW STYLE HUSTLE WORLD WIDEのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>WORLD WIDE</span></a>
+                                        <a href="https://www.instagram.com/newstylehustleworldwide/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>NEW STYLE HUSTLE WORLD WIDE</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="video-introduction-end">
+                            <div class="video-introduction-end-nosns">
                                 <div class="section-h3">
                                     <h3>Robyn in サンフランシスコ</h3>
                                 </div>
@@ -124,24 +124,6 @@
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QE700YFGwMg?rel=0" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sns">
-                                <div class="sns-section text-center">
-                                    <div class="section-text">
-                                        <p>JeffのInstagramアカウントです。</p>
-                                    </div>
-                                    <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>JEFF</span></a>
-                                    </div>
-                                </div>
-                                <div class="sns-section2 text-center">
-                                    <div class="section-text">
-                                        <p>RobynのInstagramアカウントです。</p>
-                                    </div>
-                                    <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>ROBYN</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +141,7 @@
                                     <h3>NEW STYLE HUSTLE JAPAN</h3>
                                 </div>
                                 <div class="section-text">
-                                    <p>2017年にJeffとRobynが来日した際に作成された動画です。<br>NEW STYLE HUSTLE TYOを創立したKENJIやパートナーのAMANDA、ストリートダンサーのGENKIやKAZANE、そしてZABU&ERIらが出演しています。</p>
+                                    <p>2017年にJeffとRobynが来日した際に作成された動画です。<br>NEW STYLE HUSTLE TYOを創立したKENJIとパートナーのAMANDA、ストリートダンサーのGENKIとKAZANE、そしてZabu&Eriらが出演しています。</p>
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -245,23 +227,15 @@
                                         <p>NEW STYLE HUSTLE TYOのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>TYO</span></a>
+                                        <a href="https://www.instagram.com/newstylehustletyo/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>NEW STYLE HUSTLE TYO</span></a>
                                     </div>
                                 </div>
                                 <div class="sns-section2 text-center">
                                     <div class="section-text">
-                                        <p>ZabuのInstagramアカウントです。</p>
+                                        <p>Zabu&EriのFacebookページです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>Zabu</span></a>
-                                    </div>
-                                </div>
-                                <div class="sns-section3 text-center">
-                                    <div class="section-text">
-                                        <p>EriのInstagramアカウントです。</p>
-                                    </div>
-                                    <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>Eri</span></a>
+                                        <a href="https://www.facebook.com/ZabuEri.NSH/" class="sns_btn_fb"><span><i class="fab fa-facebook-f"></i>Zabu&Eri Facebookページ</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +274,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="video-introduction-end">
+                            <div class="video-introduction-end-nosns">
                                 <div class="section-h3">
                                     <h3>ヨーロッパのダンサーたちとJeffによるショー</h3>
                                 </div>
@@ -354,7 +328,7 @@
                                         <p>ロンドンのハッスルのコミュニティのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>LONDON</span></a>
+                                        <a href="https://www.instagram.com/hustlinglondon/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>hustlinglondon</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -428,7 +402,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/GDZ2TXFL7BA?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Zy86p8Da_Zc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -438,7 +412,7 @@
                                         <p>NEW STYLE HUSTLE BRNOのFacebookページです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>BRNO</span></a>
+                                        <a href="https://www.facebook.com/hustlebrno/" class="sns_btn_fb"><span><i class="fab fa-facebook-f"></i>NEW STYLE HUSTLE BRNO</span></a>
                                     </div>
                                 </div>
                                 <div class="sns-section2 text-center">
@@ -446,7 +420,91 @@
                                         <p>NEW STYLE HUSTLE PRAHAのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>PRAHA</span></a>
+                                        <a href="https://www.instagram.com/newstylehustlepraha/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>NEW STYLE HUSTLE PRAHA</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="text col-md-12">
+                            <div class="section-h2">
+                                <h2>ポーランド</h2>
+                            </div>
+                            <div class="video-introduction">
+                                <div class="section-h3">
+                                    <h3>イベントが盛んに行われている！</h3>
+                                </div>
+                                <div class="section-text">
+                                    <p>以下の動画はポーランドの都市、ヴロツワフで開催されたイベントの様子です。<br>このようにポーランドはチェコに並んでニュースタイルハッスルが盛りあがっている国で、イベントもかなり多く開催されています。</p>
+                                </div>
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/4QwSXo7aUyY?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-introduction">
+                                <div class="section-h3">
+                                    <h3>Stazy&Marcelina</h3>
+                                </div>
+                                <div class="section-text">
+                                    <p>ポーランドのコミュニティ「NEW STYLE HUSTLE POLAMD」を率いているのがこの2人、Stazy&Marcelina。<br>イベントの開催や世界中のダンサーとのコラボなどとても精力的に活動しているペアです。</p>
+                                </div>
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QwvTdaJtiW4?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-introduction">
+                                <div class="section-h3">
+                                    <h3>Stazy&Marcelina × ZabuEri</h3>
+                                </div>
+                                <div class="section-text">
+                                    <p>日本のZabu&Eriとコラボした作品。それぞれのダンススタイルが表現されているところや、上空からのドローンの撮影が見どころ。</p>
+                                </div>
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-introduction">
+                                <div class="section-h3">
+                                    <h3>Stazy&Marcelina × JeffRobyn</h3>
+                                </div>
+                                <div class="section-text">
+                                    <p>Jeff&Robynとコラボした作品。ポーランドの首都ワルシャワの綺麗な街並みと、2組のペアが鏡のようにムーブを繰り広げているところが見どころです。</p>
+                                </div>
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Qowhh7MPXz4?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-introduction-end">
+                                <div class="section-h3">
+                                    <h3>Kido&Sara</h3>
+                                </div>
+                                <div class="section-text">
+                                    <p>もちろんポーランドには他にも素晴らしいダンサーがいます。<br>中でもKido&Saraは人気で、コンペでも良い成績を収めています。</p>
+                                </div>
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/VHFSpd2Yksw?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sns">
+                                <div class="sns-section text-center">
+                                    <div class="section-text">
+                                        <p>NEW STYLE HUSTLE POLANDのInstagramアカウントです。</p>
+                                    </div>
+                                    <div class="sns_btn_wrapper">
+                                        <a href="https://www.instagram.com/newstylehustle.poland/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>NEW STYLE HUSTLE POLAND</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -491,7 +549,7 @@
                                         <p>Hustle Hustle TWのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>TW</span></a>
+                                        <a href="https://www.instagram.com/p/B1vIlKVn4mg/" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>HustleHustle TW</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -536,7 +594,7 @@
                                         <p>NEW STYLE HUSTLE KOREAのInstagramアカウントです。</p>
                                     </div>
                                     <div class="sns_btn_wrapper">
-                                        <a href="" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>KOREA</a>
+                                        <a href="https://www.instagram.com/newstylehustlekorea/?hl=ja" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>NEW STYLE HUSTLE KOREA</a>
                                     </div>
                                 </div>
                             </div>
@@ -557,10 +615,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-       <div class="col-md-12 page-return">
-           <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
-       </div>
+        <div class="row">
+           <div class="col-md-12 page-return">
+               <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
+           </div>
+        </div>
     </div>
 @endsection

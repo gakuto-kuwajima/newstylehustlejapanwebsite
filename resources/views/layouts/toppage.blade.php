@@ -52,6 +52,13 @@
         <link href="{{ asset('css/toppage.css') }}" rel="stylesheet">
     </head>
     <body>
+        <div id="loader-bg" class="is-hide">
+          <div id="loader" class="is-hide">
+              <p>
+                  <img src="{{ asset('img/newstylehustlejapan-loading.png')}}">
+              </p>
+          </div>
+        </div>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">

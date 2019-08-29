@@ -257,7 +257,7 @@ i {
 }
 
 .sns_btn_wrapper {
-  margin-top: 15px;
+  margin-top: 5px;
   display: block;
   text-align: -webkit-center;
 }
@@ -277,7 +277,7 @@ i {
   text-decoration: none;
   border: 2px solid transparent;
   padding: 14px 20px;
-  font-size: 20px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +294,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -312,7 +313,7 @@ i {
   /*幅*/
   text-align: center;
   /*中身を中央寄せ*/
-  font-size: 20px;
+  font-size: 14px;
   /*文字のサイズ*/
   line-height: 53px;
   /*高さと合わせる*/
@@ -334,7 +335,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -381,7 +383,12 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+.video-introduction-end-nosns {
+  margin-bootom: 0;
 }
 

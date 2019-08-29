@@ -64,6 +64,11 @@
                             <div class="section-text">
                                 <p>その後ジェフと、パートナーのロビン（Robyn Baltzer）が普及活動を行います。</p>
                             </div>
+                            <div class="video">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/EWYVg9shvF0?rel=0" allowfullscreen></iframe>
+                                </div>
+                            </div>
                             <div class="section-image">
                                 <img src="{{ asset('img/newstylehustle_jeff_robyn.jpg')}}" class="img-fluid" alt="ニュースタイルハッスル創始者のJeffとパートナーのRobynの写真">
                             </div>
@@ -94,12 +99,11 @@
                                 <h2>ニュースタイルハッスルとは</h2>
                             </div>
                             <div class="section-text">
-                                <p>ニュースタイルハッスルとは、ハッスル（ダンス）をベースとして、パートナーと音楽を感じながら自由にクリエイトできるダンスです。</p>
-                                <p>ジェフがハッスルにストリートダンスのフレーバーを組み込んでニュースタイルハッスルが誕生し、世界中で踊られることによって更なる進化を続けています。</p>
+                                <p>改めてニュースタイルハッスルとは、ハッスル（ダンス）をベースとして、パートナーと音楽を感じながら自由にクリエイトできるダンスです。<br><br>ジェフがハッスルにストリートダンスのフレーバーを組み込んでニュースタイルハッスルが誕生し、また世界中で踊られることによって更なる進化を続けています。</p>
                             </div>
-                            <div class="video-bottom">
+                            <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
+                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text">
@@ -132,7 +136,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/NdMqhdWXats?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +147,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QJrjK_kFesc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/MLXUBIGVyrQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -163,13 +167,13 @@
                                 <h2>世界のニュースタイルハッスル</h2>
                             </div>
                             <div class="section-h3">
-                              　<h3>様々な国で踊られている</h3>
+                              　<h3>様々な国で踊られているニュースタイルハッスル</h3>
                                 <div class="section-text">
                                     <p>今や数多くの地域や国で踊られているニュースタイルハッスル。<br>以下の動画だけでも、アメリカ、イギリス、イタリア、チェコ、スロバキア、ポーランド、フィンランド、オーストリア、ベトナム、台湾、そして日本と多くの国で踊られていることが分かります。</p>
                                 </div>
                                 <div class="video-end">
                                     <div class="video-end embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewstylehustle%2Fvideos%2F1807520412896273%2F&show_text=0&width=560" width="560" height="295" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -194,16 +198,25 @@
                                 <h2>日本のニュースタイルハッスル</h2>
                             </div>
                             <div class="section-h3">
-                              　<h3>日本でも多くの人が踊っています</h3>
-                                <p>日本でも全国にニュースタイルハッスルの輪が広がりつつあります。<br><br>特に有名なコミュニティは東京の</p>
-                                <ul>
-                                  <li>毎週練習会やセッションを開催しているNEW STYLE HUSTLE TYO</li>
-                                  <li>毎週レッスンや月1でパーティーを開催しているZabu&Eriペア</li>
-                                </ul>
-                                <p>です。<br>東京にお住いの方、もしくは東京に行く機会がある方はぜひこの2つのコミュニティをのぞいてみてください。</p>
+                              　<h3>NEW STYLE HUSTLE JAPAN</h3>
+                                <p>以下の動画はジェフとロビンが来日した際に撮影したものです。<br><br>NEW STYLE HUSTLE TYOを創立し、いち早くニュースタイルハッスルを日本に広めたKENJIとパートナーのAMANDA、ストリートダンス界の第一線に立っているGENKIとKAZANE、そして現在日本で最も活躍してるであろうZabu&Eriらが出演しています。</p>
+                                <div class="video-end">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                             <div class="section-h3">
-                              　<h3>日本の芸能界でも！</h3>
+                              　<h3>日本でも多くの人が踊っています</h3>
+                                <p>日本でも全国にニュースタイルハッスルの輪が広がっています。<br><br>特に有名なコミュニティは東京の</p>
+                                <ul>
+                                  <li>毎週練習会やセッションを開催している<a href="{{ action('ReadingPageController@communityshow',['permalink' => 'tyo'])}}"><span class="pref-btn1">NEW STYLE HUSTLE TYO</a></li>
+                                  <li>毎週レッスンや月1でパーティーを開催している<a href="{{ action('ReadingPageController@communityshow',['permalink' => 'zabueri'])}}"><span class="pref-btn1">Zabu&Eriペア</a></li>
+                                </ul>
+                                <p>です。<br>東京にお住いの方、もしくは東京に行く機会がある方はぜひこの2つのコミュニティを訪れてみてください。</p>
+                            </div>
+                            <div class="section-h3">
+                              　<h3>芸能界でも！</h3>
                                 <p>またZabu&Eriペアは</p>
                                 <ul>
                                   <li>フジテレビ「ミュージックステーション」KREVA ダンサー出演</li>
@@ -212,9 +225,14 @@
                                   <li>嵐アルバム「Untitled」リード曲「未完」MV振り付け</li>
                                 </ul>
                                 <p>などの経歴があり、彼らの尽力によって芸能界にも広がりをみせています。</p>
-                                <div class="video-end">
+                                <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-end">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QkWD8JE1ulQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -293,7 +311,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="box1">
+                            <div class="box2">
                                 <span class="box-title">注目！</span>
                                 <p>ニュースタイルハッスルの動画を集めた特集ページもあります。</p>
                                 <p><a href="/featured-video">FEATURED VIDEO</a></p>
@@ -303,10 +321,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-       <div class="col-md-12 page-return">
-           <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
-       </div>
+        <div class="row">
+           <div class="col-md-12 page-return">
+               <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
+           </div>
+        </div>
     </div>
 @endsection

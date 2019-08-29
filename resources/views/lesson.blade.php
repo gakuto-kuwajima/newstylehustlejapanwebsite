@@ -189,10 +189,10 @@
             </div>
         </div>
     </div>
-</div>
-<div class="row">
-   <div class="col-md-12 page-return">
-       <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
-   </div>
+    <div class="row">
+       <div class="col-md-12 page-return">
+           <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
+       </div>
+    </div>
 </div>
 @endsection

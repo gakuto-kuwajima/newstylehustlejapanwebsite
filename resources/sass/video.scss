@@ -206,9 +206,6 @@ h2 {
 }
 
 
-
-
-
 //h2見出し　共通
 h2 {
   padding: 0.25em 0.5em;/*上下 左右の余白*/
@@ -234,7 +231,7 @@ i {
 }
 
 .sns_btn_wrapper {
-  margin-top:15px;
+  margin-top:5px;
   display: block;
   text-align: -webkit-center;
 }
@@ -253,7 +250,7 @@ i {
   text-decoration: none;
   border: 2px solid transparent;
   padding: 14px 20px;
-  font-size: 20px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +280,7 @@ i {
   height: 53px;/*高さ*/
   width: 240px;/*幅*/
   text-align: center;/*中身を中央寄せ*/
-  font-size: 20px;/*文字のサイズ*/
+  font-size: 14px;/*文字のサイズ*/
   line-height: 53px;/*高さと合わせる*/
   background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
@@ -348,4 +345,8 @@ i {
   text-decoration: none;
   transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+}
+
+.video-introduction-end-nosns {
+  margin-bootom: 0;
 }

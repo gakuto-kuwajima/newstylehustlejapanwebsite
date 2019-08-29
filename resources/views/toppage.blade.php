@@ -7,11 +7,11 @@
 @section('ogimage'){{ asset('img/newstylehustlejapanwebsite-eyecatch.png')}}@endsection
 
 @section('content')
-　　<div class="container-head mx-auto">　　
-        <div class="top mx-auto">
-            <div class="top-image mx-auto">
-                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"class="img-fluid"></video>
-                <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" class="img-fluid" alt="NEW STYLE HUSTLE JAPANのロゴ">
+　　<div class="container-head">　　
+        <div class="top">
+            <div class="top-image">
+                <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"></video>
+                <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" alt="NEW STYLE HUSTLE JAPANのロゴ">
                 <h1>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h1>
             </div>
         </div>

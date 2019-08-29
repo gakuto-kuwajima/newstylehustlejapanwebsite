@@ -55,4 +55,5 @@
                <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
            </div>
         </div>
+    </div>
   @endsection
