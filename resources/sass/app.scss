@@ -97,6 +97,21 @@
   }
 }
 
+@media screen and (min-width:992px) and (max-width:1178px){
+  .search-btn {
+    margin-top: 0.5rem !important;
+  }
+}
+
+.navbar-toggler-icon {
+  width:2em;
+  height:2em;
+}
+
+.navbar-toggler {
+  padding:0.5rem 1rem;
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -124,10 +139,6 @@
 
 .btn-outline-success{
   font-size: 0.8em;
-}
-
-.search-btn {
-  margin-top: 0.5rem ;
 }
 
 

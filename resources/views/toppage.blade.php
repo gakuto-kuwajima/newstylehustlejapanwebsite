@@ -7,7 +7,7 @@
 @section('ogimage'){{ asset('img/newstylehustlejapanwebsite-eyecatch.png')}}@endsection
 
 @section('content')
-　　<div class="container-head">　　
+　　<div class="container-head mx-auto">　　
         <div class="top">
             <div class="top-image">
                 <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"></video>
