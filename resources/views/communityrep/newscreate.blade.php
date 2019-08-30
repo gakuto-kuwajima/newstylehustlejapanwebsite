@@ -105,10 +105,10 @@
                 </form>
             </div>
         </div>
-    </div>
-    <div class="form-group row">
-       <div class="col-md-12 page-return">
-           <button type="button" onclick="location.href='/communityrep' " class="btn-flat-border admin-btn">戻る</button>
-       </div>
+        <div class="form-group row">
+           <div class="col-md-12 page-return">
+               <button type="button" onclick="location.href='/communityrep' " class="btn-flat-border admin-btn">戻る</button>
+           </div>
+        </div>
     </div>
 @endsection

@@ -86,8 +86,8 @@ h2 {
   .community_name h1 {
     font-weight: bold;
     font-size: 5rem;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-top: 3px;
   }
 }
 
@@ -96,7 +96,7 @@ h2 {
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 30px;
-    margin-top: 15px;
+    margin-top: 3px;
   }
 }
 
@@ -124,8 +124,8 @@ h2 {
   .community_name h1 {
     font-weight: bold;
     font-size: 3rem;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 3px;
   }
 
   .community h2 {
@@ -195,6 +195,10 @@ h2 {
   width: 100%;
 }
 
+.information {
+  margin-bottom: 5px;
+}
+
 /*--------------------
  吹き出しを作る
 --------------------*/
@@ -242,6 +246,14 @@ h2 {
   border-right: 15px solid #e0edff;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
+}
+
+.balloon-text-right p {
+  margin-bottom: 0;
+}
+
+.balloon1 {
+  min-height: 130px;
 }
 
 h2 {
