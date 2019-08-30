@@ -10768,15 +10768,6 @@ a.text-dark:focus {
   }
 }
 
-.navbar-toggler-icon {
-  width: 2em;
-  height: 2em;
-}
-
-.navbar-toggler {
-  padding: 0.5rem 1rem;
-}
-
 .container {
   max-width: 1170px;
   width: 100%;
@@ -10998,5 +10989,14 @@ footer address {
 
 .paginate {
   margin-bottom: 30px;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.navbar-toggler {
+  padding: 0.5rem 1rem;
 }
 

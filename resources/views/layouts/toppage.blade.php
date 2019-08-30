@@ -52,14 +52,6 @@
         <link href="{{ asset('css/toppage.css') }}" rel="stylesheet">
     </head>
     <body>
-        <div id="loader-bg" class="is-hide">
-            <div id="loader" class="is-hide">
-                <p>
-                    <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
-                    NOW LOADING...
-                </p>
-            </div>
-        </div>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
@@ -174,26 +166,28 @@
                     </div>
                 </div>
             </footer>
+            <div id="loading" class="loading">
+                <div class="loading__img">
+                  <p>
+                      <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
+                      NOW LOADING...
+                  </p>
+                </div>
+            </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
     <script>
-    var bg = document.getElementById('loader-bg'),
-    loader = document.getElementById('loader');
-    /* ロード画面の非表示を解除 */
-    bg.classList.remove('is-hide');
-    loader.classList.remove('is-hide');
-
-    /* 読み込み完了 */
-    window.addEventListener('load', stopload);
-
-    /* 10秒経ったら強制的にロード画面を非表示にする */
-    setTimeout('stopload()',10000);
-
-    /* ロード画面を非表示にする処理 */
-    function stopload(){
-        bg.classList.add('fadeout-bg');
-        loader.classList.add('fadeout-loader');
-    }
+    $(function(){
+    　//ローディングエリアを取得
+    　var loading = $("#loading");
+    　//ローディングエリアを隠す処理
+    　var isHidden = function(){
+    　　loading.fadeOut(800); //1000ミリ秒かけてフェードアウト
+    　};
+    　//1000ミリ秒後にloadingFunc開始
+    　setTimeout(isHidden,1000);
+    });
     </script>
-    <script src="{{ asset('js/ofi.min.js') }}"></script>
 </html>

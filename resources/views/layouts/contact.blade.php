@@ -155,6 +155,6 @@
                 </div>
             </footer>
         </div>
+        <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
-    <script src="{{ asset('js/ofi.min.js') }}"></script>
 </html>

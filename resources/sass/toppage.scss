@@ -653,28 +653,7 @@ hr.style{
   font-weight: bold;
 }
 
-/* 非表示 */
-.is-hide {
-    display: none;
-}
-/* ローディング画面をフェードアウト */
-.fadeout-bg {
-    transition-property: opacity;
-    transition-delay: .9s;
-    transition-duration: .8s;
-    opacity: 0;
-    pointer-events: none;
-}
-/* ローダーをフェードアウト */
-.fadeout-loader {
-    transition-property: opacity;
-    transition-delay: .9s;
-    transition-duration: .3s;
-    opacity: 0;
-    pointer-events: none;
-}
-/* ローディング画面 */
-#loader-bg {
+.loading {
     background: #ffffff;
     height: 100%;
     left: 0;
@@ -683,7 +662,8 @@ hr.style{
     width: 100%;
     z-index: 100;
 }
-#loader {
+
+.loading__img {
     height: 133px;
     left: 50%;
     margin-left: -75px;
@@ -692,18 +672,20 @@ hr.style{
     top: 50%;
     width: 150px;
 }
-#loader p {
+
+.loading__img p {
     color: #454545;
     font-size: 16px;
     line-height: 1.8;
     text-align: center;
     font-weight: bold;
 }
-#loader p img {
+
+.loading__img p img {
     display: inline-block;
 }
 
-#loader img {
+.loading__img img {
     width: 105px;
     height:105px;
 }

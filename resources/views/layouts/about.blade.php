@@ -167,6 +167,7 @@
                 </div>
             </footer>
         </div>
+        <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
     <script>
         function youtube_defer() {
@@ -179,5 +180,4 @@
         }
         window.addEventListener('load', youtube_defer);
     </script>
-    <script src="{{ asset('js/ofi.min.js') }}"></script>
 </html>
