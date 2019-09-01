@@ -68,4 +68,10 @@ class ReadingPagecontroller extends Controller
         $keywords = '';
         return view('privacy_policy',['keywords'=>$keywords]);
     }
+
+    public function disclaimer()
+        {
+            $keywords = '';
+            return view('disclaimer',['keywords'=>$keywords]);
+        }
 }

@@ -108,6 +108,19 @@ h3 {
   margin-bottom: 30px;
 }
 
+.section-h3 {
+  margin-top: 40px;
+}
+
+.section-h4 {
+  margin-top: 30px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .button-css {
   display: inline-block;
   padding: 0.3em 2em;

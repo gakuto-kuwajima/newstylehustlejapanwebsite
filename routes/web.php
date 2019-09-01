@@ -79,6 +79,8 @@ Route::get('search','SearchController@index');
 
 Route::get('privacy_policy', 'ReadingPageController@privacypolicy');
 
+Route::get('disclaimer', 'ReadingPageController@disclaimer');
+
 
 //contact関係
 Route::get('contact','ContactsController@index');

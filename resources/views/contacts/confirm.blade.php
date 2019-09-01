@@ -12,7 +12,7 @@
                     <h1>お問い合わせ</h1>
                 </div>
                 <div class="panel-body">
-                    <p>誤りがないことを確認の上送信ボタンをクリックしてください。</p>
+                    <p>誤りがないことを確認し、当サイトの<a href="/privacy_policy">プライバシーポリシー</a>に同意していただいた上で「送信」ボタンをクリックしてください。</p>
 
                     <table class="table table-responsive-md">
                         <tr>

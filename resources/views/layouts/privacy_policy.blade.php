@@ -22,6 +22,8 @@
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
 
+        <meta name="robots" content="noindex,nofollow">
+
         <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
 
         <!-- Scripts -->
@@ -150,7 +152,7 @@
                         </div>
                     </div>
                     <div class="copyright">
-                      　<p><a href="/privacy_policy">プライバシーポリシー</a></p>
+                      　<p><a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
                         <address>© 2019 NEW STYLE HUSTLE JAPAN</address>
                     </div>
                 </div>
