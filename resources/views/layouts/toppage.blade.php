@@ -162,37 +162,39 @@
                         </div>
                     </div>
                     <div class="copyright">
+                        <p><a href="/privacy_policy">プライバシーポリシー</a></p>
                         <address>© 2019 NEW STYLE HUSTLE JAPAN</address>
                     </div>
                 </div>
             </footer>
         </div>
-        <div id="loading" class="loading">
-            <div id="loading__img" class="loading__img">
+        <div id="loader-bg" class="is-hide">
+            <div id="loader" class="is-hide">
               <p>
                   <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
                   NOW LOADING...
               </p>
             </div>
         </div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>
-          $(window).load(function () { //全ての読み込みが完了したら実行
-            $('#loading').delay(900).fadeOut(800);
-            $('#loading__img').delay(600).fadeOut(300);
-            $('#app').css('display', 'block');
-          });
+        var bg = $('#loader-bg'),
+            loader = $('#loader');
+        /* ローディング画面の非表示を解除 */
+        bg.removeClass('is-hide');
+        loader.removeClass('is-hide');
 
-          //10秒たったら強制的にロード画面を非表示
-          $(function(){
-            setTimeout('stopload()',10000);
-          });
+        /* 読み込み完了 */
+        $(window).on('load', stopload);
 
-          function stopload(){
-            $('#app').css('display','block');
-            $('#loading').delay(900).fadeOut(800);
-            $('#loading__img').delay(600).fadeOut(300);
-          }
+        /* 10秒経ったら強制的にローディング画面を非表示にする */
+        setTimeout('stopload()',10000);
+
+        /* ローディング画面を非表示にする処理 */
+        function stopload(){
+            bg.delay(900).fadeOut(800);
+            loader.delay(900).fadeOut(300);
+        }
         </script>
         <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>

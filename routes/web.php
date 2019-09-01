@@ -51,14 +51,12 @@ Route::get('/password/reset/{token}', 'Auth\ResetPasswordController@showResetFor
 Route::post('/password/reset', 'Auth\ResetPasswordController@reset');
 
 
-  //ユーザー登録
-  Route::get('GcnJBe6DwdsK_register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-  Route::post('GcnJBe6DwdsK_register', 'Auth\RegisterController@register');
-
+//ユーザー登録
+Route::get('GcnJBe6DwdsK_register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('GcnJBe6DwdsK_register', 'Auth\RegisterController@register');
 
 
 //view関係
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'ReadingPageController@toppage');
@@ -79,8 +77,7 @@ Route::get('community', 'ReadingPageController@indexcommunity');
 
 Route::get('search','SearchController@index');
 
-
-
+Route::get('privacy_policy', 'ReadingPageController@privacypolicy');
 
 
 //contact関係

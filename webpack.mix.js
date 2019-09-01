@@ -22,4 +22,5 @@ const mix = require('laravel-mix');
     .sass('resources/sass/video.scss', 'public/css')
     .sass('resources/sass/search.scss', 'public/css')
     .sass('resources/sass/indexcommunity.scss', 'public/css')
-    .sass('resources/sass/indexnews.scss', 'public/css');
+    .sass('resources/sass/indexnews.scss', 'public/css')
+    .sass('resources/sass/privacypolicy.scss', 'public/css');

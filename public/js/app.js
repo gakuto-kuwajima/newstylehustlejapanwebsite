@@ -49507,6 +49507,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/privacypolicy.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/privacypolicy.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/search.scss":
 /*!************************************!*\
   !*** ./resources/sass/search.scss ***!
@@ -49541,9 +49552,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/front.scss ./resources/sass/toppage.scss ./resources/sass/about.scss ./resources/sass/contact.scss ./resources/sass/lesson.scss ./resources/sass/video.scss ./resources/sass/search.scss ./resources/sass/indexcommunity.scss ./resources/sass/indexnews.scss ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/front.scss ./resources/sass/toppage.scss ./resources/sass/about.scss ./resources/sass/contact.scss ./resources/sass/lesson.scss ./resources/sass/video.scss ./resources/sass/search.scss ./resources/sass/indexcommunity.scss ./resources/sass/indexnews.scss ./resources/sass/privacypolicy.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49558,7 +49569,8 @@ __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/res
 __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/video.scss */"./resources/sass/video.scss");
 __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/search.scss */"./resources/sass/search.scss");
 __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/indexcommunity.scss */"./resources/sass/indexcommunity.scss");
-module.exports = __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/indexnews.scss */"./resources/sass/indexnews.scss");
+__webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/indexnews.scss */"./resources/sass/indexnews.scss");
+module.exports = __webpack_require__(/*! /Users/kuwajimagakuto/Desktop/development/nshwebsite/resources/sass/privacypolicy.scss */"./resources/sass/privacypolicy.scss");
 
 
 /***/ })

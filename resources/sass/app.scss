@@ -267,7 +267,7 @@ padding: 0 20px;
   text-align: center;
 }
 
-.copyright{
+.copyright {
     font-size: 80%; /*フォントサイズの指定*/
     width: 100%;    /*横幅の指定*/
     text-align: center; /*文字の中央寄せ*/
@@ -279,6 +279,13 @@ footer address{
     font-style: normal; /*文字の斜体を取り消す*/
 }
 
+.copyright p {
+   margin-bottom: 0;
+}
+
+.copyright a {
+   color: #000;
+}
 
 //戻るボタン
 .btn-flat-border {

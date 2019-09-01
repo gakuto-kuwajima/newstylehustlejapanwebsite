@@ -62,4 +62,10 @@ class ReadingPagecontroller extends Controller
         $posts = NEWS::orderBy('id', 'DESC')->take(3)->get();
         return view('toppage',['posts' =>$posts, 'keywords'=>$keywords]);
     }
+
+    public function privacypolicy()
+    {
+        $keywords = '';
+        return view('privacy_policy',['keywords'=>$keywords]);
+    }
 }

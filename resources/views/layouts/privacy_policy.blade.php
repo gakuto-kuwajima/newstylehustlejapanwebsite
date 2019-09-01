@@ -12,18 +12,6 @@
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
         <meta name="description" content="@yield('metadescription')" />
 
-        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-        <meta property="og:title" content="@yield('ogtitle')" />
-        <meta property="og:type" content="article" />
-        <meta property="og:description" content="@yield('metadescription')" />
-        <meta property="og:url" content="@yield('ogurl')" />
-        <meta property="og:image" content="@yield('ogimage')" />
-        <meta property="og:site_name" content="ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE" />
-        <meta property="og:locale" content="ja_JP" />
-        <meta property="fb:app_id" content=" 714173509023789 " />
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@nsh_japan">
-
         <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon16.png')}}" sizes="16x16" type="image/png" />
         <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon32.png')}}" sizes="32x32" type="image/png" />
         <link rel="icon" href="{{ asset('img/newstylehustlejapanwebsite-icon48.png')}}" sizes="48x48" type="image/png" />
@@ -49,7 +37,7 @@
         {{-- Laravel標準で用意されているCSSを読み込みます --}}
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         {{-- この章の後半で作成するCSSを読み込みます --}}
-        <link href="{{ asset('css/video.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/privacypolicy.css') }}" rel="stylesheet">
     </head>
     <body>
         <div id="app">
@@ -123,9 +111,9 @@
                         <div class="share-button">
                             <ul class="snsbtniti">
                   　            <!--twitter-->
-                                <li><a href="https://twitter.com/share?url={{ url('/featured-video') }}&text=ニュースタイルハッスルの動画特集 - NEW STYLE HUSTLE JAPAN WEBSITE" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/share?url={{ url('/') }}&text=ニュースタイルハッスル ジャパン - NEW STYLE HUSTLE JAPAN WEBSITE" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
                                 <!--facebook-->
-                                <li><a href="https://www.facebook.com/share.php?u={{ url('/featured-video') }}" rel="nofollow" target="_blank" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/share.php?u={{ url('/') }}" rel="nofollow" target="_blank" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -170,15 +158,4 @@
         </div>
         <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
-    <script>
-        function youtube_defer() {
-          var iframes = document.querySelectorAll('.youtube');
-          iframes.forEach(function(iframe){
-            if(iframe.getAttribute('data-src')) {
-              iframe.setAttribute('src',iframe.getAttribute('data-src'));
-            }
-          });
-        }
-        window.addEventListener('load', youtube_defer);
-    </script>
 </html>

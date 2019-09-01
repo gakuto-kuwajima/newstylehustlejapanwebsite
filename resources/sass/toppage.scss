@@ -657,39 +657,43 @@ hr.style{
   padding-right: 3px;
 }
 
-.loading {
-    background: #ffffff;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
 
-.loading__img {
-    height: 133px;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: -66.5px;
-    position: fixed;
-    top: 50%;
-    width: 150px;
-}
 
-.loading__img p {
+/* 非表示 */
+.is-hide {
+    display: none;
+}
+/* LOADING */
+#loader-bg {
+  background: #ffffff;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+#loader {
+  height: 133px;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -66.5px;
+  position: fixed;
+  top: 50%;
+  width: 150px;
+}
+#loader p {
     color: #454545;
     font-size: 16px;
     line-height: 1.8;
     text-align: center;
     font-weight: bold;
 }
-
-.loading__img p img {
+#loader p img {
     display: inline-block;
 }
 
-.loading__img img {
+#loader img {
     width: 105px;
     height:105px;
 }
