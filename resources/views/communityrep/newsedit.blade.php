@@ -17,20 +17,20 @@
                     <div class="form-group row no-gutters">
                         <label class="col-md-2 label-title" for="news_permalink"><i class="fas fa-arrow-circle-right"></i>URL（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_permalink" value="{{ $news_form->news_permalink }}" placeholder="例）miyagiparty-0714">
+                            <input type="text" class="form-control" name="news_permalink" value="{{ $news_form->news_permalink }}">
                             <p>※基本的にURLは変更しないでください。検索されにくくなります。</p>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="news_title"><i class="fas fa-arrow-circle-right"></i>タイトル（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_title" value="{{ $news_form->news_title }}" placeholder="例）[宮城]7月14日にニュースタイルハッスルのパーティーを開催します！">
+                            <input type="text" class="form-control" name="news_title" value="{{ $news_form->news_title }}">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="news_writer"><i class="fas fa-arrow-circle-right"></i>筆者名</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_writer" value="{{ $news_form->news_writer }}" placeholder="例）NEW STYLE HUSTLE MIYAGI">
+                            <input type="text" class="form-control" name="news_writer" value="{{ $news_form->news_writer }}">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -51,11 +51,11 @@
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="news_body"><i class="fas fa-arrow-circle-right"></i>本文（※必須）</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="news_body" rows="10" placeholder="例）7月14日（日）仙台にてニュースタイルハッスルのパーティーを開催することになりました。詳細は以下のリンクからご確認ください。">{{ $news_form->news_body }}</textarea>
+                            <textarea class="form-control" name="news_body" rows="10">{{ $news_form->news_body }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2 label-title" for="news_website_link"><i class="fas fa-arrow-circle-right"></i>外部サイトのURL</label>
+                        <label class="col-md-2 label-title" for="news_website_link"><i class="fas fa-arrow-circle-right"></i>詳細サイトのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_website_link" value="{{ $news_form->news_website_link }}">
                         </div>
@@ -67,7 +67,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image1_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove2" value="true">画像を削除
@@ -82,7 +82,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image2_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove3" value="true">画像を削除
@@ -97,7 +97,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image3_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove4" value="true">画像を削除
@@ -120,7 +120,7 @@
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="news_video3_link"><i class="fas fa-arrow-circle-right"></i>動画のリンク3</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_video3_link" value="{{ $news_form->video3_link }}">
+                            <input type="text" class="form-control" name="news_video3_link" value="{{ $news_form->news_video3_link }}">
                             <p>※動画のリンクはyoutubeのみ可。「https://www.youtube.com/watch?v=○○○○○」の○○○○○の部分のみ記入してください。<br>例）「https://www.youtube.com/watch?v=iGFKTiqBOBs」の場合、「iGFKTiqBOBs」のみ記入。</p>
                         </div>
                     </div>

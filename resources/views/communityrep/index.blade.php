@@ -72,6 +72,11 @@
                    </div>
                </div>
             </div>
+            @if(isset($community) && $community->user_id==Auth::id())
+            <div class="paginate d-flex justify-content-center">
+                {{ $pages->links() }}
+            </div>
+            @endif
         </div>
         <div class="index-news">
             <div class="row index-news-title col-md-12">

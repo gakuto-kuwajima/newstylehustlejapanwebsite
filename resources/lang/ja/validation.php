@@ -158,9 +158,11 @@ return [
         'news_permalink' => 'URL',
         'news_title' => 'タイトル',
         'news_body' => '本文',
+        'news_eyecatch' => 'アイキャッチ画像',
         'news_image1' => '画像1',
         'news_image2' => '画像2',
         'news_image3' => '画像3',
+        'news_website_link' => '詳細サイトのURL',
     ],
 
 ];

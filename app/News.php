@@ -18,5 +18,6 @@ class News extends Model
         'news_image1' => 'image',
         'news_image2' => 'image',
         'news_image3' => 'image',
+        'news_website_link' => 'url|nullable',
     );
 }

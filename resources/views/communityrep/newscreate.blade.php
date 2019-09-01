@@ -24,20 +24,20 @@
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="news_permalink"><i class="fas fa-arrow-circle-right"></i>URL（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_permalink" value="{{ old('news_permalink') }}" placeholder="例）miyagiparty-0714">
+                            <input type="text" class="form-control" name="news_permalink" value="{{ old('news_permalink') }}">
                             <p>※「newstylehustlejapan.com/news/○○○○○」の○○○○○の部分です。<br>ハイフン（-）以外の記号や空白は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="news_title"><i class="fas fa-arrow-circle-right"></i>タイトル（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_title" value="{{ old('news_title') }}" placeholder="例）[宮城]7月14日にニュースタイルハッスルのパーティーを開催します！">
+                            <input type="text" class="form-control" name="news_title" value="{{ old('news_title') }}">
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="news_writer"><i class="fas fa-arrow-circle-right"></i>筆者名</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_writer" value="{{ old('news_writer') }}" placeholder="例）NEW STYLE HUSTLE MIYAGI">
+                            <input type="text" class="form-control" name="news_writer" value="{{ old('news_writer') }}">
                         </div>
                     </div>
                     <div class="form-group row ">
@@ -50,13 +50,13 @@
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="news_body"><i class="fas fa-arrow-circle-right"></i>本文（※必須）</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="news_body" rows="10" placeholder="例）7月14日（日）仙台にてニュースタイルハッスルのパーティーを開催することになりました。詳細は以下のリンクからご確認ください。">{{ old('news_body')}}</textarea>
+                            <textarea class="form-control" name="news_body" rows="10">{{ old('news_body')}}</textarea>
                         </div>
                     </div>
                     <div class="form-group row ">
-                        <label class="col-md-2 label-title" for="news_website_link"><i class="fas fa-arrow-circle-right"></i>詳細ページのURL</label>
+                        <label class="col-md-2 label-title" for="news_website_link"><i class="fas fa-arrow-circle-right"></i>詳細サイトのURL</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="news_website_link" value="{{ old('news_website_link') }}"　placeholder="例）https://www.facebook.com/groups/2262801090609771/">
+                            <input type="text" class="form-control" name="news_website_link" value="{{ old('news_website_link') }}">
                         </div>
                     </div>
                     <div class="form-group row ">

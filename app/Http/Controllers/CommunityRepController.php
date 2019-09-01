@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\CommunityRequest;
+use App\Http\Requests\NewsRequest;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
@@ -16,6 +18,7 @@ class CommunityRepController extends Controller
     {
 
         $pages = Community::all()->sortByDesc('created_at');
+        $pages = Community::latest()->paginate(3);
 
         $newskeywords = $request->newskeywords;
         if ($newskeywords != '') {
@@ -26,7 +29,7 @@ class CommunityRepController extends Controller
                           ->orWhere('news_body', 'LIKE', "%{$newsword}%");
                 }
             })
-            ->distinct()->latest()->paginate(5);
+            ->distinct()->latest()->paginate(3);
         } else {
             $posts = News::all()->sortByDesc('created_at');
             $posts = News::latest()->paginate(3);
@@ -47,7 +50,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function communitycreate(Request $request)
+    public function communitycreate(CommunityRequest $request)
     {
         $this->validate($request, Community::$rules);
 
@@ -124,7 +127,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function communityupdate(Request $request)
+    public function communityupdate(CommunityRequest $request)
     {
         $this->validate($request, Community::$rules);
 
@@ -209,7 +212,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function newscreate(Request $request)
+    public function newscreate(NewsRequest $request)
     {
         $this->validate($request, News::$rules);
 
@@ -276,7 +279,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function newsupdate(Request $request)
+    public function newsupdate(NewsRequest $request)
     {
         $this->validate($request, News::$rules);
 

@@ -24,7 +24,7 @@
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="permalink"><i class="fas fa-arrow-circle-right"></i>URL（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="permalink" value="{{ old('permalink') }}" placeholder="例）tokyo">
+                            <input type="text" class="form-control" name="permalink" value="{{ old('permalink') }}">
                             <p>※「newstylehustlejapan.com/community/○○○○○」の○○○○○の部分です。<br>記号は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
                         </div>
                     </div>
@@ -38,19 +38,19 @@
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="name"><i class="fas fa-arrow-circle-right"></i>コミュニティ名（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="例）NEW STYLE HUSTLE TOKYO">
+                            <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="pref"><i class="fas fa-arrow-circle-right"></i>都道府県（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="pref" value="{{ old('pref') }}" placeholder="例）東京">
+                            <input type="text" class="form-control" name="pref" value="{{ old('pref') }}">
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="information"><i class="fas fa-arrow-circle-right"></i>コミュニティ情報</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="information" rows="10" placeholder="例）NEW STYLE HUSTLE TOKYOは、Zabu&Eriを中心にレッスンやパーティーなどを開催しております。">{{ old('information')}}</textarea>
+                            <textarea class="form-control" name="information" rows="10">{{ old('information')}}</textarea>
                         </div>
                     </div>
                     <div class="form-group row ">
@@ -99,13 +99,13 @@
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="message"><i class="fas fa-arrow-circle-right"></i>メッセージ</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="message" rows="10" placeholder="例）代表のZabu&Eriです。NEW STYLE HUSTLEに少しでも興味ある方はぜひご連絡ください！。">{{ old('message')}}</textarea>
+                            <textarea class="form-control" name="message" rows="10">{{ old('message')}}</textarea>
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="contact"><i class="fas fa-arrow-circle-right"></i>お問い合わせ先</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="contact" value="{{ old('contact') }}" placeholder="例）○○@gmail.com、またはFacebookにてご連絡ください。">
+                            <input type="text" class="form-control" name="contact" value="{{ old('contact') }}">
                         </div>
                     </div>
                     <div class="form-group row ">

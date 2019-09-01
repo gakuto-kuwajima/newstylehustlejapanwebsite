@@ -13,11 +13,11 @@
     <div class="row">
         <div class="community col-md-12 mx-auto">
             @if (!is_null($page->eyecatch_path))
-            <div class="row">
-                <div class="eyecatch col-md-12 mx-auto">
-                    <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="img-fluid">
+
+                <div class="eyecatch">
+                    <img src="{{ asset('storage/image/' . $page->eyecatch_path) }}" id='eyecatch' class="vw-100 img-fluid">
                 </div>
-            </div>
+
             @endif
             <div class="row">
                 <div class="community_name col-md-12 mx-auto">
@@ -99,30 +99,32 @@
                 <div class="facebook_link col-md-12 mx-auto">
                   <h2>各種SNSやウェブサイト</h2>
                   <p>各種SNSやウェブサイトで最新の情報を更新しています。</p>
+                </div>
+                <div class="row mx-auto">
                       @if (!is_null($page->facebook_link))
-                      <div class="sns_btn_wrapper">
+                      <div class="sns_btn_wrapper col">
                           <a href="{{ $page->facebook_link }}" class="sns_btn_fb"><i class="fab fa-facebook-f"></i>Facebook</a>
                       </div>
                       @endif
                       @if (!is_null($page->instagram_link))
-                      <div class="sns_btn_wrapper">
+                      <div class="sns_btn_wrapper col">
                           <a href="{{ $page->instagram_link }}" class="sns_btn_insta"><span><i class="fab fa-instagram"></i>Instagram</span></a>
                       </div>
                       @endif
                       @if (!is_null($page->twitter_link))
-                      <div class="sns_btn_wrapper">
+                      <div class="sns_btn_wrapper col">
                           <a href="{{ $page->twitter_link }}" class="sns_btn_twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a>
                       </div>
                       @endif
                       @if (!is_null($page->website_link))
-                      <div class="sns_btn_wrapper">
+                      <div class="sns_btn_wrapper col">
                           <a href="{{ $page->website_link }}" class="sns_btn_web"><i class="fas fa-laptop"></i><span>Website</span></a>
                       </div>
                       @endif
                 </div>
             </div>
             <div class="row">
-               <div class="col-md-12 page-return">
+               <div class="col-md-12 page-return community-page-return">
                    <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
                </div>
             </div>

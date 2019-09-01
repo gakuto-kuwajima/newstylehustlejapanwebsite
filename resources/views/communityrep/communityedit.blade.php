@@ -18,7 +18,7 @@
                     <div class="form-group row no-gutters">
                         <label class="col-md-2 label-title" for="permalink"><i class="fas fa-arrow-circle-right"></i>URL（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="permalink" value="{{ $community_form->permalink }}" placeholder="例）tokyo">
+                            <input type="text" class="form-control" name="permalink" value="{{ $community_form->permalink }}">
                             <p>※基本的にURLは変更しないでください。検索されにくくなります。</p>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->eyecatch_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
@@ -40,19 +40,19 @@
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="name"><i class="fas fa-arrow-circle-right"></i>コミュニティ名（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="name" value="{{ $community_form->name }}" placeholder="例）NEW STYLE HUSTLE TOKYO">
+                            <input type="text" class="form-control" name="name" value="{{ $community_form->name }}">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="pref"><i class="fas fa-arrow-circle-right"></i>都道府県（※必須）</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="pref" value="{{ $community_form->pref }}" placeholder="例）東京">
+                            <input type="text" class="form-control" name="pref" value="{{ $community_form->pref }}">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="information"><i class="fas fa-arrow-circle-right"></i>コミュニティ情報</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="information" rows="10" placeholder="例）主に○○で活動しています。練習会は隔週○○日○○時からおこなっています。未経験の方も大歓迎です。">{{ $community_form->information }}</textarea>
+                            <textarea class="form-control" name="information" rows="10">{{ $community_form->information }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -62,7 +62,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image1_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove1" value="true">画像を削除
@@ -77,7 +77,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image2_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove2" value="true">画像を削除
@@ -92,7 +92,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image3_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove3" value="true">画像を削除
@@ -126,7 +126,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->message_image_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove4" value="true">画像を削除
@@ -137,17 +137,17 @@
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="message"><i class="fas fa-arrow-circle-right"></i>メッセージ</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="message" rows="10" placeholder="例）NEW STYLE HUSTLE ○○です！だいたい平均5~10人くらい集まって練習会を開いています。もちろん県内外の方問わず参加可能なので、興味ある方はFacebookページをご覧になるか、お問い合わせ先にご連絡ください。">{{ $community_form->message }}</textarea>
+                            <textarea class="form-control" name="message" rows="10">{{ $community_form->message }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 label-title" for="contact"><i class="fas fa-arrow-circle-right"></i>お問い合わせ先</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="contact" value="{{ $community_form->contact }}" placeholder="例）○○@gmail.com、またはFacebookにてご連絡ください。">
+                            <input type="text" class="form-control" name="contact" value="{{ $community_form->contact }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2 label-title" for="facebook_link"><i class="fas fa-arrow-circle-right"></i>facebookページのURL（※必須）</label>
+                        <label class="col-md-2 label-title" for="facebook_link"><i class="fas fa-arrow-circle-right"></i>facebookページのURL</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="facebook_link" value="{{ $community_form->facebook_link }}">
                         </div>
