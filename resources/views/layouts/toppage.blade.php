@@ -166,35 +166,34 @@
                     </div>
                 </div>
             </footer>
-            <div id="loader-bg" class="is-hide">
-                <div id="loader" class="is-hide">
-                    <p>
-                        <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
-                        NOW LOADING...
-                    </p>
-                </div>
+        </div>
+        <div id="loading" class="loading">
+            <div id="loading__img" class="loading__img">
+              <p>
+                  <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
+                  NOW LOADING...
+              </p>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+          $(window).load(function () { //全ての読み込みが完了したら実行
+            $('#loading').delay(900).fadeOut(800);
+            $('#loading__img').delay(600).fadeOut(300);
+            $('#app').css('display', 'block');
+          });
+
+          //10秒たったら強制的にロード画面を非表示
+          $(function(){
+            setTimeout('stopload()',10000);
+          });
+
+          function stopload(){
+            $('#app').css('display','block');
+            $('#loading').delay(900).fadeOut(800);
+            $('#loading__img').delay(600).fadeOut(300);
+          }
+        </script>
         <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
-    <script>
-        var bg = document.getElementById('loader-bg'),
-            loader = document.getElementById('loader');
-        /* ロード画面の非表示を解除 */
-        bg.classList.remove('is-hide');
-        loader.classList.remove('is-hide');
-
-        /* 読み込み完了 */
-        window.addEventListener('load', stopload);
-
-        /* 10秒経ったら強制的にロード画面を非表示にする */
-        setTimeout('stopload()',10000);
-
-        /* ロード画面を非表示にする処理 */
-        function stopload(){
-            bg.classList.add('fadeout-bg');
-            loader.classList.add('fadeout-loader');
-        }
-    </script>
 </html>

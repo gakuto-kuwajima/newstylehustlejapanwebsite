@@ -127,7 +127,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function communityupdate(CommunityRequest $request)
+    public function communityupdate(Request $request)
     {
         $this->validate($request, Community::$rules);
 
@@ -279,7 +279,7 @@ class CommunityRepController extends Controller
     }
 
 
-    public function newsupdate(NewsRequest $request)
+    public function newsupdate(Request $request)
     {
         $this->validate($request, News::$rules);
 
