@@ -461,7 +461,7 @@
                             </div>
                             <div class="video-introduction">
                                 <div class="section-h3">
-                                    <h3>Stazy&Marcelina × ZabuEri</h3>
+                                    <h3>Stazy&Marcelina × Zabu&Eri</h3>
                                 </div>
                                 <div class="section-text">
                                     <p>日本のZabu&Eriとコラボした作品。それぞれのダンススタイルが表現されているところや、上空からのドローンの撮影が見どころ。</p>
@@ -474,7 +474,7 @@
                             </div>
                             <div class="video-introduction">
                                 <div class="section-h3">
-                                    <h3>Stazy&Marcelina × JeffRobyn</h3>
+                                    <h3>Stazy&Marcelina × Jeff&Robyn</h3>
                                 </div>
                                 <div class="section-text">
                                     <p>Jeff&Robynとコラボした作品。ポーランドの首都ワルシャワの綺麗な街並みと、2組のペアが鏡のようにムーブを繰り広げているところが見どころです。</p>
