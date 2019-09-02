@@ -22,7 +22,6 @@
                     <h1 class="text-center">{{ $page->name }}</h1>
                 </div>
             </div>
-            @if (!is_null($page->information))
             <div class="row">
                 <div class="information col-md-12 mx-auto">
                     <h2>コミュニティ情報</h2>
@@ -67,7 +66,6 @@
                 </div>
                 @endif
             </div>
-            @endif
             @if (!is_null($page->message))
             <div class="row">
                 <div class="message col-md-12 mx-auto">
