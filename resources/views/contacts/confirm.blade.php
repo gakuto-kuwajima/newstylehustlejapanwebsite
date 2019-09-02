@@ -1,6 +1,6 @@
 @extends('layouts.contact')
 
-@section('title', 'お問い合わせの確認 | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'お問い合わせの確認')
 
 @section('content')
 

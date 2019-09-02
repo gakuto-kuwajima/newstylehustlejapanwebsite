@@ -21,7 +21,7 @@
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
 
-        <title>@yield('title')</title>
+        <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
         <meta name="robots" content="noindex,nofollow">
 
         <!-- Scripts -->

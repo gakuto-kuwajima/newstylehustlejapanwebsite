@@ -1,6 +1,6 @@
 @extends('layouts.privacy_policy')
 
-@section('title', '免責事項 | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', '免責事項')
 
 @section('content')
 
@@ -40,9 +40,10 @@
         </div>
     </div>
     <div class="row">
-       <div class="col-md-12 page-return">
-           <button type="button" onclick="location.href='{{ action('ReadingPageController@toppage') }}' " class="btn-flat-border">HOMEへ</button>
+       <div class="col-md-12 page-return news-page-return">
+          <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
        </div>
+    </div>
     </div>
 </div>
 @endsection

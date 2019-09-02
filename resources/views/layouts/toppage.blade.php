@@ -168,8 +168,8 @@
                 </div>
             </footer>
         </div>
-        <div id="loader-bg" class="is-hide">
-            <div id="loader" class="is-hide">
+        <div id="loader-bg">
+            <div id="loader">
               <p>
                   <img src="{{ asset('img/newstylehustlejapan-loading.png')}}"><br>
                   NOW LOADING...
@@ -178,23 +178,17 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>
-        var bg = $('#loader-bg'),
-            loader = $('#loader');
-        /* ローディング画面の非表示を解除 */
-        bg.removeClass('is-hide');
-        loader.removeClass('is-hide');
-
-        /* 読み込み完了 */
-        $(window).on('load', stopload);
-
-        /* 10秒経ったら強制的にローディング画面を非表示にする */
-        setTimeout('stopload()',10000);
-
-        /* ローディング画面を非表示にする処理 */
-        function stopload(){
-            bg.delay(900).fadeOut(800);
-            loader.delay(900).fadeOut(300);
-        }
+        $(function(){
+        // ▼ページの要素をすべて読み込み終わったら発動
+           $(window).on('load',function(){
+             $("#loader-bg").delay(100).fadeOut('slow');
+           });
+        // ▼読み込みが完了する前に5秒経過したら自動的にロード画面を解除
+           function loaderClose(){
+             $("#loader-bg").fadeOut('slow');
+           }
+           setTimeout(loaderClose,5000);
+        });
         </script>
         <script src="{{ asset('js/ofi.min.js') }}"></script>
     </body>
