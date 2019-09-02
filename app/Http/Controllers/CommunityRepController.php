@@ -18,7 +18,7 @@ class CommunityRepController extends Controller
     {
 
         $pages = Community::all()->sortByDesc('created_at');
-        $pages = Community::latest()->paginate(3);
+        $pages = Community::where('user_id', '=', Auth::id())->latest()->paginate(3);
 
         $newskeywords = $request->newskeywords;
         if ($newskeywords != '') {
@@ -32,7 +32,7 @@ class CommunityRepController extends Controller
             ->distinct()->latest()->paginate(3);
         } else {
             $posts = News::all()->sortByDesc('created_at');
-            $posts = News::latest()->paginate(3);
+            $posts = News::where('user_id', '=', Auth::id())->latest()->paginate(3);
         }
 
         $nonewsresult ="お探しのキーワードでNEWSが見つかりませんでした。別のキーワードで再度お探しください。";

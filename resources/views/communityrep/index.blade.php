@@ -28,7 +28,6 @@
                             </thead>
                             <tbody>
                                 @foreach($pages as $community)
-                                    @if($community->user_id==Auth::id())
                                         <tr>
                                             <th>{{ str_limit($community->name, 100) }}</th>
                                             <td>{{ str_limit($community->information, 100) }}</td>
@@ -65,14 +64,13 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                   @endif
                                 @endforeach
                             </tbody>
                         </table>
                    </div>
                </div>
             </div>
-            @if(isset($community) && $community->user_id==Auth::id())
+            @if(isset($community))
             <div class="paginate d-flex justify-content-center">
                 {{ $pages->links() }}
             </div>
@@ -113,7 +111,6 @@
                             </thead>
                             <tbody>
                                 @foreach($posts as $news)
-                                    @if($news->user_id==Auth::id())
                                         <tr>
                                             <th>{{ str_limit($news->news_title, 100) }}</th>
                                             <td>{{ str_limit($news->news_body, 100) }}</td>
@@ -150,14 +147,13 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                    @endif
                                 @endforeach
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            @if(isset($news) && $news->user_id==Auth::id())
+            @if(isset($news))
             <div class="paginate d-flex justify-content-center">
                 {{ $posts->links() }}
             </div>

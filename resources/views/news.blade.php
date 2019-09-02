@@ -27,9 +27,9 @@
                </div>
                @endif
             </div>
-            <div class="news_eyecatch">
+            <div class="news_eyecatch text-center">
                 @if (!is_null($post->news_eyecatch_path))
-                    <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}"class="vw-100 img-fluid" >
+                    <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}"class="img-fluid" >
                 @endif
             </div>
             <div class="row">
