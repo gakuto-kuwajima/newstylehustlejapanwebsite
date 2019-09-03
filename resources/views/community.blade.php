@@ -29,14 +29,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="schedule col-md-12 mx-auto">
-                    <h2>スケジュール</h2>
-                    <div class="calendar">
-                      <iframe src="https://calendar.google.com/calendar/embed?src=mydance365%40gmail.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 @if (!is_null($page->image1_path))
                 <div class="community_image col-md-4">
                     <img src="{{ asset('storage/image/' . $page->image1_path) }}" class="img-fluid">
@@ -73,6 +65,14 @@
                     </div>
                 </div>
                 @endif
+            </div>
+            <div class="row">
+                <div class="schedule col-md-12 mx-auto">
+                    <h2>スケジュール</h2>
+                    <div class="calendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=mydance365%40gmail.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
             </div>
             @if (!is_null($page->message))
             <div class="row">
