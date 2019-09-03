@@ -58,6 +58,10 @@ h2 {
     font-size: 2.8rem;
   }
 
+  .schedule {
+    margin-top: 65px;
+  }
+
   .message {
     margin-top: 65px;
   }
@@ -542,5 +546,17 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.calendar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.calendar iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
 }
 
