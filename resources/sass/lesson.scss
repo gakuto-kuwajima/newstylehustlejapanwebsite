@@ -121,10 +121,10 @@ p {
 	content: ' ';
 }
 
-.title {
+.title_box h1{
   color: #fff;
   font-weight: 700;
-  position: absolute;
+  z-index: 20;
 }
 
 .h2-title-lesson h2 {
@@ -308,7 +308,6 @@ iframe {
   text-decoration: none;
   border: 2px solid transparent;
   padding: 14px 20px;
-  font-size: 16.5px;
   display: flex;
   justify-content: center;
   align-items: center;

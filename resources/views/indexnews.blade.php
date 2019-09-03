@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="title_box">
-        <h1 class="title">NEWS</h1>
+        <h1>NEWS</h1>
     </div>
     <div class="container">
         <div class="search-news row">

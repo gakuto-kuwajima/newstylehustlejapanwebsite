@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="title_box">
-        <h1 class="title">NEW STYLE HUSTLEとは</h1>
+        <h1>NEW STYLE HUSTLEとは</h1>
     </div>
     <div class="container">
         <div class="row">
@@ -119,7 +119,7 @@
                                 <h2>ニュースタイルハッスルの特徴</h2>
                             </div>
                             <div class="section-h3">
-                                <h3>①動きが自由！</h3>
+                                <h3>&#9312;動きが自由！</h3>
                                 <div class="section-text">
                                     <p>動きはハッスルを元にしていますが、自分たちで様々な動きを創り出していいのがニュースタイルハッスルの大きな特徴です。<br>他のダンスの動きや自分たちが考えた動きが取り入れられてきました。</p>
                                 </div>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="section-h3">
-                                <h3>②音楽が自由！</h3>
+                                <h3>&#9313;音楽が自由！</h3>
                                 <div class="section-text">
                                     <p>ニュースタイルハッスルには音楽の制限はありません。<br>自分たちの好きな曲で踊っていいんです。<br>今までもHouseやFunk、HIP HOP、R&Bなどのクラブミュージックはもちろん、Rockやクラシックなど様々な音楽で踊られてきました。</p>
                                 </div>
@@ -141,7 +141,7 @@
                                 </div>
                             </div>
                             <div class="section-h3-end">
-                                <h3>③老若男女みんなが楽しめるダンス！</h3>
+                                <h3>&#9314;老若男女みんなが楽しめるダンス！</h3>
                                 <div class="section-text">
                                     <p>見ているだけだと難しく感じるかもしれませんが、いざやってみると意外と短い時間でも楽しめてしまうのがニュースタイルハッスルです。<br>世界中で子供からご高齢の方まで楽しんでいます。<br>ニュースタイルハッスルを踊っている方で、それまではダンス未経験だった方も少なくありません。</p>
                                 </div>

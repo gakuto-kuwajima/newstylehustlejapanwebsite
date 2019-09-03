@@ -181,13 +181,13 @@
         $(function(){
         // ▼ページの要素をすべて読み込み終わったら発動
            $(window).on('load',function(){
-             $("#loader-bg").delay(100).fadeOut('slow');
+             $("#loader-bg").delay(100).fadeOut('800');
            });
         // ▼読み込みが完了する前に5秒経過したら自動的にロード画面を解除
            function loaderClose(){
-             $("#loader-bg").fadeOut('slow');
+             $("#loader-bg").fadeOut('800');
            }
-           setTimeout(loaderClose,5000);
+           setTimeout(loaderClose,3000);
         });
         </script>
         <script src="{{ asset('js/ofi.min.js') }}"></script>

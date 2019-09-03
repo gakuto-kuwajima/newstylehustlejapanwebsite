@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="title_box">
-        <h1 class="title">FEATURED VIDEO</h1>
+        <h1>FEATURED VIDEO</h1>
     </div>
     <div class="container">
         <div class="row">

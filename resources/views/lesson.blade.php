@@ -10,7 +10,7 @@
 
 @section('content')
 <div class="title_box">
-   <h1 class="title text-center">LESSON INFORMATION</h1>
+   <h1>LESSON INFORMATION</h1>
 </div>
 <div class="container">
     <div class="row">
@@ -107,11 +107,11 @@
                             <div class="detail-css">
                                 <p><i class="fas fa-chevron-circle-right"></i>日時</p>
                                 <p>日曜日<br>（カレンダー要確認）</p>
-                                <p><Time Table>①10:00-11:00 初中級<br>②11:00-12:00 入門<br>③12:00-13:00 練習会</p>
+                                <p><Time Table>&#9312;10:00-11:00 初中級<br>&#9313;11:00-12:00 入門<br>&#9314;12:00-13:00 練習会</p>
                             </div>
                             <div class="detail-css">
                                 <p><i class="fas fa-chevron-circle-right"></i>料金</p>
-                                <p>2000円＋場所代500円<br>※①、②片方受講の方も、両方受講の方も同額です。<br>※練習会のみ参加の方は場所代500円のみでOK！</p>
+                                <p>2000円＋場所代500円<br>※&#9312;、&#9313;片方受講の方も、両方受講の方も同額です。<br>※練習会のみ参加の方は場所代500円のみでOK！</p>
                             </div>
                             <div class="detail-css">
                                 <p><i class="fas fa-chevron-circle-right"></i>場所</p>

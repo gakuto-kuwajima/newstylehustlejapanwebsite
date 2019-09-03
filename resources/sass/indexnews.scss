@@ -181,10 +181,10 @@ h2 {
 	content: ' ';
 }
 
-.title {
+.title_box h1 {
   color: #fff;
   font-weight: 700;
-  position: absolute;
+  z-index: 20;
 }
 
 hr.search-title-style{

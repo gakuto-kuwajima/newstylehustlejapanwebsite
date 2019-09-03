@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="title_box">
-        <h1 class="title">Japan Communities</h1>
+        <h1>Japan Communities</h1>
     </div>
     <div class="container">
         <div class="row">
