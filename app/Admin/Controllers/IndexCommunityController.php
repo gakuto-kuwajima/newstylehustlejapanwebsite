@@ -43,6 +43,7 @@ class IndexCommunityController extends AdminController
         $grid->column('video1_link', __('Video1 link'));
         $grid->column('video2_link', __('Video2 link'));
         $grid->column('video3_link', __('Video3 link'));
+        $grid->column('calendar', __('calendar'));
         $grid->column('message_image_path', __('Message image path'));
         $grid->column('message', __('Message'));
         $grid->column('contact', __('Contact'));
@@ -80,6 +81,7 @@ class IndexCommunityController extends AdminController
         $show->field('video1_link', __('Video1 link'));
         $show->field('video2_link', __('Video2 link'));
         $show->field('video3_link', __('Video3 link'));
+        $show->field('calendar', __('calendar'));
         $show->field('message_image_path', __('Message image path'));
         $show->field('message', __('Message'));
         $show->field('contact', __('Contact'));
@@ -114,6 +116,7 @@ class IndexCommunityController extends AdminController
         $form->text('video1_link', __('Video1 link'));
         $form->text('video2_link', __('Video2 link'));
         $form->text('video3_link', __('Video3 link'));
+        $form->text('calendar', __('calendar'));
         $form->text('message_image_path', __('Message image path'));
         $form->text('message', __('Message'));
         $form->text('contact', __('Contact'));
