@@ -38,7 +38,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text text-top">
@@ -58,7 +58,7 @@
                             </div>
                             <div class="video-bottom">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/yxYoCOpnYZw?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/yxYoCOpnYZw?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text">
@@ -66,7 +66,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/EWYVg9shvF0?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/EWYVg9shvF0?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-image">
@@ -80,7 +80,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/DRfApB8x19E?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/DRfApB8x19E?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section3-h3">
@@ -103,7 +103,7 @@
                             </div>
                             <div class="video">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="section-text">
@@ -125,7 +125,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/NdMqhdWXats?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/NdMqhdWXats?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/MLXUBIGVyrQ?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/MLXUBIGVyrQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="video-end embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                                 <p>以下の動画はジェフとロビンが来日した際に撮影したものです。<br><br>NEW STYLE HUSTLE TYOを創立し、いち早くニュースタイルハッスルを日本に広めたKENJIとパートナーのAMANDA、ストリートダンス界の第一線に立っているGENKIとKAZANE、そして現在日本で最も活躍してるであろうZabu&Eriらが出演しています。</p>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -227,12 +227,12 @@
                                 <p>などの経歴があり、彼らの尽力によって芸能界にも広がりをみせています。</p>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                        <iframe src="" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                                     </div>
                                 </div>
                                 <div class="video-end">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QkWD8JE1ulQ?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/QkWD8JE1ulQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>

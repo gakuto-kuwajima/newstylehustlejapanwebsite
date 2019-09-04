@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/LUToU1eOHTg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/iGFKTiqBOBs?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/EWYVg9shvF0?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/EWYVg9shvF0?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/trB9kxVv1LI?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/trB9kxVv1LI?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube-nocookie.com/embed/icEIjnAw06M?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube-nocookie.com/embed/icEIjnAw06M?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QE700YFGwMg?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/QE700YFGwMg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/3hbyl5Hfmqc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Wqn16RqhXAI?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/Wqn16RqhXAI?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/iCl-WXIW7dA?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/iCl-WXIW7dA?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/uWVrNrikIfI?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/uWVrNrikIfI?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QkWD8JE1ulQ?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/QkWD8JE1ulQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                                        <iframe src="" data-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsdkeurope%2Fvideos%2F10155197855284457%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/bGP1pw6a8VQ?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/bGP1pw6a8VQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +270,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/LwtnlKfv0l8?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/LwtnlKfv0l8?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +283,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/d_wjiwBe10w?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/PKz6xW9rSPk?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/PKz6xW9rSPk?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/RfiQ28Li2KM?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/RfiQ28Li2KM?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -350,7 +350,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/njGdojPq-LQ?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/njGdojPq-LQ?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -363,7 +363,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/NMcCkcoihBk?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +376,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/MttwRtYhBgg?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/MttwRtYhBgg?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/GDZ2TXFL7BA?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/GDZ2TXFL7BA?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Zy86p8Da_Zc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/Zy86p8Da_Zc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -442,7 +442,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/4QwSXo7aUyY?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/4QwSXo7aUyY?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/QwvTdaJtiW4?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/QwvTdaJtiW4?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -468,7 +468,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/OwLHB8lbzVc?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -481,7 +481,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Qowhh7MPXz4?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/Qowhh7MPXz4?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -494,7 +494,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/VHFSpd2Yksw?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/VHFSpd2Yksw?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -526,7 +526,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/7LlK1OBJdKU?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/7LlK1OBJdKU?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -539,7 +539,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/y9jYQaL09fk?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/y9jYQaL09fk?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -571,7 +571,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/Ne35h-Ghj1E?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/Ne35h-Ghj1E?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -584,7 +584,7 @@
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="youtube" class="embed-responsive-item" data-src="https://www.youtube.com/embed/AmSGtrsjf9o?rel=0" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="" data-src="https://www.youtube.com/embed/AmSGtrsjf9o?rel=0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>

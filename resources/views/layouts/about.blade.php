@@ -174,14 +174,12 @@
         </script>
     </body>
     <script>
-        function youtube_defer() {
-          var iframes = document.querySelectorAll('.youtube');
-          iframes.forEach(function(iframe){
-            if(iframe.getAttribute('data-src')) {
-              iframe.setAttribute('src',iframe.getAttribute('data-src'));
-            }
-          });
-        }
-        window.addEventListener('load', youtube_defer);
+    function init() {
+    var vidDefer = document.getElementsByTagName('iframe');
+    for (var i=0; i<vidDefer.length; i++) {
+    if(vidDefer[i].getAttribute('data-src')) {
+    vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+    } } }
+    window.onload = init;
     </script>
 </html>
