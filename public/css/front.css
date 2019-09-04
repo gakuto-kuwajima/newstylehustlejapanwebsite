@@ -343,8 +343,12 @@ i {
   margin-right: 2px;
 }
 
+.facebook_link p {
+  padding-bottom: 15px;
+}
+
 .sns_btn_wrapper {
-  padding-top: 15px;
+  padding-bottom: 15px;
   display: block;
   text-align: -webkit-center;
 }
