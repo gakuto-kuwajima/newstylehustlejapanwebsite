@@ -507,3 +507,23 @@ h2 {
   object-fit: cover;
   font-family: 'object-fit: cover;'
 }
+
+@media all and (-ms-high-contrast: none) {
+  .sns {
+    width: 100%;
+  }
+  .col {
+    flex-basis:240px;
+    max-width:270px;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .sns {
+    width: 100%;
+  }
+  .col {
+    flex-basis:240px;
+    max-width:270px;
+  }
+}
