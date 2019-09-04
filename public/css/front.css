@@ -112,6 +112,13 @@ h2 {
     margin-bottom: 35px;
     margin-top: 3px;
   }
+
+  .community_image img {
+    width: 100%;
+    height: 270px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 @media screen and (min-width: 640px) and (max-width: 960px) {
@@ -165,6 +172,10 @@ h2 {
 
   .news-title h1 {
     font-size: 20px;
+  }
+
+  .schedule {
+    margin-top: 45px;
   }
 
   .message {
@@ -333,7 +344,7 @@ i {
 }
 
 .sns_btn_wrapper {
-  margin-top: 15px;
+  padding-top: 15px;
   display: block;
   text-align: -webkit-center;
 }
@@ -370,7 +381,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -409,7 +421,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -455,7 +468,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -487,7 +501,8 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 7px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -554,5 +569,26 @@ i {
   width: 100%;
   max-width: 800px;
   height: 400px;
+}
+
+@media (min-width: 768px) {
+  .calendar iframe {
+    height: 500px;
+  }
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.community_image {
+  width: 100%;
+  height: 100%;
+}
+
+.object-fit-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-family: 'object-fit: cover;';
 }
 

@@ -40,7 +40,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_eyecatch_path }}
                             </div>
-                            <p class="attention">※更新後はセキュリティ対策のため画像の名前が暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove1" value="true">画像を削除
@@ -67,7 +67,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image1_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove2" value="true">画像を削除
@@ -82,7 +82,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image2_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove3" value="true">画像を削除
@@ -97,7 +97,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $news_form->news_image3_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="newsremove4" value="true">画像を削除

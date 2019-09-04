@@ -29,7 +29,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->eyecatch_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
@@ -62,7 +62,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image1_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove1" value="true">画像を削除
@@ -77,7 +77,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image2_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove2" value="true">画像を削除
@@ -92,7 +92,7 @@
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->image3_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove3" value="true">画像を削除
@@ -120,13 +120,20 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label class="col-md-2 label-title" for="calendar"><i class="fas fa-arrow-circle-right"></i>Google カレンダー</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="calendar" value="{{ $community_form->calendar }}">
+                            <p>※Google カレンダーを使ってる方は埋め込むことができます。<br>&#9312;まず<a href="https://support.google.com/calendar/answer/41207?hl=ja">Google カレンダー公式ページ<a>などを参考に「埋め込みコード」を確認してください。<br>&#9313;そして埋め込みコードのうち、&lt;i frame src="○○○○○" style=""...&gt;の○○○○○のみペーストしてください。<br>&#9314;また設定でアクセス権限を一般公開にしてください。</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label class="col-md-2 label-title" for="message_image"><i class="fas fa-arrow-circle-right"></i>代表者メッセージの画像</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="message_image">
                             <div class="form-text text-info">
                                 設定中: {{ $community_form->message_image_path }}
                             </div>
-                            <p class="attention">※設定中の画像はセキュリティ対策のためが暗号化されています。</p>
+                            <p class="attention">※設定中の画像はセキュリティ対策のため暗号化されています。</p>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="checkbox" class="form-check-input" name="remove4" value="true">画像を削除

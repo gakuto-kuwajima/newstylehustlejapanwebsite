@@ -27,6 +27,7 @@ class CreateCommunitiesTable extends Migration
           $table->string('video1_link')->nullable();
           $table->string('video2_link')->nullable();
           $table->string('video3_link')->nullable();
+          $table->text('calendar')->nullable();
           $table->string('message_image_path')->nullable();
           $table->text('message')->nullable();
           $table->string('contact')->nullable();

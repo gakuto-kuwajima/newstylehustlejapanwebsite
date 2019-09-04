@@ -57,18 +57,21 @@
                         <label class="col-md-2 label-title" for="image1"><i class="fas fa-arrow-circle-right"></i>画像1</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="image1">
+                            <p>※比率は4：3が推奨です。</p>
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="image2"><i class="fas fa-arrow-circle-right"></i>画像2</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="image2">
+                            <p>※比率は4：3が推奨です。</p>
                         </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="image3"><i class="fas fa-arrow-circle-right"></i>画像3</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="image3">
+                            <p>※比率は4：3が推奨です。</p>
                         </div>
                     </div>
                     <div class="form-group row ">
@@ -88,6 +91,13 @@
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="video3_link" value="{{ old('video3_link') }}">
                             <p>※動画のリンクはyoutubeのみ可。「https://www.youtube.com/watch?v=○○○○○」の○○○○○の部分のみ記入してください。<br>例）「https://www.youtube.com/watch?v=iGFKTiqBOBs」の場合、「iGFKTiqBOBs」のみ記入。</p>
+                        </div>
+                    </div>
+                    <div class="form-group row ">
+                        <label class="col-md-2 label-title" for="calendar"><i class="fas fa-arrow-circle-right"></i>Google カレンダー</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control-file" name="calendar">
+                            <p>※Google カレンダーを使ってる方は埋め込むことができます。<br>&#9312;まず<a href="https://support.google.com/calendar/answer/41207?hl=ja">Google カレンダー公式ページ<a>などを参考に「埋め込みコード」を確認してください。<br>&#9313;そして埋め込みコードのうち、&lt;i frame src="○○○○○" style=""...&gt;の○○○○○のみペーストしてください。<br>&#9314;また設定でアクセス権限を一般公開にしてください。</p>
                         </div>
                     </div>
                     <div class="form-group row ">

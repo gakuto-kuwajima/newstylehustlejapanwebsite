@@ -18,8 +18,8 @@
             <div class="information text-center">
                 <p>※記載してる内容は東京の情報のみです。<br>各地域の情報は<a href="/community">こちら</a>からご確認ください。</p>
             </div>
-            <div class="row calendar">
-              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=dW9qNzVhc2wycjRzajUzbXIwcTRqM2NjamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238E24AA&amp;showTitle=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="row calendar col-md-12 mx-auto">
+              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=dW9qNzVhc2wycjRzajUzbXIwcTRqM2NjamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238E24AA&amp;showTitle=0&showPrint=0&showTabs=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </div>
             <div class="section">
                 <div class="h2-title-lesson">

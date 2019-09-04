@@ -31,17 +31,17 @@
             <div class="row">
                 @if (!is_null($page->image1_path))
                 <div class="community_image col-md-4">
-                    <img src="{{ asset('storage/image/' . $page->image1_path) }}" class="img-fluid">
+                    <img src="{{ asset('storage/image/' . $page->image1_path) }}" class="img-fluid object-fit-img">
                 </div>
                 @endif
                 @if (!is_null($page->image2_path))
                 <div class="community_image col-md-4">
-                    <img src="{{ asset('storage/image/' . $page->image2_path) }}" class="img-fluid">
+                    <img src="{{ asset('storage/image/' . $page->image2_path) }}" class="img-fluid  object-fit-img">
                 </div>
                 @endif
                 @if (!is_null($page->image3_path))
                 <div class="community_image col-md-4">
-                    <img src="{{ asset('storage/image/' . $page->image3_path) }}" class="img-fluid">
+                    <img src="{{ asset('storage/image/' . $page->image3_path) }}" class="img-fluid  object-fit-img">
                 </div>
                 @endif
                 @if (!is_null($page->video1_link))
@@ -66,14 +66,16 @@
                 </div>
                 @endif
             </div>
+            @if (!is_null($page->calendar))
             <div class="row">
                 <div class="schedule col-md-12 mx-auto">
                     <h2>スケジュール</h2>
                     <div class="calendar">
-                        <iframe src="https://calendar.google.com/calendar/embed?src=mydance365%40gmail.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        <iframe src="{{ $page->calendar }}&showPrint=0&showTabs=0" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
+            @endif
             @if (!is_null($page->message))
             <div class="row">
                 <div class="message col-md-12 mx-auto">
@@ -104,7 +106,7 @@
                   <h2>各種SNSやウェブサイト</h2>
                   <p>各種SNSやウェブサイトで最新の情報を更新しています。</p>
                 </div>
-                <div class="row mx-auto">
+                <div class="sns row mx-auto">
                       @if (!is_null($page->facebook_link))
                       <div class="sns_btn_wrapper col">
                           <a href="{{ $page->facebook_link }}" class="sns_btn_fb"><i class="fab fa-facebook-f"></i>Facebook</a>
