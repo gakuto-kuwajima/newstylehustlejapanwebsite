@@ -39,13 +39,13 @@
                                                     <a href="{{ action('CommunityRepController@communityedit', ['id'=> $community->id]) }}">編集</a>
                                                 </div>
                                                 <div>
-                                                    <a href=""data-toggle="modal" data-target="#myModal">削除</a>
+                                                    <a href=""data-toggle="modal" data-target="#communitydelete">削除</a>
                                                     <!-- モーダルの設定 -->
-                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                    <div class="modal fade" id="communitydelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                                       <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
                                                           <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">消去の確認</h5>
+                                                            <h5 class="modal-title" id="communitydelete">消去の確認</h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
                                                               <span aria-hidden="true">&times;</span>
                                                             </button>
@@ -122,13 +122,13 @@
                                                     <a href="{{ action('CommunityRepController@newsedit', ['id'=> $news->id]) }}">編集</a>
                                                 </div>
                                                 <div>
-                                                    <a href="" data-toggle="modal" data-target="#myModal">削除</a>
+                                                    <a href="" data-toggle="modal" data-target="#newsdelete">削除</a>
                                                     <!-- モーダルの設定 -->
-                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                    <div class="modal fade" id="newsdelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                                       <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
                                                           <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">消去の確認</h5>
+                                                            <h5 class="modal-title" id="newsdelete">消去の確認</h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
                                                               <span aria-hidden="true">&times;</span>
                                                             </button>

@@ -76,7 +76,7 @@
                 </div>
             </div>
             @endif
-            @if (isset($posts))
+            @if (!is_null($posts))
             <div class="row">
                 <div class="community-news col-md-12 mx-auto">
                     <h2>最近のNEWS</h2>
