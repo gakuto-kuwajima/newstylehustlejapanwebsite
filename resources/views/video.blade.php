@@ -580,7 +580,7 @@
                                     <h3>NEW STYLE HUSTLE KOREA × NEW STYLE HUSTLE TOKYO</h3>
                                 </div>
                                 <div class="section-text">
-                                    <p>2NEW STYLE HUSTLE TOKYOのメンバーが韓国を訪れ、NEW STYLE HUSTLE KOREAのメンバーとショーをしました。</p>
+                                    <p>NEW STYLE HUSTLE TOKYOのメンバーが韓国を訪れ、NEW STYLE HUSTLE KOREAのメンバーとショーをしました。</p>
                                 </div>
                                 <div class="video">
                                     <div class="embed-responsive embed-responsive-16by9">

@@ -76,6 +76,42 @@
                 </div>
             </div>
             @endif
+            @if (isset($posts))
+            <div class="row">
+                <div class="community-news col-md-12 mx-auto">
+                    <h2>最近のNEWS</h2>
+                    <div class="posts col-lg-9 mx-auto section4-news-title">
+                        @foreach($posts as $post)
+                        <a href="/news/{{ $post->news_permalink }}" class="post-link">
+                        <div class="post-wrapper">
+                            <div class="post">
+                                 <div class="caption">
+                                     <div class="news-image mx-auto">
+                                         @if ($post->news_eyecatch_path)
+                                             <img src="{{ asset('storage/image/' . $post->news_eyecatch_path) }}" class="img-fluid object-fit-img">
+                                         @else
+                                             <img src="{{ asset('img/no_image.png') }}" class="img-fluid object-fit-img">
+                                         @endif
+                                     </div>
+                                 </div>
+                                 <div class="search-text-container">
+                                     <div class="search-text">
+                                         <div class="post-title">
+                                             <p class="title mx-auto">{{ $post->news_title }}</p>
+                                         </div>
+                                         <div class="date">
+                                             <p><i class="far fa-calendar-check"></i>{{ $post->created_at->format('Y年m月d日') }}</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         </a>
+                         @endforeach
+                    </div>
+                </div>
+            </div>
+            @endif
             @if (!is_null($page->message))
             <div class="row">
                 <div class="message col-md-12 mx-auto">

@@ -13,8 +13,9 @@ class ReadingPagecontroller extends Controller
     public function communityshow(Request $request)
     {
         $page = Community::where('permalink',$request->permalink)->first();
+        $posts = NEWS::where('user_id',$page->user_id)->orderBy('id', 'DESC')->take(3)->get();
         $keywords = '';
-        return view('community',['page' =>$page,'keywords'=>$keywords]);
+        return view('community',['page' =>$page,'posts' =>$posts,'keywords'=>$keywords]);
     }
 
     public function newsshow(Request $request)

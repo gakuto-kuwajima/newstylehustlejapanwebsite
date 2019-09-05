@@ -62,6 +62,10 @@ h2 {
     margin-top: 65px;
   }
 
+  .community-news {
+    margin-top: 65px;
+  }
+
   .message {
     margin-top: 65px;
   }
@@ -102,6 +106,31 @@ h2 {
   .eyecatch {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .news-image img {
+    height: 80px;
+    width: 130px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .news-image {
+    text-align: center;
+    width: 180px;
+    padding-left: 20px;
+  }
+
+  .search-text-container {
+    padding-left: 10px;
+  }
+
+  .section-text {
+    width: 90%;
+  }
+
+  .pref {
+    width: 90%;
   }
 }
 
@@ -178,6 +207,10 @@ h2 {
     margin-top: 45px;
   }
 
+  .community-news {
+    margin-top: 45px;
+  }
+
   .message {
     margin-top: 45px;
   }
@@ -227,6 +260,34 @@ h2 {
     padding-left: 0;
     padding-right: 0;
     margin: 0 calc(50% - 50vw);
+  }
+
+  .section-text {
+    padding-top: 0.6rem;
+  }
+
+  .news-image img {
+    height: 80px;
+    width: 130px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .news-image {
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .search-text-container {
+    padding-left: 10px;
+  }
+
+  .section4-news-title {
+    margin-top: 6px;
+  }
+
+  .section-text {
+    width: 95%;
   }
 }
 
@@ -611,5 +672,83 @@ i {
     flex-basis: 240px;
     max-width: 270px;
   }
+}
+
+.post-wrapper {
+  display: block;
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-left: 0;
+  padding: 10px 0;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 0 #efefef;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.post-wrapper:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.title {
+  line-height: 1.5;
+}
+
+.posts .post .date {
+  font-size: 0.7em;
+  color: #999999;
+}
+
+.posts .post .post-title {
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 12px;
+}
+
+hr.post-style {
+  border-color: #000;
+  border-style: dotted;
+}
+
+.post-link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.date p {
+  margin-bottom: 0px;
+}
+
+.object-fit-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+
+.news-image {
+  text-align: center;
+}
+
+.search-text-container {
+  padding-right: 10px;
+}
+
+.caption {
+  float: left;
+}
+
+.post {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
