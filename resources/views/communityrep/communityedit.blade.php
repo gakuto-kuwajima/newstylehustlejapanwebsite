@@ -47,6 +47,7 @@
                         <label class="col-md-2 label-title" for="pref"><i class="fas fa-arrow-circle-right"></i>都道府県（※必須）</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="pref" value="{{ $community_form->pref }}">
+                            <p>※例）宮城県なら→宮城、TYOなら→TYO、Zabu&Eriなら→Zabu&Eri</p>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -123,7 +124,7 @@
                         <label class="col-md-2 label-title" for="calendar"><i class="fas fa-arrow-circle-right"></i>Google カレンダー</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="calendar" value="{{ $community_form->calendar }}">
-                            <p>※Google カレンダーを使ってる方は埋め込むことができます。<br>&#9312;まず<a href="https://support.google.com/calendar/answer/41207?hl=ja">Google カレンダー公式ページ<a>などを参考に「埋め込みコード」を確認してください。<br>&#9313;そして埋め込みコードのうち、&lt;i frame src="○○○○○" style=""...&gt;の○○○○○のみペーストしてください。<br>&#9314;また設定でアクセス権限を一般公開にしてください。</p>
+                            <p>※Google カレンダーを使ってる方は埋め込むことができます。<br>&#9312;まず<a href="https://support.google.com/calendar/answer/41207?hl=ja">Google カレンダー公式ページ<a>などを参考に「埋め込みコード」を確認してください。<br>&#9313;そして埋め込みコードのうち、&lt;i frame src="○○○○○" style=""...&gt;の○○○○○のみ（src=""の中身）をペーストしてください。<br>&#9314;また設定でアクセス権限を一般公開にしてください。</p>
                         </div>
                     </div>
                     <div class="form-group row">

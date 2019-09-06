@@ -103,7 +103,7 @@ h2 {
   .community_name h1 {
     font-weight: bold;
     font-size: 5rem;
-    margin-bottom: 35px;
+    margin-bottom: 0;
     margin-top: 3px;
   }
   .community_image img {
@@ -111,16 +111,21 @@ h2 {
   height: 270px;
   object-fit: cover;
   }
+  .information {
+    margin-top: 35px;
+  }
 }
 
 @media screen and (min-width: 640px)  and (max-width:960px) {
   .community_name h1 {
     font-weight: bold;
     font-size: 4rem;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     margin-top: 3px;
   }
-
+  .information {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 640px) {/* 640px以下*/
@@ -139,7 +144,7 @@ h2 {
     .community_name h1 {
       font-weight: bold;
       font-size: 3rem;
-      margin-bottom: 15px;
+      margin-bottom: 0;
       margin-top: 3px;
     }
     .community h2{
@@ -153,6 +158,9 @@ h2 {
     }
     .news-title h1{
         font-size: 20px;
+    }
+    .information {
+      margin-top: 15px;
     }
     .schedule {
       margin-top: 45px;
@@ -654,4 +662,27 @@ a:hover{
   overflow: hidden;
   display: flex;
   align-items: center;
+}
+
+.index-link{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.index-button{
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.3em 1.0em;
+  text-decoration: none;
+  color: #3BAF75;
+  background: #ECECEC;
+  transition: .4s;
+  vertical-align: middle;
+}
+
+.index-button:hover {
+  background: #3BAF75;
+  color: white;
+  text-decoration:none;
 }

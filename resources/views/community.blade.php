@@ -22,12 +22,14 @@
                     <h1 class="text-center">{{ $page->name }}</h1>
                 </div>
             </div>
+            @if (!is_null($page->information))
             <div class="row">
                 <div class="information col-md-12 mx-auto">
                     <h2>コミュニティ情報</h2>
                     <p>{!! nl2br(e($page->information)) !!}</p>
                 </div>
             </div>
+            @endif
             <div class="row">
                 @if (!is_null($page->image1_path))
                 <div class="community_image col-md-4">
@@ -76,7 +78,7 @@
                 </div>
             </div>
             @endif
-            @if (!is_null($posts))
+            @if (count($posts) > 0)
             <div class="row">
                 <div class="community-news col-md-12 mx-auto">
                     <h2>最近のNEWS</h2>
@@ -108,6 +110,11 @@
                          </div>
                          </a>
                          @endforeach
+                    </div>
+                    <div class="index-link">
+                        <a href="{{ action('SearchController@index', ['keywords'=> $page->pref]) }}" class="index-button">
+                            <i class="fa fa-caret-right"></i> その他NEWS
+                        </a>
                     </div>
                 </div>
             </div>

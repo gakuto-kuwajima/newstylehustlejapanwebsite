@@ -32,6 +32,7 @@
                         <label class="col-md-2 label-title" for="news_title"><i class="fas fa-arrow-circle-right"></i>タイトル（※必須）</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_title" value="{{ old('news_title') }}">
+                            <p>※タイトルの頭に都道府県やコミュニティ名を入れてください。<br>例えば宮城のNEWSなら【宮城】、TYOのNEWSなら【TYO】、全国的なNEWSなら【全国】。</p>
                         </div>
                     </div>
                     <div class="form-group row ">
