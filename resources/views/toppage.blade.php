@@ -41,10 +41,10 @@
             <div class="row no-gutters">
                 <div class="text col-lg-6 order-lg-2">
                     <div class="section-h2">
-                        <h2>NEW STYLE HUSTLE<br>JAPAN WEBSITE</h2>
+                        <h2>ABOUT<br>UNOFFICIAL WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの活動や情報を紹介します。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をもらい、非公式ですが日本のニュースタイルハッスルの活動や情報を当サイトでは紹介します！</p>
                     </div>
                 </div>
                 <div class="image toppage-video col-lg-6 order-1-lg-1">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
           　    <div class="section-text col-lg-9 mx-auto">
-              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、またはこれから訪れる地域のコミュニティをのぞいてみてください。</p>
+              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、またはこれから訪れる地域のコミュニティをチェックしてみてください。</p>
           　    </div>
                 <div class="pref col-lg-9 mx-auto">
                     <div class="pref-container">

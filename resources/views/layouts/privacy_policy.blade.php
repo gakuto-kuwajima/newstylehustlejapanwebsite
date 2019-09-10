@@ -147,7 +147,7 @@
                             </div>
                             <div class="footer-section3 col-md-4 mx-auto">
                                 <a href="{{ url('/') }}">
-                                    <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" class="footer-logo" alt="NEW STYLE HUSTLE JAPAN WEBSITEのフッター用のロゴ">
+                                    <img src="{{ asset('img/newstylehustlejapanwebsite-footerlogo.png') }}" class="footer-logo" alt="NEW STYLE HUSTLE JAPAN WEBSITEのフッター用のロゴ">
                                 </a>
                             </div>
                         </div>

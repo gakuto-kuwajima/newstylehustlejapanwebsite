@@ -148,16 +148,16 @@
                             <div class="footer-section2 col-md-4 mx-auto">
                                 <div class="description">
                                     <div class="description-title">
-                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEとは</p>
+                                        <p>NSH JAPAN UNOFFICIAL WEBSITEとは</p>
                                     </div>
                                     <div class="description-sentence">
-                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                                        <p>「NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE」は、文字通り非公式ですが、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="footer-section3 col-md-4 mx-auto">
                                 <a href="{{ url('/') }}">
-                                    <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" class="footer-logo" alt="NEW STYLE HUSTLE JAPAN WEBSITEのフッター用のロゴ">
+                                    <img src="{{ asset('img/newstylehustlejapanwebsite-footerlogo.png') }}" class="footer-logo" alt="NEW STYLE HUSTLE JAPAN WEBSITEのフッター用のロゴ">
                                 </a>
                             </div>
                         </div>
