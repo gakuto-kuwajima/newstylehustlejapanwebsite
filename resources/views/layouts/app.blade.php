@@ -19,7 +19,7 @@
 
     <meta name="robots" content="noindex,nofollow">
 
-    <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
+    <title>@yield('title') | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

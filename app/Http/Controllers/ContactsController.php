@@ -49,18 +49,18 @@ class ContactsController extends Controller
           'to' => $request->email,
           'to_name' => $request->name,
           'from' => 'info@newstylehustlejapan.com',
-          'from_name' => 'NEW STYLE HUSTLE JAPAN',
-          'subject' => '【NEW STYLE HUSTLE JAPAN】お問い合わせありがとうございます',
+          'from_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
+          'subject' => '【NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE】お問い合わせありがとうございます',
           'mail_subject' => $request->subject,
           'body' => $request->body
       ]));
 
       \Mail::send(new \App\Mail\Contact([
           'to' => 'info@newstylehustlejapan.com',
-          'to_name' => 'NEW STYLE HUSTLE JAPAN WEBSITE',
+          'to_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
           'from' => $request->email,
           'from_name' => $request->name,
-          'subject' => "$request->name 様からNEW STYLE HUSTLE JAPAN WEBSITEへのお問い合わせ",
+          'subject' => "$request->name 様からNEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEへのお問い合わせ",
           'mail_subject' => $request->subject,
           'body' => $request->body
       ], 'from'));

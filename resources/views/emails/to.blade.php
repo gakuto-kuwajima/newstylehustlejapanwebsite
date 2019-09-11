@@ -4,7 +4,7 @@
 {{ $content['to_name'] }}様
 
 お世話になっております。
-NEW STYLE HUSTLE JAPAN WEBSITEへのお問い合わせありがとうございました。
+NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEへのお問い合わせありがとうございました。
 
 以下の内容でお問い合わせを受け付けいたしました。
 通常3日以内に、担当者よりご連絡いたしますので今しばらくお待ちくださいませ。
@@ -19,7 +19,7 @@ NEW STYLE HUSTLE JAPAN WEBSITEへのお問い合わせありがとうござい�
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-====================================
-NEW STYLE HUSTLE JAPAN
+==========================================
+NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE
 Email:：info@newstylehustleJapan.com
-====================================
+==========================================

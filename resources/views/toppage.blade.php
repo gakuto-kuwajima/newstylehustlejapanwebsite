@@ -1,8 +1,8 @@
 @extends('layouts.toppage')
 
-@section('title', 'ニュースタイルハッスル ジャパン')
-@section('metadescription', 'NEW STYLE HUSTLE JAPAN WEBSITE（ニュースタイルハッスルジャパンウェブサイト）では日本のニュースタイルハッスルの情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
-@section('ogtitle', 'ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE')
+@section('title', 'ニュースタイルハッスルジャパン アンオフィシャルウェブサイト')
+@section('metadescription', 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEは、非公式ではありますが、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。')
+@section('ogtitle', 'ニュースタイルハッスルジャパン アンオフィシャルウェブサイト | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE')
 @section('ogurl'){{ url('/') }}@endsection
 @section('ogimage'){{ asset('img/newstylehustlejapanwebsite-eyecatch.png')}}@endsection
 
@@ -44,7 +44,7 @@
                         <h2>ABOUT<br>UNOFFICIAL WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をもらい、非公式ですが日本のニュースタイルハッスルの活動や情報を当サイトでは紹介します！</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をいただき、当サイトでは非公式という形ですが日本のニュースタイルハッスルの活動や情報を紹介します！</p>
                     </div>
                 </div>
                 <div class="image toppage-video col-lg-6 order-1-lg-1">
@@ -113,54 +113,54 @@
                 <div class="pref col-lg-9 mx-auto">
                     <div class="pref-container">
                         <div class="hokkaido region">
-                            <h3 class="region-name">北海道地方</h3>
+                            <h3 class="region-name">北海道地方 (Hokkaido region)</h3>
                             <p>コミュニティなし</p>
                         </div>
                         <div class="tohoku region">
-                    　      <h3 class="region-name">東北地方</h3>
+                    　      <h3 class="region-name">東北地方 (Tohoku region)</h3>
                       　    <div class="tohoku-list">
-                        　　    <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'miyagi'])}}" class="tohoku-btn">宮城</a>
+                        　　    <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'miyagi'])}}" class="tohoku-btn"><span class="pref-btn1">宮城</span><br><span class="pref-btn2">(Miyagi)</span></a>
                             </div>
                         </div>
                         <div class="kanto region">
-                            <h3 class="region-name">関東地方</h3>
+                            <h3 class="region-name">関東地方 (Kanto region)</h3>
                             <div class="kanto-list">
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'tyo'])}}" class="kanto-btn-tokyo"><span class="pref-btn1">TYO</span><br><span class="pref-btn2">(東京)</span></a>
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'zabueri'])}}" class="kanto-btn-tokyo"><span class="pref-btn1">Zabu&Eri<br></span><span class="pref-btn2">(東京)</span></a>
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'chiba'])}}" class="kanto-btn">千葉</a>
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'saitama'])}}" class="kanto-btn">埼玉</a>
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'tochigi'])}}" class="kanto-btn">栃木</a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'tyo'])}}" class="kanto-btn"><span class="pref-btn1">TYO</span><br><span class="pref-btn2">(Tokyo)</span></a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'zabueri'])}}" class="kanto-btn-tokyo"><span class="pref-btn1">Zabu&Eri<br></span><span class="pref-btn2">(Tokyo)</span></a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'chiba'])}}" class="kanto-btn"><span class="pref-btn1">千葉</span><br><span class="pref-btn2">(Chiba)</span></a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'saitama'])}}" class="kanto-btn"><span class="pref-btn1">埼玉</span><br><span class="pref-btn2">(Saitama)</span></a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'tochigi'])}}" class="kanto-btn"><span class="pref-btn1">栃木</span><br><span class="pref-btn2">(Tochigi)</span></a>
                             </div>
                         </div>
                         <div class="chubu region">
-                            <h3 class="region-name">中部地方</h3>
+                            <h3 class="region-name">中部地方 (Chubu region)</h3>
                             <div class="chubu-list">
-                        　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'aichi'])}}" class="chubu-btn">愛知</a>
-                        　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'yamanashi'])}}" class="chubu-btn">山梨</a>
+                        　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'aichi'])}}" class="chubu-btn"><span class="pref-btn1">愛知</span><br><span class="pref-btn2">(Aichi)</span></a>
+                        　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'yamanashi'])}}" class="chubu-btn"><span class="pref-btn1">山梨</span><br><span class="pref-btn2">(Yamanashi)</span></a>
                             </div>
                         </div>
                         <div class="kansai region">
-                            <h3 class="region-name">関西地方</h3>
+                            <h3 class="region-name">関西地方 (Kansai region)</h3>
                             <div class="kansai-list">
-                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'osaka'])}}" class="kansai-btn">大阪</a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'osaka'])}}" class="kansai-btn"><span class="pref-btn1">大阪</span><br><span class="pref-btn2">(Osaka)</span></a>
                             </div>
                         </div>
                         <div class="chugoku region">
-                            <h3 class="region-name">中国地方</h3>
+                            <h3 class="region-name">中国地方 (Chugoku region)</h3>
                             <div class="chugoku-list">
-                        　       <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'hiroshima'])}}" class="chugoku-btn">広島</a>
+                        　       <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'hiroshima'])}}" class="chugoku-btn"><span class="pref-btn1">広島</span><br><span class="pref-btn2">(Hiroshima)</span></a>
                             </div>
                         </div>
                         <div class="shikoku region">
-                      　    <h3 class="region-name">四国地方</h3>
+                      　    <h3 class="region-name">四国地方 (Shikoku region)</h3>
                             <div class="chugoku-list">
-                      　　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'ehime'])}}" class="shikoku-btn">愛媛</a>
+                      　　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'ehime'])}}" class="shikoku-btn"><span class="pref-btn1">愛媛</span><br><span class="pref-btn2">(Ehime)</span></a>
                             </div>
                         </div>
                         <div class="kyushu-okinawa region">
-                      　    <h3 class="region-name">九州・沖縄地方</h3>
+                      　    <h3 class="region-name">九州・沖縄地方 (kyushu & Okinawa region)</h3>
                             <div class="kyushu-okinawa-list">
-                    　　        <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'okinawa'])}}" class="kyushu-okinawa-btn">沖縄</a>
+                    　　        <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'okinawa'])}}" class="kyushu-okinawa-btn"><span class="pref-btn1">沖縄</span><br><span class="pref-btn2">(Okinawa)</span></a>
                             </div>
                         </div>
                     </div>

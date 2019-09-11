@@ -268,7 +268,7 @@ h3 {
 }
 
 .region{
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .region-name{
@@ -277,18 +277,20 @@ h3 {
 
 .tohoku-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #00a364;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #757575;
   margin-bottom: 7px;
-
+  max-height: 62px;
+  line-height: 1;
 }
 
 .tohoku-btn:active {
@@ -299,18 +301,20 @@ h3 {
 
 .kanto-btn {
   display: inline-block;
-  max-width: 180px;
+  width: 100px;
   text-align: center;
   background-color: #90ba1e;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #757575;
   margin-bottom: 7px;
-  vertical-align :top;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .kanto-btn:active {
@@ -343,17 +347,20 @@ h3 {
 
 .chubu-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #e9ca0b;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #586365;
   margin-bottom: 7px;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .chubu-btn:active {
@@ -364,17 +371,20 @@ h3 {
 
 .kansai-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #e69600;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #1B435D;
   margin-bottom: 7px;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .kansai-btn:active {
@@ -385,17 +395,21 @@ h3 {
 
 .chugoku-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #ec6109;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #4C4C4C;
   margin-bottom: 7px;
+  vertical-align :top;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .chugoku-btn:active {
@@ -406,17 +420,20 @@ h3 {
 
 .shikoku-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #e96f84;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #757575;
   margin-bottom: 7px;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .shikoku-btn:active {
@@ -427,17 +444,20 @@ h3 {
 
 .kyushu-okinawa-btn {
   display: inline-block;
-  max-width: 180px;
-  text-align: left;
+  width: 100px;
+  text-align: center;
   background-color: #624b94;
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #383838;
   margin-bottom: 7px;
+  max-height: 62px;
+  line-height: 1;
 }
 
 .kyushu-okinawa-btn:active {

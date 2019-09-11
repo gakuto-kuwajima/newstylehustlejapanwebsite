@@ -24,7 +24,7 @@
 
         <meta name="robots" content="noindex,nofollow">
 
-        <title>@yield('title') | NEW STYLE HUSTLE JAPAN WEBSITE</title>
+        <title>@yield('title') | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
@@ -137,12 +137,11 @@
                             </div>
                             <div class="footer-section2 col-md-4 mx-auto">
                                 <div class="description">
-                                    <div class="description-title">
-                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEとは</p>
+                                    <div class="description-title text-center">
+                                        <p>当サイトについて</p>
                                     </div>
                                     <div class="description-sentence">
-                                        <p>NEW STYLE HUSTLE JAPAN WEBSITEでは日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
-                                    </div>
+                                        <p>「NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE」は、非公式ではありますが、日本のニュースタイルハッスルの情報を紹介します。<br>(JeffとRobynには許可をいただいております)<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
                                 </div>
                             </div>
                             <div class="footer-section3 col-md-4 mx-auto">
@@ -154,7 +153,7 @@
                     </div>
                     <div class="copyright">
                       　<p><a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
-                        <address>© 2019 NEW STYLE HUSTLE JAPAN</address>
+                        <address>© 2019 NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</address>
                     </div>
                 </div>
             </footer>
