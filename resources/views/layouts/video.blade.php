@@ -18,7 +18,7 @@
         <meta property="og:description" content="@yield('metadescription')" />
         <meta property="og:url" content="@yield('ogurl')" />
         <meta property="og:image" content="@yield('ogimage')" />
-        <meta property="og:site_name" content="ニュースタイルハッスル ジャパン | NEW STYLE HUSTLE JAPAN WEBSITE" />
+        <meta property="og:site_name" content="ニュースタイルハッスルジャパン アンオフィシャルウェブサイト | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="fb:app_id" content=" 714173509023789 " />
         <meta name="twitter:card" content="summary_large_image">
