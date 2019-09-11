@@ -21,5 +21,5 @@ NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEへのお問い合わせありがとう
 
 ==========================================
 NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE
-Email:：info@newstylehustleJapan.com
+Email:：info@newstylehustlejapan-uo.com
 ==========================================

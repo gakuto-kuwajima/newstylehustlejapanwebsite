@@ -75,4 +75,10 @@ class ReadingPagecontroller extends Controller
             $keywords = '';
             return view('disclaimer',['keywords'=>$keywords]);
         }
+
+    public function regarding()
+        {
+            $keywords = '';
+            return view('regarding',['keywords'=>$keywords]);
+        }
 }

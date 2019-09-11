@@ -48,7 +48,7 @@ class ContactsController extends Controller
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
           'to_name' => $request->name,
-          'from' => 'info@newstylehustlejapan.com',
+          'from' => 'info@newstylehustlejapan-uo.com',
           'from_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
           'subject' => '【NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE】お問い合わせありがとうございます',
           'mail_subject' => $request->subject,
@@ -56,7 +56,7 @@ class ContactsController extends Controller
       ]));
 
       \Mail::send(new \App\Mail\Contact([
-          'to' => 'info@newstylehustlejapan.com',
+          'to' => 'info@newstylehustlejapan-uo.com',
           'to_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
           'from' => $request->email,
           'from_name' => $request->name,

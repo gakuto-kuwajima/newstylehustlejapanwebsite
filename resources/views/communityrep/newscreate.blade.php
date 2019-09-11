@@ -25,7 +25,7 @@
                         <label class="col-md-2 label-title" for="news_permalink"><i class="fas fa-arrow-circle-right"></i>URL（※必須）</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="news_permalink" value="{{ old('news_permalink') }}">
-                            <p>※「newstylehustlejapan.com/news/○○○○○」の○○○○○の部分です。<br>ハイフン（-）以外の記号や空白は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
+                            <p>※「newstylehustlejapan-uo.com/news/○○○○○」の○○○○○の部分です。<br>ハイフン（-）以外の記号や空白は基本的に不可です。小文字のローマ字と数字が推奨です。</p>
                         </div>
                     </div>
                     <div class="form-group row ">

@@ -44,7 +44,7 @@
                         <h2>ABOUT<br>UNOFFICIAL WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をいただき、当サイトでは非公式という形ですが日本のニュースタイルハッスルの活動や情報を紹介します！</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をいただき、当サイトでは非公式という形ですが日本のニュースタイルハッスルの活動や情報を紹介します。</p>
                     </div>
                 </div>
                 <div class="image toppage-video col-lg-6 order-1-lg-1">

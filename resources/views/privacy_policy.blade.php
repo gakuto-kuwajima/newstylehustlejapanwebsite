@@ -10,11 +10,11 @@
             <div class="panel panel-default">
                 <div class="section-h1">
                     <h1>プライバシーポリシー</h1>
-                    <p>本プライバシーポリシーは、NEW STYLE HUSTLE JAPAN WEBSITE(http://newstylehustlejapan.com/）（以下、「当サイト」とします。)の各種サービス（当サイトによる情報提供、各種お問合せの受付等）において、当サイトの訪問者（以下、「訪問者」とします。）の個人情報もしくはそれに準ずる情報を取り扱う際に、当サイトが遵守する方針を示したものです。</p>
+                    <p>本プライバシーポリシーは、NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE(http://newstylehustlejapan-uo.com/）（以下、「当サイト」とします。)の各種サービス（当サイトによる情報提供、各種お問合せの受付等）において、当サイトの訪問者（以下、「訪問者」とします。）の個人情報もしくはそれに準ずる情報を取り扱う際に、当サイトが遵守する方針を示したものです。</p>
                 </div>
                 <div class="section-h2">
                     <h2>1．基本方針</h2>
-                    <p>本文書は、当サイト『NEW STYLE HUSTLE JAPAN WEBSITE』における個人情報の保護およびその適切な取り扱いについての方針を示したものです。</p>
+                    <p>本文書は、当サイト『NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE』における個人情報の保護およびその適切な取り扱いについての方針を示したものです。</p>
                 </div>
                 <div class="section-h2">
                     <h2>2．適用範囲</h2>
@@ -25,7 +25,7 @@
                     <p>当サイトで取得する訪問者の個人情報と利用目的、保存期間等は下記の通りです。</p>
                     <div class="section-h3">
                         <h3>3-1．お問い合せされた個人情報を取得します</h3>
-                        <p>当サイトでは<a href="http://newstylehustlejapan.com/contact">お問い合わせフォーム</a>を設けています。</p>
+                        <p>当サイトでは<a href="/contact">お問い合わせフォーム</a>を設けています。</p>
                         <p>訪問者がそのお問い合わせフォームから問い合わせをされた際に入力された、以下の個人情報を取得します。</p>
                         <ul>
                           <li>お問い合わせフォームに入力された名前（HN）</li>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="section-h2">
                     <h2>10．お問い合せ</h2>
-                    <p>本プライバシーポリシーに関するお問い合わせは、<a href="http://newstylehustlejapan.com/contact">お問い合わせフォーム</a>で受け付けております。</p>
+                    <p>本プライバシーポリシーに関するお問い合わせは、<a href="/contact">お問い合わせフォーム</a>で受け付けております。</p>
                 </div>
                 <div class="section-h2">
                     <p>令和元年9月1日　策定</p>

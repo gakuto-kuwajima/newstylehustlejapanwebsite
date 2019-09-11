@@ -142,6 +142,7 @@
                                     </div>
                                     <div class="description-sentence">
                                         <p>「NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE」は、非公式ではありますが、日本のニュースタイルハッスルの情報を紹介します。<br>(JeffとRobynには許可をいただいております)<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="footer-section3 col-md-4 mx-auto">
@@ -152,7 +153,7 @@
                         </div>
                     </div>
                     <div class="copyright">
-                      　<p><a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
+                      　<p><a href="/about">当サイトについて</a> / <a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
                         <address>© 2019 NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</address>
                     </div>
                 </div>

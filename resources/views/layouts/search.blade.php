@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="copyright">
-                      　<p><a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
+                      　<p><a href="/about">当サイトについて</a> / <a href="/privacy_policy">プライバシーポリシー</a> / <a href="/disclaimer">免責事項</a></p>
                         <address>© 2019 NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</address>
                     </div>
                 </div>

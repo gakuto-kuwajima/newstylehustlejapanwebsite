@@ -81,6 +81,8 @@ Route::get('privacy_policy', 'ReadingPageController@privacypolicy');
 
 Route::get('disclaimer', 'ReadingPageController@disclaimer');
 
+Route::get('about', 'ReadingPageController@regarding');
+
 
 //contact関係
 Route::get('contact','ContactsController@index');
