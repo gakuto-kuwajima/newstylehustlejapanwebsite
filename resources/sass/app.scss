@@ -19,6 +19,18 @@
   }
 }
 
+@media screen and (min-width:992px){
+  .navbar-nav li  {
+    line-height: 1.6;
+  }
+  .dropdown-menu a {
+    line-height: 1.9;
+  }
+  .dropdown-menu  {
+    margin-top: 5px;
+  }
+}
+
 @media screen and (min-width:600px){
   .navbar {
      margin-top:27.25px;
