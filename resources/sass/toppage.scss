@@ -162,7 +162,11 @@ h2 {
   }
 }
 
-
+@media screen and  (max-width:320px) {
+  h1 {
+      font-size: 1.9rem;/* 36px*/
+  }
+}
 
 //アイキャッチのビデオについて
 .top-image{
