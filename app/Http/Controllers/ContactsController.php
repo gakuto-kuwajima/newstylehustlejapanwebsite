@@ -48,19 +48,19 @@ class ContactsController extends Controller
       \Mail::send(new \App\Mail\Contact([
           'to' => $request->email,
           'to_name' => $request->name,
-          'from' => 'info@newstylehustlejapan-uo.com',
-          'from_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
-          'subject' => '【NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE】お問い合わせありがとうございます',
+          'from' => 'info@gakuto-newstylehustle.com',
+          'from_name' => 'GAKUTOのニュースタイルハッスル情報部屋',
+          'subject' => '【GAKUTOのニュースタイルハッスル情報部屋】お問い合わせありがとうございます',
           'mail_subject' => $request->subject,
           'body' => $request->body
       ]));
 
       \Mail::send(new \App\Mail\Contact([
-          'to' => 'info@newstylehustlejapan-uo.com',
-          'to_name' => 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE',
+          'to' => 'info@gakuto-newstylehustle.com',
+          'to_name' => 'GAKUTOのニュースタイルハッスル情報部屋',
           'from' => $request->email,
           'from_name' => $request->name,
-          'subject' => "$request->name 様からNEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEへのお問い合わせ",
+          'subject' => "$request->name 様からGAKUTOのニュースタイルハッスル情報部屋へのお問い合わせ",
           'mail_subject' => $request->subject,
           'body' => $request->body
       ], 'from'));

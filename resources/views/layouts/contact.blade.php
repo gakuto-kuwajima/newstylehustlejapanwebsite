@@ -22,7 +22,7 @@
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
 
-        <title>@yield('title') | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</title>
+        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
@@ -139,7 +139,7 @@
                                         <p>当サイトについて</p>
                                     </div>
                                     <div class="description-sentence">
-                                        <p>「NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE」は、非公式ではありますが、日本のニュースタイルハッスルの情報を紹介します。<br>(JeffとRobynには許可をいただいております)<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
+                                        <p>「GAKUTOのニュースタイルハッスル情報部屋」は、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。</p>
                                     </div>
                                 </div>
                             </div>

@@ -10,11 +10,11 @@
             <div class="panel panel-default">
                 <div class="section-h1">
                     <h1>プライバシーポリシー</h1>
-                    <p>本プライバシーポリシーは、NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE(http://newstylehustlejapan-uo.com/）（以下、「当サイト」とします。)の各種サービス（当サイトによる情報提供、各種お問合せの受付等）において、当サイトの訪問者（以下、「訪問者」とします。）の個人情報もしくはそれに準ずる情報を取り扱う際に、当サイトが遵守する方針を示したものです。</p>
+                    <p>本プライバシーポリシーは、GAKUTOのニュースタイルハッスル情報部屋(https://gakuto-newstylehustle.com/）（以下、「当サイト」とします。)の各種サービス（当サイトによる情報提供、各種お問合せの受付等）において、当サイトの訪問者（以下、「訪問者」とします。）の個人情報もしくはそれに準ずる情報を取り扱う際に、当サイトが遵守する方針を示したものです。</p>
                 </div>
                 <div class="section-h2">
                     <h2>1．基本方針</h2>
-                    <p>本文書は、当サイト『NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE』における個人情報の保護およびその適切な取り扱いについての方針を示したものです。</p>
+                    <p>本文書は、当サイト『GAKUTOのニュースタイルハッスル情報部屋』における個人情報の保護およびその適切な取り扱いについての方針を示したものです。</p>
                 </div>
                 <div class="section-h2">
                     <h2>2．適用範囲</h2>

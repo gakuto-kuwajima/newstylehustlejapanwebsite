@@ -12,7 +12,7 @@
                     <h1>免責事項</h1>
                 </div>
                 <div class="section-h2">
-                    <p>NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE（以下、「当サイト」とします。）における免責事項は、下記の通りです。</p>
+                    <p>GAKUTOのニュースタイルハッスル情報部屋（以下、「当サイト」とします。）における免責事項は、下記の通りです。</p>
                 </div>
                 <div class="section-h2">
                     <h2>1. 当サイトの情報の正確性について</h2>

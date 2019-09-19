@@ -1,5 +1,5 @@
 
-{{ $content['from_name'] }}様からNEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEへ以下の内容のお問い合わせがありました。
+{{ $content['from_name'] }}様からGAKUTOのニュースタイルハッスル情報部屋へ以下の内容のお問い合わせがありました。
 
 確認のほどよろしくお願いよろしくお願いいたします。
 ※送信者様には通常3日以内に返信すると伝えています。

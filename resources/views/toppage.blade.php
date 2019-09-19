@@ -1,8 +1,8 @@
 @extends('layouts.toppage')
 
-@section('title', 'ニュースタイルハッスルジャパン アンオフィシャルウェブサイト')
-@section('metadescription', 'NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITEは、非公式ではありますが、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。')
-@section('ogtitle', 'ニュースタイルハッスルジャパン アンオフィシャルウェブサイト | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE')
+@section('title', 'GAKUTOのニュースタイルハッスル情報部屋')
+@section('metadescription', 'GAKUTOのニュースタイルハッスル情報部屋は、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。')
+@section("ogtitle", "GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM")
 @section('ogurl'){{ url('/') }}@endsection
 @section('ogimage'){{ asset('img/newstylehustlejapanwebsite-eyecatch.png')}}@endsection
 
@@ -11,8 +11,8 @@
         <div class="top">
             <div class="top-image">
                 <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"></video>
-                <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" alt="NEW STYLE HUSTLE JAPANのロゴ">
-                <h1>GAKUTO'S NEW STYLE HUSTLE<br>INFORMATION SITE</h1>
+                <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" alt="GAKUTOのニュースタイルハッスル情報部屋のロゴ">
+                <h1>GAKUTO'S NEW STYLE HUSTLE<br>INFORMATION ROOM</h1>
             </div>
         </div>
     </div>
@@ -41,10 +41,10 @@
             <div class="row no-gutters">
                 <div class="text col-lg-6 order-lg-2">
                     <div class="section-h2">
-                        <h2>ABOUT<br>UNOFFICIAL WEBSITE</h2>
+                        <h2>ABOUT<br>THIS WEBSITE</h2>
                     </div>
                     <div class="section-text">
-                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>JeffとRobynに許可をいただき、当サイトは非公式という形ですが日本のニュースタイルハッスルの情報を紹介します。</p>
+                        <p>日本でも大きな広がりを見せるニュースタイルハッスル。<br>2017年には創始者Jeff Selby(ジェフ・セルビー)とRobyn Baltzer（ロビン・バルツァー）が来日。（※動画参照）<br><br>日本のニュースタイルハッスルの情報を紹介するために、<a href="/about">GAKUTO</a>によって作成されたのが当サイトです。</p>
                     </div>
                 </div>
                 <div class="image toppage-video col-lg-6 order-1-lg-1">

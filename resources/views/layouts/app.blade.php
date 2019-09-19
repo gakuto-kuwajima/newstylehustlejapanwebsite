@@ -19,7 +19,7 @@
 
     <meta name="robots" content="noindex,nofollow">
 
-    <title>@yield('title') | NEW STYLE HUSTLE JAPAN UNOFFICIAL WEBSITE</title>
+    <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
