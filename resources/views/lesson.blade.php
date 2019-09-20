@@ -32,7 +32,7 @@
                     <div class="lesson">
                         <h4 class="h4-title-lesson"><i class="fas fa-circle h4-title-lesson-before"></i>レギュラーclass</h4>
                         <div class="lesson-description">
-                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス</p>
+                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス<br>（日によって場所など変更する場合があるので、スケジュール要確認）</p>
                         </div>
                         <div class="detail">
                             <div class="detail-css">
