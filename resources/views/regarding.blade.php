@@ -18,7 +18,7 @@
                 <div class="section-h2">
                     <h2>GAKUTOって誰？</h2>
                     <p>GAKUTOは、NEW STYLE HUSTLE MIYAGIの代表（2019年現在）であり、ニュースタイルハッスルが大好きなストリートダンサーです。（本名：桑嶋学人）<br><br>下記はGAKUTOの各SNSです。</p>
-                    <p><a href="https://www.facebook.com/gakuto.kuwajima">Facbook</a>・<a href="https://twitter.com/mydance365">Twitter</a>・<a href="https://www.instagram.com/gakutototo/">instagram</a>・<a href="https://mydance365.com/">ブログ</a>
+                    <p><a href="https://www.facebook.com/gakuto.kuwajima">Facebook</a>・<a href="https://twitter.com/mydance365">Twitter</a>・<a href="https://www.instagram.com/gakutototo/">instagram</a>・<a href="https://mydance365.com/">ブログ</a>
                 </div>
                 <div class="section-h2">
                     <h2>当サイトの情報について</h2>

@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
           　    <div class="section3-text mx-auto">
-              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひのぞいてみてください。</p>
+              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、または訪れる予定がある場所の近くにコミュニティがあったらぜひチェックしてみてください。</p>
           　    </div>
                 <div class="pref mx-auto">
                     <div class="pref-container">

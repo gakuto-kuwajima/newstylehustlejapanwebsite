@@ -108,7 +108,7 @@
                     </div>
                 </div>
           　    <div class="section-text col-lg-9 mx-auto">
-              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>お住まいの地域、またはこれから訪れる地域のコミュニティをチェックしてみてください。</p>
+              　   <p>全国にあるニュースタイルハッスルのコミュニティの一覧です。<br>記載希望のコミュニティがありましたら、お気軽に<a href="/contact">お問い合わせ</a>からご連絡ください。</p>
           　    </div>
                 <div class="pref col-lg-9 mx-auto">
                     <div class="pref-container">
