@@ -3,7 +3,7 @@
 @section('title', 'レッスン')
 @section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
 
-@section('ogtitle', 'LESSON')
+@section('ogtitle', 'ニュースタイルハッスルのレッスン情報')
 @section('ogurl'){{ url('/lesson') }}@endsection
 @section('ogimage'){{ asset('img/lesson-information-eyecatch.png')}}@endsection
 

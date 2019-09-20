@@ -2,7 +2,7 @@
 
 @section('title', 'FEATURED VIDEO')
 @section('metadescription', 'ニュースタイルハッスルの動画特集です。日本はもちろん、世界中のニュースタイルハッスルの動画を紹介します。')
-@section('ogtitle', 'FEATURED VIDEO')
+@section('ogtitle', 'ニュースタイルハッスルの動画特集')
 @section('ogurl'){{ url('/featured-video') }}@endsection
 @section('ogimage'){{ asset('img/featured-video-eyecatch.png')}}@endsection
 

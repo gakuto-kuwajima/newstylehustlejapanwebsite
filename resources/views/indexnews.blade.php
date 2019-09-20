@@ -3,7 +3,7 @@
 @section('title', 'ニュース')
 @section('metadescription', 'ニュースタイルハッスルに関するニュース一覧です。')
 
-@section('ogtitle', 'NEWS')
+@section('ogtitle', 'ニュースタイルハッスルのニュース')
 @section('ogurl'){{ url('/news') }}@endsection
 @section('ogimage'){{ asset('img/news-eyecatch.png')}}@endsection
 
