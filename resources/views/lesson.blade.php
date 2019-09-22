@@ -32,7 +32,7 @@
                     <div class="lesson">
                         <h4 class="h4-title-lesson"><i class="fas fa-circle h4-title-lesson-before"></i>レギュラーclass</h4>
                         <div class="lesson-description">
-                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス<br>（日によって場所など変更する場合があるので、スケジュール要確認）</p>
+                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス<br>（日によって場所など変更する場合があるので、<a href="https://www.facebook.com/ZabuEri.NSH/">スケジュール</a>要確認）</p>
                         </div>
                         <div class="detail">
                             <div class="detail-css">
@@ -101,7 +101,7 @@
                     <div class="lesson">
                         <h4 class="h4-title"><i class="fas fa-circle h4-title-lesson-before"></i>ハスモ -NSH Morning-（Zabuのみ）</h4>
                         <div class="lesson-description">
-                            <p>日曜日の朝に行う、New Style Hustleのレクチャーと練習会です。時間帯で難易度をわけてあるので、経験者の方も初めての方やゆっくりベーシックをやりたい方もじっくりできます♬</p>
+                            <p>日曜日の朝に行う、New Style Hustleのレクチャーと練習会です。時間帯で難易度をわけてあるので、経験者の方も初めての方やゆっくりベーシックをやりたい方もじっくりできます&#9836;</p>
                         </div>
                         <div class="detail">
                             <div class="detail-css">
