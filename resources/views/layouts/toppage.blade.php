@@ -34,7 +34,7 @@
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
 
-        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
+        <title>GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
