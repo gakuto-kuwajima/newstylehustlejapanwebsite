@@ -20,7 +20,7 @@
         <meta property="og:image" content="@yield('ogimage')" />
         <meta property="og:site_name" content="GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM" />
         <meta property="og:locale" content="ja_JP" />
-        <meta property="fb:app_id" content=" 714173509023789 " />
+        <meta property="fb:app_id" content="714173509023789" />
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@mydance365">
 

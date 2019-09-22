@@ -1,9 +1,9 @@
 @extends('layouts.toppage')
 
-@section('metadescription', 'GAKUTOのニュースタイルハッスル情報部屋は、日本のニュースタイルハッスルの情報を紹介します。<br>ニュースタイルハッスルが日本中に広がることを願っています。')
+@section('metadescription', 'GAKUTOのニュースタイルハッスル情報部屋は、日本のニュースタイルハッスルの情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
 @section("ogtitle", "GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM")
 @section('ogurl'){{ url('/') }}@endsection
-@section('ogimage'){{ asset('img/newstylehustlejapanwebsite-eyecatch.png')}}@endsection
+@section('ogimage'){{ asset('img/gakuto-newstylehustle-eyecatch.png')}}@endsection
 
 @section('content')
 　　<div class="container-head mx-auto">　　
@@ -103,7 +103,7 @@
             <div class="row no-gutters">
                 <div class="col-lg-12 mx-auto">
                     <div class="section-h2" id="pref-title">
-                        <h2>Japan Communities</h2>
+                        <h2>JAPAN COMMUNITIES</h2>
                     </div>
                 </div>
           　    <div class="section-text col-lg-9 mx-auto">
