@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'NEW STYLE HUSTLE JAPAN WEBSITE'),
+    'name' => env('APP_NAME', 'GAKUTOのニュースタイルハッスル情報部屋'),
 
     /*
     |--------------------------------------------------------------------------

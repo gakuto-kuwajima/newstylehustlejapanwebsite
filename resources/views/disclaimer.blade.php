@@ -44,6 +44,5 @@
           <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
        </div>
     </div>
-    </div>
 </div>
 @endsection

@@ -2,6 +2,8 @@
 
 if (app()->environment('production')) {
   URL::forceScheme('https');
+} else {
+  URL::forceScheme('http');
 }
 
 /*
