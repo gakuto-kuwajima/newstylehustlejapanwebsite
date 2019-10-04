@@ -1,6 +1,6 @@
 @extends('layouts.toppage')
 
-@section('metadescription', 'GAKUTOのニュースタイルハッスル情報部屋は、日本のニュースタイルハッスルの情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
+@section('metadescription', 'GAKUTOのニュースタイルハッスル情報部屋は、日本のニュースタイルハッスル（NEW STYLE HUSTLE）の情報を紹介します。ニュースタイルハッスルが日本中に広がることを願っています。')
 @section("ogtitle", "GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM")
 @section('ogurl'){{ url('/') }}@endsection
 @section('ogimage'){{ asset('img/gakuto-newstylehustle-eyecatch.png')}}@endsection

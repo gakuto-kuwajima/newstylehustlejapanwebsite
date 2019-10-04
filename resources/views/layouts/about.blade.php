@@ -18,10 +18,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSRF Token -->
-        {{-- 後の章で説明します -->
+        {{-- 後の章で説明します --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
+        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
         <meta name="description" content="@yield('metadescription')" />
 
         <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
@@ -45,8 +46,6 @@
 
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
-
-        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}

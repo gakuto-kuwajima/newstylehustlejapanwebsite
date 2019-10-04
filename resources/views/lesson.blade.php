@@ -1,6 +1,6 @@
 @extends('layouts.lesson')
 
-@section('title', 'レッスン')
+@section('title', 'ニュースタイルハッスルのレッスン情報')
 @section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
 
 @section('ogtitle', 'ニュースタイルハッスルのレッスン情報')
