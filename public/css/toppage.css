@@ -239,7 +239,7 @@ h2 {
   padding: 0;
 }
 
-.top-image .top-title {
+.top-title {
   position: absolute;
   /*絶対配置*/
   color: white;
