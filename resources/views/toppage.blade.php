@@ -11,7 +11,7 @@
             <div class="top-image">
                 <video src="{{ asset('movies/newstylehustlejapan2017.mp4')}}" muted autoplay playsinline loop poster="{{asset('img/newstylehustlejapan2017.jpg')}}"></video>
                 <img src="{{ asset('img/newstylehustlejapan-logo.png')}}" alt="GAKUTOのニュースタイルハッスル情報部屋のロゴ">
-                <h1>GAKUTO'S NEW STYLE HUSTLE<br>INFORMATION ROOM</h1>
+                <p class=top-title>GAKUTO'S NEW STYLE HUSTLE<br>INFORMATION ROOM</p>
             </div>
         </div>
     </div>

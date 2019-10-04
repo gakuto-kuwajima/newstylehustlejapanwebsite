@@ -12,7 +12,7 @@
         gtag('config', 'UA-69009509-2');
         </script>
         @endif
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,9 +69,11 @@
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
                 <div class="container">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" alt="NEW STYLE HUSTLE JAPAN WEBSITEのロゴ">
-                    </a>
+                    <h1>
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" alt="GAKUTOのニュースタイルハッスル情報部屋">
+                        </a>
+                    </h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
