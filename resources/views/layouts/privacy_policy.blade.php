@@ -35,8 +35,6 @@
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
 
-        <meta name="robots" content="noindex,nofollow">
-
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
         <script src="{{ asset('js/app.js') }}" defer></script>

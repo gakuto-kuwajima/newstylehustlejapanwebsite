@@ -136,6 +136,7 @@
                             <div class="chubu-list">
                         　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'aichi'])}}" class="chubu-btn"><span class="pref-btn1">愛知</span><br><span class="pref-btn2">(Aichi)</span></a>
                         　      <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'yamanashi'])}}" class="chubu-btn"><span class="pref-btn1">山梨</span><br><span class="pref-btn2">(Yamanashi)</span></a>
+                                <a href="{{ action('ReadingPageController@communityshow',['permalink' => 'niigata'])}}" class="chubu-btn"><span class="pref-btn1">新潟</span><br><span class="pref-btn2">(Niigata)</span></a>                
                             </div>
                         </div>
                         <div class="kansai region">

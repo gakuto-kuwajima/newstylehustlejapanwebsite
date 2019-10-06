@@ -174,7 +174,7 @@
             </div>
             <div class="row">
                <div class="col-md-12 page-return community-page-return">
-                   <button type="button" onclick="history.back()" class="btn-flat-border">戻る</button>
+                   <button type="button" onclick="location.href='/' " class="btn-flat-border">HOMEへ</button>
                </div>
             </div>
         </div>
