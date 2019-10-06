@@ -47,7 +47,6 @@
                             <input type="text" class="form-control" name="pref" value="{{ old('pref') }}">
                             <p>※例）宮城県なら→宮城、TYOなら→TYO、Zabu&Eriなら→Zabu&Eri</p>
                         </div>
-                        </div>
                     </div>
                     <div class="form-group row ">
                         <label class="col-md-2 label-title" for="information"><i class="fas fa-arrow-circle-right"></i>コミュニティ情報</label>
