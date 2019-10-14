@@ -17,14 +17,21 @@ class siteMapController extends Controller
         $sitemap->add(URL::to('/about-newstylehustle'), $now, '0.8', 'weekly');
         $sitemap->add(URL::to('/featured-video'), $now, '0.8', 'weekly');
         $sitemap->add(URL::to('/news'), $now, '0.8', 'weekly');
+        $news = News::all();
+        foreach ($news as $item) {
+          $sitemap->add(URL::to('/news/' . $item->news_permalink . '/'), $now, '0.8', 'weekly');
+        }
         $sitemap->add(URL::to('/community'), $now, '0.8', 'weekly');
+        $communities = Community::all();
+        foreach ($communities as $com) {
+          $sitemap->add(URL::to('/community/' . $com->permalink . '/'), $now, '0.8', 'weekly');
+        }
         $sitemap->add(URL::to('/lesson'), $now, '0.8', 'weekly');
         $sitemap->add(URL::to('/contact'), $now, '0.8', 'monthly');
 
         $sitemap->add(URL::to('/about'), $now, '0.8', 'monthly');
         $sitemap->add(URL::to('/privacy_policy'), $now, '0.8', 'monthly');
         $sitemap->add(URL::to('/disclaimer'), $now, '0.8', 'monthly');
-
 
         return $sitemap->render('xml');
     }

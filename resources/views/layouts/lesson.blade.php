@@ -135,7 +135,7 @@
                         <div class="share-button">
                             <ul class="snsbtniti">
                   　            <!--twitter-->
-                                <li><a href="https://twitter.com/share?url={{ url('/lesson') }}&text=ニュースタイルハッスルのレッスン - GAKUTOのニュースタイルハッスル情報部屋" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/share?url={{ url('/lesson') }}&text=ニュースタイルハッスルのレッスン情報 | GAKUTOのニュースタイルハッスル情報部屋" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
                                 <!--facebook-->
                                 <li><a href="https://www.facebook.com/share.php?u={{ url('/lesson') }}" rel="nofollow" target="_blank" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
                             </ul>

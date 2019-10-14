@@ -219,7 +219,7 @@
                               　<h3>芸能界でも！</h3>
                                 <p>またZabu&Eriペアは</p>
                                 <ul>
-                                  <li>フジテレビ「ミュージックステーション」KREVA ダンサー出演</li>
+                                  <li>テレビ朝日「ミュージックステーション」KREVA ダンサー出演</li>
                                   <li>NHK Eテレ「Eダンスアカデミー」ゲスト出演</li>
                                   <li>EXILE USA 主催「Dance Earth Festival 2017」出演</li>
                                   <li>嵐アルバム「Untitled」リード曲「未完」MV振り付け</li>
